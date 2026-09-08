@@ -34,11 +34,11 @@ Start where you are. Pick a project, check its prerequisites, buy only what that
 	6. [Where to get help](resources/help.md)
 	7. [GATE alongside the roadmap](resources/gate.md)
 3. [Repository](#repository)
-	1. [Find something quickly](#find-something-quickly)
-	2. [Projects](projects/README.md)
-	3. [Contributing](CONTRIBUTING.md)
-	4. [Code of Conduct](CODE_OF_CONDUCT.md)
-	5. [License](LICENSE)
+4. [Find something quickly](#find-something-quickly)
+5.  [Projects](projects/README.md)
+6. [Contributing](CONTRIBUTING.md)
+7. [Code of Conduct](CODE_OF_CONDUCT.md)
+8. [License](LICENSE)
 
 ## How to use this repository
 
