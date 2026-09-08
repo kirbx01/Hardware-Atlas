@@ -1,4 +1,4 @@
-# 🎯📐 GATE Alongside the Roadmap
+# 🎯📐 GATE Prep
 
 GATE prep is a **parallel theory track**, not the goal of this roadmap. The roadmap is about learning to **build hardware and understand systems by implementing them**; GATE strengthens the math and electronics theory underneath those projects.
 
