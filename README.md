@@ -7,6 +7,30 @@ There is a given roadmap for GATE 2027 PREPARATION in [resources/gate.md](https:
 
 Start where you are. Pick a project, check its prerequisites, buy only what that project needs, measure the result, and follow its next step.
 
+## Quick navigation
+
+- [Roadmap](#roadmap)
+- [Complete project chain](#complete-project-chain-levels-0-to-5)
+- [Level 0: Getting Started](#level-0-getting-started)
+- [Level 1: Basic Circuits](#level-1-basic-circuits)
+- [Level 2: Analog Electronics](#level-2-analog-electronics)
+- [Level 3: Digital Electronics](#level-3-digital-electronics)
+- [Level 4: Microcontrollers](#level-4-microcontrollers)
+- [Level 5: Embedded Systems](#level-5-embedded-systems)
+- [Level 6: PCB Design](#level-6-pcb-design)
+- [Level 7: Hardware Interfaces](#level-7-hardware-interfaces)
+- [Level 8: FPGA and RTL](#level-8-fpga-and-rtl)
+- [Level 9: Computer Architecture](#level-9-computer-architecture)
+- [Level 10: ASIC Design](#level-10-asic-design)
+- [Level 11: Semiconductor Devices](#level-11-semiconductor-devices)
+- [Level 12: Semiconductor Fabrication](#level-12-semiconductor-fabrication)
+- [Level 13: Advanced Hardware](#level-13-advanced-hardware)
+- [Practical guides](#practical-guides)
+- [Find something quickly](#find-something-quickly)
+- [Contributing](#contributing)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [License](LICENSE)
+
 ## How to use this repository
 
 1. Find your current level in the roadmap below.
