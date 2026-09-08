@@ -240,4 +240,4 @@ Choose a research question, reproduce a paper result, investigate open hardware,
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a project or resource. External links should be checked, and each project should explain what to build, what to learn, what to measure, and what comes next.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a project or resource. Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md). Hardware Atlas is available under the [MIT License](LICENSE).

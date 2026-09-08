@@ -2,6 +2,8 @@
 
 Hardware Atlas grows through small, tested project guides.
 
+Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating. Contributions to this repository are covered by the [MIT License](LICENSE).
+
 ## Add a project
 
 A project should state:
