@@ -1,6 +1,9 @@
 # Hardware Atlas
+>A practical path from your first circuit to custom silicon.
 
-Hardware Atlas is an ascending, project-first roadmap for learning hardware by building, measuring, and debugging real things. It is not a shopping list and it is not an undirected collection of links.
+Hardware Atlas is an ascending, project-first roadmap for learning hardware by building, measuring, and debugging real things. You can also find some sorta shopping links and other things relevant to your needs in [resources/india.md](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/india.md) (You can follow up india.yml after reading `india.md`)
+
+There is a given roadmap for GATE 2027 PREPARATION in [resources/gate.md](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/gate.md). This has curated list of resources and links you'd need for gate prep.
 
 Start where you are. Pick a project, check its prerequisites, buy only what that project needs, measure the result, and follow its next step.
 
