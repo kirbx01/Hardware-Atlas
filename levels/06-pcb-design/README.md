@@ -4,4 +4,4 @@ Planned projects: convert a tested breadboard circuit into a schematic, route a 
 
 Topics will include footprints, decoupling, return paths, connectors, manufacturing files, assembly notes, and revision practice.
 
-**Next:** [Level 7: Hardware Interfaces and Communication](../07-interfaces/README.md).
+**Next:** [Level 7: Hardware Interfaces](../07-interfaces/README.md).

@@ -1,4 +1,4 @@
-# Level 7: Hardware Interfaces and Communication
+# Level 7: Hardware Interfaces
 
 This level turns individual peripherals into systems that can exchange data reliably.
 

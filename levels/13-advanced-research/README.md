@@ -1,4 +1,4 @@
-# Level 13: Advanced Hardware and Research
+# Level 13: Advanced Hardware
 
 This is the open-ended level: choose a question, build or reproduce a result, measure it honestly, and publish enough detail for someone else to check it.
 

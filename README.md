@@ -28,13 +28,13 @@ The `lessons/` directory contains the detailed build pages. The `levels/` direct
 | 4 | Microcontrollers | [GPIO, ADC, PWM, and serial devices](levels/04-microcontrollers/README.md) |
 | 5 | Embedded Systems | [Sensors, protocols, RTOS, and custom peripherals](levels/05-embedded/README.md) |
 | 6 | PCB Design | [Schematic to prototype](levels/06-pcb-design/README.md) |
-| 7 | Hardware Interfaces and Communication | [Reliable buses and links](levels/07-interfaces/README.md) |
+| 7 | Hardware Interfaces | [Reliable buses and links](levels/07-interfaces/README.md) |
 | 8 | FPGA and RTL | [Synchronous logic and verification](levels/08-fpga-rtl/README.md) |
 | 9 | Computer Architecture | [Datapaths, memory, and CPUs](levels/09-computer-architecture/README.md) |
 | 10 | ASIC Design | [RTL to silicon flow](levels/10-asic-design/README.md) |
 | 11 | Semiconductor Devices | [Device physics and models](levels/11-semiconductor-devices/README.md) |
 | 12 | Semiconductor Fabrication | [Process flow and yield](levels/12-semiconductor-fabrication/README.md) |
-| 13 | Advanced Hardware and Research | [Reproduction and open research](levels/13-advanced-research/README.md) |
+| 13 | Advanced Hardware | [Reproduction and open research](levels/13-advanced-research/README.md) |
 
 ## Complete project chain: Levels 0 to 5
 
@@ -154,9 +154,9 @@ Move from working demos to dependable firmware with STM32, ESP32, RTOS tasks, cu
 
 Convert a tested breadboard circuit into a schematic and a small two-layer PCB. Learn footprints, design rules, decoupling, return paths, connectors, Gerbers, assembly notes, and revision control. Verify the manufactured board against the breadboard measurements.
 
-**Next:** [Level 7: Hardware Interfaces and Communication](levels/07-interfaces/README.md)
+**Next:** [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
 
-### Level 7: Hardware Interfaces and Communication
+### Level 7: Hardware Interfaces
 
 [Open the Level 7 guide](levels/07-interfaces/README.md)
 
@@ -202,9 +202,9 @@ Study diode, BJT, and MOSFET behaviour through controlled measurements, small-si
 
 Study wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield through process models, simulations, and safe teaching facilities. This level is not a home chemistry project.
 
-**Next:** [Level 13: Advanced Hardware and Research](levels/13-advanced-research/README.md)
+**Next:** [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
 
-### Level 13: Advanced Hardware and Research
+### Level 13: Advanced Hardware
 
 [Open the Level 13 guide](levels/13-advanced-research/README.md)
 
