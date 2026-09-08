@@ -16,11 +16,11 @@
 
 ---
 
-Hardware Atlas is a project-first roadmap for learning hardware by **building, measuring, and debugging real things** — not by reading fourteen chapters before touching a breadboard. Every lesson tells you what to buy, what to build, what to measure, and what's likely to go wrong, in that order.
+Hardware Atlas is a project-first roadmap for learning hardware by **building, measuring, and debugging real things** not by reading fourteen chapters before touching a breadboard. Every lesson tells you what to buy, what to build, what to measure, and what's likely to go wrong, in that order.
 
 > 💡 **Philosophy in one line:** predict it with math, build it, measure it, and compare the two. If $V = IR$ doesn't match what your multimeter says, the disagreement is the lesson, not the failure.
 
-This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://github.com/kitspace/awesome-electronics) or [sindresorhus/awesome](https://github.com/sindresorhus/awesome): a curated map you dip into, not a checklist you're graded on. Skip what you already know. Jump to what interests you. Come back for the rest later.
+This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://github.com/kitspace/awesome-electronics): a curated map you dip into, not a checklist you're graded on. Skip what you already know. Jump to what interests you. Come back for the rest later.
 
 ## 📑 Table of contents
 
@@ -38,7 +38,7 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 ## How to use this repository
 
 1. Find your current level below.
-2. Read the lesson page **before** buying anything — it lists parts, tools, tests, and likely mistakes.
+2. Read the lesson page **before** buying anything it lists parts, tools, tests, and likely mistakes.
 3. Build the smallest version. Measure it. Write down what you actually observed.
 4. Follow the lesson's **What to build next** link. Don't skip the measurement step just because the LED lit up.
 
@@ -269,14 +269,14 @@ Diode, BJT, and MOSFET behaviour through controlled measurements, small-signal m
 
 <br>
 
-Wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield — through process models and simulation.
+Wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield through process models and simulation.
 
 > ⚠️ **This level is not a home chemistry project.** Study it through models, simulators, and supervised teaching facilities only.
 
 </details>
 
 <details>
-<summary><strong>Level 13 · Advanced Hardware</strong> — click to expand</summary>
+<summary><strong>Level 13 · Advanced Hardware</strong> click to expand</summary>
 
 <br>
 
@@ -402,7 +402,7 @@ The 31 lessons above are reference points, not the ceiling. The [`projects/`](pr
 
 ## 🎓 GATE 2027 alongside the roadmap
 
-If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has a curated set of resources mapped to the same subjects this roadmap already touches — digital electronics, electronic devices, computer organization, and signals and systems — so exam prep and hands-on building reinforce each other instead of competing for time.
+If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has a curated set of resources mapped to the same subjects this roadmap already touches digital electronics, electronic devices, computer organization, and signals and systems — so exam prep and hands-on building reinforce each other instead of competing for time.
 
 ## 🇮🇳 Sourcing hardware in India
 
@@ -421,6 +421,6 @@ Hardware Atlas is available under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  Built one measured circuit at a time.<br>
+  Keep Learning!!!<br>
   ⭐ <strong>Star this repo</strong> if it helped you build something real.
 </p>
