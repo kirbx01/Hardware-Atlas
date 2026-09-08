@@ -21,16 +21,18 @@ A project is not proof of GATE readiness, and solving GATE questions is not proo
 3. [Recommended Study Loop](#3-recommended-study-loop)
 4. [Resource Rule](#4-resource-rule)
 5. [Subject-by-Subject Resource Map](#5-subject-by-subject-resource-map)
-        1. [Engineering Mathematics](#51-engineering-mathematics)
-        2. [Network Theory](#52-network-theory)
-        3. [Signals and Systems](#53-signals-and-systems)
-        4. [Electronic Devices](#54-electronic-devices)
-        5. [Digital Electronics](#55-digital-electronics)
-        6. [Analog Electronics](#56-analog-electronics)
-        7. [Control Systems](#57-control-systems)
-        8. [Communication Systems](#58-communication-systems)
-        9. [Electromagnetics](#59-electromagnetics)
-        10. [General Aptitude](#510-general-aptitude)
+        <ul>
+        <li><a href="#51-engineering-mathematics">Engineering Mathematics</a></li>
+        <li><a href="#52-network-theory">Network Theory</a></li>
+        <li><a href="#53-signals-and-systems">Signals and Systems</a></li>
+        <li><a href="#54-electronic-devices">Electronic Devices</a></li>
+        <li><a href="#55-digital-electronics">Digital Electronics</a></li>
+        <li><a href="#56-analog-electronics">Analog Electronics</a></li>
+        <li><a href="#57-control-systems">Control Systems</a></li>
+        <li><a href="#58-communication-systems">Communication Systems</a></li>
+        <li><a href="#59-electromagnetics">Electromagnetics</a></li>
+        <li><a href="#510-general-aptitude">General Aptitude</a></li>
+        </ul>
 6. [PYQs Are Not Optional](#6-pyqs-are-not-optional)
 7. [A Practical Completion Standard](#7-a-practical-completion-standard)
 8. [GATE and Project Mapping](#8-gate--project-mapping)
