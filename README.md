@@ -36,50 +36,65 @@ The `lessons/` directory contains the detailed build pages. The `levels/` direct
 | 12 | Semiconductor Fabrication | [Process flow and yield](levels/12-semiconductor-fabrication/README.md) |
 | 13 | Advanced Hardware and Research | [Reproduction and open research](levels/13-advanced-research/README.md) |
 
-## Complete lesson chain
+## Complete project chain: Levels 0 to 5
 
-### Levels 0 and 1: foundations
+This is the practical route through the currently active part of the roadmap. Items marked **lesson** have a detailed page. Items marked **planned** are the next projects to add, so the handoff is visible without pretending that an unwritten lesson already exists.
 
-1. [LED circuit](lessons/01-led-circuit/README.md) - Ohm's law, polarity, and current limiting.
-2. [Voltage divider](lessons/02-voltage-divider/README.md) - measured node voltage and loading.
-3. [Button and LED](lessons/03-button-and-led/README.md) - switches and defined logic states.
-4. [Transistor switch](lessons/04-transistor-switch/README.md) - low-side switching.
-5. [RC circuit](lessons/05-rc-circuit/README.md) - charge, discharge, and time constants.
+### Level 0: Getting Started
 
-Begin with [Level 0](levels/00-getting-started/README.md) if breadboards or multimeters are new to you. Begin with [Level 1](levels/01-basic-circuits/README.md) if you already understand voltage, current, and resistance.
+1. **Breadboard map** - identify connected rows, power rails, the centre gap, and broken power rails. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
+2. **Multimeter practice** - measure a battery, check continuity with power removed, measure resistance out of circuit, and measure voltage across a powered circuit. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
+3. **LED circuit** - build and measure the first safe circuit. Continue to [Lesson 1](lessons/01-led-circuit/README.md).
+4. **Basic voltage and current measurements** - extend the LED circuit and voltage divider while learning correct meter placement. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
 
-### Level 2: analog electronics
+**Next:** [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
 
-6. [Light sensor](lessons/06-light-sensor/README.md) - turn light into a measurable voltage.
-7. [Transistor amplifier](lessons/07-transistor-amplifier/README.md) - bias, gain, and clipping.
-8. [Op-amp signal conditioner](lessons/08-op-amp-conditioner/README.md) - feedback and supply limits.
-9. [Active filter](lessons/09-active-filter/README.md) - cutoff frequency and measured response.
+### Level 1: Basic Circuits
 
-Open the [Level 2 guide](levels/02-analog/README.md) for the theory route and extension projects.
+5. [LED circuit](lessons/01-led-circuit/README.md) - Ohm's law, polarity, and current limiting.
+6. [Voltage divider](lessons/02-voltage-divider/README.md) - measured node voltage and loading.
+7. [Button and LED](lessons/03-button-and-led/README.md) - switches and defined logic states.
+8. [Transistor switch](lessons/04-transistor-switch/README.md) - low-side switching.
+9. [RC circuit](lessons/05-rc-circuit/README.md) - charge, discharge, and time constants.
 
-### Level 3: digital electronics
+**Next:** [Level 2: Analog Electronics](levels/02-analog/README.md)
 
-10. [Logic gates](lessons/10-logic-gates/README.md) - 74HC logic, truth tables, and pull resistors.
-11. [Flip-flop and counter](lessons/11-flip-flop-counter/README.md) - state, clocks, reset, and bounce.
+### Level 2: Analog Electronics
 
-The next planned additions are a 555 oscillator and a small digital clock. Follow the [Level 3 guide](levels/03-digital/README.md) for that planned sequence.
+10. [Light sensor](lessons/06-light-sensor/README.md) - turn light into a measurable voltage.
+11. [Transistor amplifier](lessons/07-transistor-amplifier/README.md) - bias, gain, and clipping.
+12. [Op-amp signal conditioner](lessons/08-op-amp-conditioner/README.md) - feedback and supply limits.
+13. [Active filter](lessons/09-active-filter/README.md) - cutoff frequency and measured response.
 
-### Level 4: microcontrollers
+**Next:** [Level 3: Digital Electronics](levels/03-digital/README.md)
 
-12. [GPIO device](lessons/12-gpio-device/README.md) - firmware inputs, outputs, and debouncing.
-13. [Temperature logger](lessons/13-temperature-logger/README.md) - sampling and recorded measurements.
-14. [UART and I2C device](lessons/14-uart-i2c-device/README.md) - serial protocols and error handling.
-15. [PWM motor controller](lessons/15-pwm-motor-controller/README.md) - drivers, current, and motor noise.
+### Level 3: Digital Electronics
 
-The [Level 4 guide](levels/04-microcontrollers/README.md) explains how to choose between Arduino, ESP32, Pico, and STM32 boards.
+14. [Logic gates](lessons/10-logic-gates/README.md) - 74HC logic, truth tables, and pull resistors.
+15. [Flip-flop and counter](lessons/11-flip-flop-counter/README.md) - state, clocks, reset, and bounce.
+16. **555 timer oscillator** - generate a clock, measure its frequency and duty cycle, and compare real values with the calculation. **Planned.**
+17. **Simple digital clock** - combine a clock, counters, decoding, and a display without hiding the logic inside a microcontroller. **Planned.**
 
-### Level 5: embedded systems
+**Next:** [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
 
-16. [STM32 peripheral project](lessons/16-stm32-peripheral/README.md) - timers, ADC, UART, and debugging.
-17. [ESP32 connected sensor](lessons/17-esp32-connected-sensor/README.md) - networking and failure paths.
-18. [RTOS sensor logger](lessons/18-rtos-sensor-logger/README.md) - tasks, queues, timing, and recovery.
+### Level 4: Microcontrollers
 
-The [Level 5 guide](levels/05-embedded/README.md) describes the next planned projects: a custom peripheral and a bootloader exercise.
+18. [GPIO device](lessons/12-gpio-device/README.md) - firmware inputs, outputs, and debouncing.
+19. [Temperature logger](lessons/13-temperature-logger/README.md) - sampling and recorded measurements.
+20. [UART and I2C device](lessons/14-uart-i2c-device/README.md) - serial protocols and error handling.
+21. [PWM motor controller](lessons/15-pwm-motor-controller/README.md) - drivers, current, and motor noise.
+
+**Next:** [Level 5: Embedded Systems](levels/05-embedded/README.md)
+
+### Level 5: Embedded Systems
+
+22. [STM32 peripheral project](lessons/16-stm32-peripheral/README.md) - timers, ADC, UART, and debugging.
+23. [ESP32 connected sensor](lessons/17-esp32-connected-sensor/README.md) - networking and failure paths.
+24. [RTOS sensor logger](lessons/18-rtos-sensor-logger/README.md) - tasks, queues, timing, and recovery.
+25. **Custom peripheral** - design a small register-based device over I2C, SPI, or UART and write both ends of the protocol. **Planned.**
+26. **Bootloader exercise** - validate an image, handle versions, and provide a recoverable update path on a board you can reflash. **Planned.**
+
+**Next:** [Level 6: PCB Design](levels/06-pcb-design/README.md)
 
 ## All levels at a glance
 
