@@ -1,0 +1,10 @@
+name: Op-Amp Signal Conditioner
+level: 2
+level_name: Analog Electronics
+order: 8
+difficulty: intermediate
+prerequisites: [06-light-sensor, 07-transistor-amplifier]
+components: [single-supply op amp, resistors, decoupling capacitor, LDR divider]
+tools: [digital multimeter]
+skills: [feedback, gain, common-mode limits]
+next: 09-active-filter

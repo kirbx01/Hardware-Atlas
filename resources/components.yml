@@ -1,0 +1,35 @@
+- name: Resistors
+  type: component
+  category: passive
+  level: 1
+  description: Current limiting, dividers, pull-ups, and bias networks.
+- name: N-channel MOSFET
+  type: component
+  category: switching
+  level: 1
+  description: Low-side switching; select for the actual gate voltage and load.
+- name: OLED display
+  type: component
+  category: interface
+  level: 4
+  description: Small I2C or SPI display for measured values and device status.
+- name: CAN transceiver
+  type: component
+  category: communication
+  level: 5
+  description: Physical-layer interface used with a CAN controller; verify voltage and termination.
+
+- name: Arduino Nano ESP32
+  type: board
+  category: development
+  level: 4
+  description: ESP32-S3 development board with official Arduino documentation.
+  url: https://docs.arduino.cc/hardware/nano-esp32/
+  documentation: https://docs.arduino.cc/hardware/nano-esp32/
+- name: Raspberry Pi Pico W
+  type: board
+  category: development
+  level: 4
+  description: RP2040 board with Wi-Fi and Bluetooth.
+  url: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+  documentation: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html

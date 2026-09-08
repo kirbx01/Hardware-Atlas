@@ -1,0 +1,10 @@
+name: PWM Motor Controller
+level: 4
+level_name: Microcontrollers
+order: 15
+difficulty: intermediate
+prerequisites: [04-transistor-switch, 12-gpio-device]
+components: [development board, motor, motor driver, separate motor supply]
+tools: [digital multimeter]
+skills: [PWM, current measurement, flyback protection]
+next: 16-stm32-peripheral

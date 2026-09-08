@@ -1,0 +1,10 @@
+name: Active Filter
+level: 2
+level_name: Analog Electronics
+order: 9
+difficulty: intermediate
+prerequisites: [05-rc-circuit, 08-op-amp-conditioner]
+components: [op amp, resistor, capacitor, breadboard]
+tools: [digital multimeter, signal source]
+skills: [cutoff frequency, frequency response, gain]
+next: 10-logic-gates

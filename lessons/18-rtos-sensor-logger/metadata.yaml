@@ -1,0 +1,11 @@
+name: RTOS Sensor Logger
+level: 5
+level_name: Embedded Systems
+order: 18
+difficulty: advanced
+prerequisites: [16-stm32-peripheral, 17-esp32-connected-sensor]
+components: [RTOS-supported board, sensor]
+tools: [USB cable, serial terminal]
+skills: [tasks, queues, timing, stack measurement, recovery]
+next: null
+next_status: planned-custom-peripheral

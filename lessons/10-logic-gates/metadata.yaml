@@ -1,0 +1,10 @@
+name: Logic Gates
+level: 3
+level_name: Digital Electronics
+order: 10
+difficulty: beginner
+prerequisites: [03-button-and-led]
+components: [74HC00 or 74HC08, LEDs, resistors, pushbuttons, decoupling capacitor]
+tools: [digital multimeter, breadboard]
+skills: [truth tables, CMOS levels, pull resistors]
+next: 11-flip-flop-counter

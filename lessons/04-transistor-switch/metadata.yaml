@@ -1,0 +1,33 @@
+name: Transistor Switch
+level: 1
+level_name: Basic Circuits
+order: 4
+difficulty: intermediate
+estimated_time: 60-75 minutes
+prerequisites:
+  - 01-led-circuit
+  - 02-voltage-divider
+  - 03-button-and-led
+components:
+  - NPN transistor (BC547 / BC548 / 2N2222)
+  - LED
+  - Resistor, 220-330 ohm (collector side)
+  - Resistor, 1k ohm (base side)
+  - Pushbutton
+  - Breadboard
+  - Jumper wires
+  - 9V battery
+tools:
+  - Digital multimeter (required, for Vbe / Vce measurement)
+skills:
+  - BJT operation (NPN)
+  - Saturation and cutoff regions
+  - Base resistor calculation
+  - Reading a transistor datasheet and pinout
+  - Small signal controlling a larger load
+resources:
+  - https://learn.sparkfun.com/tutorials/transistors
+  - https://www.onsemi.com/pdf/datasheet/bc546-d.pdf
+  - https://www.youtube.com/@PrepFusion_GATE
+  - https://www.falstad.com/circuit/
+next: 05-rc-circuit

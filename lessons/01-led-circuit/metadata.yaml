@@ -1,0 +1,28 @@
+name: LED Circuit
+level: 1
+level_name: Basic Circuits
+order: 1
+difficulty: beginner
+estimated_time: 30-45 minutes
+prerequisites: []
+components:
+  - LED (5mm, any color)
+  - Resistor (220-330 ohm)
+  - Breadboard
+  - Jumper wires
+  - 9V battery or 2xAA battery holder (3V)
+tools:
+  - Multimeter (optional but recommended)
+skills:
+  - Ohm's law
+  - Current limiting
+  - LED polarity
+  - Reading resistor color codes
+  - Basic breadboard wiring
+resources:
+  - https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds
+  - https://learn.sparkfun.com/tutorials/resistors
+  - https://learn.sparkfun.com/tutorials/diodes
+  - https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code
+  - https://www.falstad.com/circuit/
+next: 02-voltage-divider

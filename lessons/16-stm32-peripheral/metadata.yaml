@@ -1,0 +1,10 @@
+name: STM32 Peripheral Project
+level: 5
+level_name: Embedded Systems
+order: 16
+difficulty: intermediate
+prerequisites: [12-gpio-device, 14-uart-i2c-device]
+components: [STM32 development board, sensor, LED, resistor]
+tools: [debug probe, USB cable, multimeter]
+skills: [timers, ADC, UART, debugging]
+next: 17-esp32-connected-sensor

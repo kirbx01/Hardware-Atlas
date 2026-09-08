@@ -1,0 +1,29 @@
+name: Voltage Divider
+level: 1
+level_name: Basic Circuits
+order: 2
+difficulty: beginner
+estimated_time: 45-60 minutes
+prerequisites:
+  - 01-led-circuit
+components:
+  - Resistors, assorted (at least two 10k ohm, plus a few other values)
+  - Potentiometer (10k ohm)
+  - Photoresistor / LDR
+  - Breadboard
+  - Jumper wires
+  - 9V battery or DC supply
+tools:
+  - Digital multimeter (required)
+skills:
+  - Voltage divider equation
+  - Series resistance and current
+  - Loading effect on dividers
+  - Potentiometers
+  - Resistive sensors (LDR)
+  - Correct multimeter probe placement
+resources:
+  - https://learn.sparkfun.com/tutorials/voltage-dividers
+  - https://learn.sparkfun.com/tutorials/resistors
+  - https://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-resistor-color-code
+next: 03-button-and-led

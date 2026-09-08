@@ -1,0 +1,29 @@
+name: Button and LED
+level: 1
+level_name: Basic Circuits
+order: 3
+difficulty: beginner-intermediate
+estimated_time: 45-60 minutes
+prerequisites:
+  - 01-led-circuit
+  - 02-voltage-divider
+components:
+  - Pushbuttons, momentary, normally-open (x2)
+  - LED
+  - Resistor (220-330 ohm)
+  - Breadboard
+  - Jumper wires
+  - 9V battery or 2xAA holder
+tools:
+  - Multimeter (continuity mode)
+skills:
+  - Switch types (NO vs NC)
+  - Series circuits as AND logic
+  - Parallel circuits as OR logic
+  - Truth tables
+  - Contact bounce (concept)
+resources:
+  - https://learn.sparkfun.com/tutorials/button-and-switch-basics
+  - https://learn.sparkfun.com/tutorials/pull-up-resistors
+  - https://www.youtube.com/@GateSmashers
+next: 04-transistor-switch

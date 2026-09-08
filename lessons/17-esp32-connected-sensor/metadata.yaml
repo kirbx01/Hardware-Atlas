@@ -1,0 +1,10 @@
+name: ESP32 Connected Sensor
+level: 5
+level_name: Embedded Systems
+order: 17
+difficulty: intermediate
+prerequisites: [14-uart-i2c-device]
+components: [ESP32 development board, I2C sensor]
+tools: [USB cable, serial terminal]
+skills: [Wi-Fi, retries, timeouts, application separation]
+next: 18-rtos-sensor-logger
