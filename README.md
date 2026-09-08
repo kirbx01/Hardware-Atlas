@@ -7,32 +7,38 @@ There is a given roadmap for GATE 2027 PREPARATION in [resources/gate.md](https:
 
 Start where you are. Pick a project, check its prerequisites, buy only what that project needs, measure the result, and follow its next step.
 
-## Level navigation
+## Quick navigation
 
-- [Level 0: Getting Started](levels/00-getting-started/README.md)
-- [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
-- [Level 2: Analog Electronics](levels/02-analog/README.md)
-- [Level 3: Digital Electronics](levels/03-digital/README.md)
-- [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
-- [Level 5: Embedded Systems](levels/05-embedded/README.md)
-- [Level 6: PCB Design](levels/06-pcb-design/README.md)
-- [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
-- [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
-- [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
-- [Level 10: ASIC Design](levels/10-asic-design/README.md)
-- [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
-- [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
-- [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
-
-## Repository navigation
-
-- [Roadmap](#roadmap)
-- [Complete project chain](#complete-project-chain-levels-0-to-5)
-- [Practical guides](#practical-guides)
-- [Find something quickly](#find-something-quickly)
-- [Contributing](#contributing)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [License](LICENSE)
+1. [Roadmap](#roadmap)
+	1. [Level 0: Getting Started](levels/00-getting-started/README.md)
+	2. [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
+	3. [Level 2: Analog Electronics](levels/02-analog/README.md)
+	4. [Level 3: Digital Electronics](levels/03-digital/README.md)
+	5. [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
+	6. [Level 5: Embedded Systems](levels/05-embedded/README.md)
+	7. [Level 6: PCB Design](levels/06-pcb-design/README.md)
+	8. [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
+	9. [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+	10. [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+	11. [Level 10: ASIC Design](levels/10-asic-design/README.md)
+	12. [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+	13. [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
+	14. [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
+	15. [Complete project chain: Levels 0 to 5](#complete-project-chain-levels-0-to-5)
+2. [Practical guides](#practical-guides)
+	1. [Components](resources/components.md)
+	2. [Tools](resources/tools.md)
+	3. [Power and batteries](resources/power-and-batteries.md)
+	4. [Simulation](resources/simulation.md)
+	5. [Getting hardware in India](resources/india.md)
+	6. [Where to get help](resources/help.md)
+	7. [GATE alongside the roadmap](resources/gate.md)
+3. [Repository](#repository)
+	1. [Find something quickly](#find-something-quickly)
+	2. [Projects](projects/README.md)
+	3. [Contributing](CONTRIBUTING.md)
+	4. [Code of Conduct](CODE_OF_CONDUCT.md)
+	5. [License](LICENSE)
 
 ## How to use this repository
 
@@ -248,6 +254,8 @@ Choose a research question, reproduce a paper result, investigate open hardware,
 - [Getting hardware in India](resources/india.md): distributors, Delhi NCR sourcing, inspection, and returns.
 - [Where to get help](resources/help.md): choose a community by problem type.
 - [GATE alongside the roadmap](resources/gate.md): use exam study to strengthen project work without turning this repo into a coaching site.
+
+## Repository
 
 ## Find something quickly
 
