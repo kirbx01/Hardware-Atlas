@@ -107,4 +107,3 @@ The [Level 5 guide](levels/05-embedded/README.md) describes the next planned pro
 ## Contributing
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a project or resource. External links should be checked, and each project should explain what to build, what to learn, what to measure, and what comes next.
-# Hardware-Atlas
