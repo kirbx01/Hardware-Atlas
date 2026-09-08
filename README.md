@@ -1,308 +1,392 @@
-# Hardware Atlas
->A practical path from your first circuit to custom silicon.
+<h1 align="center">🧭 Hardware Atlas</h1>
+<p align="center"><em>A practical, ascending path from your first circuit to custom silicon.</em></p>
 
-Hardware Atlas is an ascending, project-first roadmap for learning hardware by building, measuring, and debugging real things. You can also find some sorta shopping links and other things relevant to your needs in [resources/india.md](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/india.md) (You can follow up india.yml after reading `india.md`)
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"/>
+  <img src="https://img.shields.io/badge/levels-00--13-informational.svg" alt="Levels 00 to 13"/>
+  <img src="https://img.shields.io/badge/lessons-31-success.svg" alt="31 lessons"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"/>
+  <img src="https://img.shields.io/badge/made%20for-ECE%20%26%20makers-orange.svg" alt="Made for ECE and makers"/>
+  <img src="https://img.shields.io/github/stars/kirbx01/Hardware-Atlas?style=social" alt="GitHub stars"/>
+</p>
 
-There is a given roadmap for GATE 2027 PREPARATION in [resources/gate.md](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/gate.md). This has curated list of resources and links you'd need for gate prep.
+<p align="center">
+⭐ <strong>If this repository helps you build something, star it.</strong> Stars are how the next person searching "learn hardware from scratch" finds this instead of a dead forum thread.
+</p>
 
-Start where you are. Pick a project, check its prerequisites, buy only what that project needs, measure the result, and follow its next step.
+---
 
-## Quick navigation
+Hardware Atlas is a project-first roadmap for learning hardware by **building, measuring, and debugging real things** — not by reading fourteen chapters before touching a breadboard. Every lesson tells you what to buy, what to build, what to measure, and what's likely to go wrong, in that order.
 
-1. [Roadmap](#roadmap)
-	1. [Level 0: Getting Started](levels/00-getting-started/README.md)
-	2. [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
-	3. [Level 2: Analog Electronics](levels/02-analog/README.md)
-	4. [Level 3: Digital Electronics](levels/03-digital/README.md)
-	5. [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
-	6. [Level 5: Embedded Systems](levels/05-embedded/README.md)
-	7. [Level 6: PCB Design](levels/06-pcb-design/README.md)
-	8. [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
-	9. [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
-	10. [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
-	11. [Level 10: ASIC Design](levels/10-asic-design/README.md)
-	12. [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
-	13. [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
-	14. [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
-	15. [Complete project chain: Levels 0 to 5](#complete-project-chain-levels-0-to-5)
-2. [Practical guides](#practical-guides)
-	1. [Components](resources/components.md)
-	2. [Tools](resources/tools.md)
-	3. [Power and batteries](resources/power-and-batteries.md)
-	4. [Simulation](resources/simulation.md)
-	5. [Getting hardware in India](resources/india.md)
-	6. [Where to get help](resources/help.md)
-	7. [GATE alongside the roadmap](resources/gate.md)
-3. [Find something quickly](#find-something-quickly)
-4.  [Projects](projects/README.md)
-5. [Contributing](CONTRIBUTING.md)
-6. [Code of Conduct](CODE_OF_CONDUCT.md)
-7. [License](LICENSE)
+> 💡 **Philosophy in one line:** predict it with math, build it, measure it, and compare the two. If $V = IR$ doesn't match what your multimeter says, the disagreement is the lesson, not the failure.
+
+This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://github.com/kitspace/awesome-electronics) or [sindresorhus/awesome](https://github.com/sindresorhus/awesome): a curated map you dip into, not a checklist you're graded on. Skip what you already know. Jump to what interests you. Come back for the rest later.
+
+## 📑 Table of contents
+
+- [🗺️ The roadmap](#️-the-roadmap)
+- [🔍 All 14 levels, in detail](#-all-14-levels-in-detail)
+- [📚 All 31 lessons](#-all-31-lessons)
+- [🧰 Practical guides](#-practical-guides)
+- [⚡ Find something quickly](#-find-something-quickly)
+- [🧪 Projects beyond the roadmap](#-projects-beyond-the-roadmap)
+- [🎓 GATE 2027 alongside the roadmap](#-gate-2027-alongside-the-roadmap)
+- [🇮🇳 Sourcing hardware in India](#-sourcing-hardware-in-india)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ## How to use this repository
 
-1. Find your current level in the roadmap below.
-2. Open the level page and choose the first project whose prerequisites you can satisfy.
-3. Read the project page before buying anything. It lists the parts, tools, software, tests, and likely mistakes.
-4. Build the smallest version, measure it, and record what you observed.
-5. Follow the project's **What to build next** link. Do not skip the measurement step just because the circuit appears to work.
+1. Find your current level below.
+2. Read the lesson page **before** buying anything — it lists parts, tools, tests, and likely mistakes.
+3. Build the smallest version. Measure it. Write down what you actually observed.
+4. Follow the lesson's **What to build next** link. Don't skip the measurement step just because the LED lit up.
 
-The `lessons/` directory contains the detailed build pages. The `levels/` directory explains why those projects are ordered that way. The `resources/` directory covers sourcing, tools, safety, simulation, help, and GATE. The `projects/` directory documents the format for future standalone projects.
+The `lessons/` directory holds the detailed build pages. The `resources/` directory covers sourcing, tools, safety, simulation, and help. The `projects/` directory documents the format for contributed, non-roadmap builds.
 
-## Roadmap
+## 🗺️ The roadmap
+
+```mermaid
+flowchart TD
+    L0["00 · Getting Started"] --> L1["01 · Basic Circuits"]
+    L1 --> L2["02 · Analog Electronics"]
+    L2 --> L3["03 · Digital Electronics"]
+    L3 --> L4["04 · Microcontrollers"]
+    L4 --> L5["05 · Embedded Systems"]
+    L5 --> L6["06 · PCB Design"]
+    L6 --> L7["07 · Hardware Interfaces"]
+    L7 --> L8["08 · FPGA and RTL"]
+    L8 --> L9["09 · Computer Architecture"]
+    L9 --> L10["10 · ASIC Design"]
+    L10 --> L11["11 · Semiconductor Devices"]
+    L11 --> L12["12 · Semiconductor Fabrication"]
+    L12 --> L13["13 · Advanced Hardware"]
+```
+
+This is the **suggested** order, not a locked gate. Each lesson page states its own prerequisites — if you already have them, skip straight to the interesting part.
 
 | Level | Focus | Start here |
 |---|---|---|
-| 0 | Getting Started | [Breadboard, multimeter, and measurements](levels/00-getting-started/README.md) |
-| 1 | Basic Circuits | [Resistors, switches, transistors, and RC circuits](levels/01-basic-circuits/README.md) |
-| 2 | Analog Electronics | [Sensors, amplifiers, op amps, and filters](levels/02-analog/README.md) |
-| 3 | Digital Electronics | [Logic, state, timers, and counters](levels/03-digital/README.md) |
-| 4 | Microcontrollers | [GPIO, ADC, PWM, and serial devices](levels/04-microcontrollers/README.md) |
-| 5 | Embedded Systems | [Sensors, protocols, RTOS, and custom peripherals](levels/05-embedded/README.md) |
-| 6 | PCB Design | [Schematic to prototype](levels/06-pcb-design/README.md) |
-| 7 | Hardware Interfaces | [Reliable buses and links](levels/07-interfaces/README.md) |
-| 8 | FPGA and RTL | [Synchronous logic and verification](levels/08-fpga-rtl/README.md) |
-| 9 | Computer Architecture | [Datapaths, memory, and CPUs](levels/09-computer-architecture/README.md) |
-| 10 | ASIC Design | [RTL to silicon flow](levels/10-asic-design/README.md) |
-| 11 | Semiconductor Devices | [Device physics and models](levels/11-semiconductor-devices/README.md) |
-| 12 | Semiconductor Fabrication | [Process flow and yield](levels/12-semiconductor-fabrication/README.md) |
-| 13 | Advanced Hardware | [Reproduction and open research](levels/13-advanced-research/README.md) |
+| 00 | Getting Started | Breadboard layout, multimeter basics, first measurements |
+| 01 | Basic Circuits | Resistors, switches, transistors, RC circuits |
+| 02 | Analog Electronics | Sensors, amplifiers, op-amps, filters |
+| 03 | Digital Electronics | Logic, state, timers, counters |
+| 04 | Microcontrollers | GPIO, ADC, PWM, serial devices |
+| 05 | Embedded Systems | Sensors, protocols, RTOS, custom peripherals |
+| 06 | PCB Design | Schematic to prototype |
+| 07 | Hardware Interfaces | Reliable buses and links |
+| 08 | FPGA and RTL | Synchronous logic and verification |
+| 09 | Computer Architecture | Datapaths, memory, CPUs |
+| 10 | ASIC Design | RTL to silicon flow |
+| 11 | Semiconductor Devices | Device physics and models |
+| 12 | Semiconductor Fabrication | Process flow and yield |
+| 13 | Advanced Hardware | Reproduction and open research |
 
-## Complete project chain: Levels 0 to 5
+## 🔍 All 14 levels, in detail
 
-This is the practical route through the currently active part of the roadmap. Items marked **lesson** have a detailed page. Items marked **planned** are the next projects to add, so the handoff is visible without pretending that an unwritten lesson already exists.
+<details>
+<summary><strong>Level 00 · Getting Started</strong> — click to expand</summary>
 
-### Level 0: Getting Started
+<br>
 
-1. **Breadboard map** - identify connected rows, power rails, the centre gap, and broken power rails. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
-2. **Multimeter practice** - measure a battery, check continuity with power removed, measure resistance out of circuit, and measure voltage across a powered circuit. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
-3. **LED circuit** - build and measure the first safe circuit. Continue to [Lesson 1](lessons/01-led-circuit/README.md).
-4. **Basic voltage and current measurements** - extend the LED circuit and voltage divider while learning correct meter placement. **Lesson:** [Level 0 guide](levels/00-getting-started/README.md).
+Learn how breadboards are actually wired internally, use a multimeter safely, build the first LED circuit, and take real voltage/current measurements. You're ready to move on when you can draw a simple circuit, identify its return path, and explain a measurement out loud.
 
-**Next:** [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
+1. **Breadboard map** — identify connected rows, power rails, the centre gap, and broken rails.
+2. **Multimeter practice** — measure a battery, check continuity with power removed, measure resistance out of circuit, measure voltage across a powered circuit.
+3. **LED circuit** — build and measure the first safe circuit. → [`lessons/01-led-circuit/`](lessons/01-led-circuit/README.md)
+4. **Basic voltage and current measurements** — extend the LED circuit and voltage divider while learning correct meter placement.
 
-### Level 1: Basic Circuits
+</details>
 
-5. [LED circuit](lessons/01-led-circuit/README.md) - Ohm's law, polarity, and current limiting.
-6. [Voltage divider](lessons/02-voltage-divider/README.md) - measured node voltage and loading.
-7. [Button and LED](lessons/03-button-and-led/README.md) - switches and defined logic states.
-8. [Transistor switch](lessons/04-transistor-switch/README.md) - low-side switching.
-9. [RC circuit](lessons/05-rc-circuit/README.md) - charge, discharge, and time constants.
+<details>
+<summary><strong>Level 01 · Basic Circuits</strong> — click to expand</summary>
 
-**Next:** [Level 2: Analog Electronics](levels/02-analog/README.md)
+<br>
 
-### Level 2: Analog Electronics
+Ohm's law, polarity, switching, charge, discharge, and time constants — the vocabulary everything else is built on.
 
-10. [Light sensor](lessons/06-light-sensor/README.md) - turn light into a measurable voltage.
-11. [Transistor amplifier](lessons/07-transistor-amplifier/README.md) - bias, gain, and clipping.
-12. [Op-amp signal conditioner](lessons/08-op-amp-conditioner/README.md) - feedback and supply limits.
-13. [Active filter](lessons/09-active-filter/README.md) - cutoff frequency and measured response.
+| # | Lesson | Main idea |
+|---|---|---|
+| 01 | [LED circuit](lessons/01-led-circuit/README.md) | Ohm's law, polarity, current limiting |
+| 02 | [Voltage divider](lessons/02-voltage-divider/README.md) | Measured node voltage and loading |
+| 03 | [Button and LED](lessons/03-button-and-led/README.md) | Switches and defined logic states |
+| 04 | [Transistor switch](lessons/04-transistor-switch/README.md) | Low-side switching |
+| 05 | [RC circuit](lessons/05-rc-circuit/README.md) | Charge, discharge, time constants |
 
-**Next:** [Level 3: Digital Electronics](levels/03-digital/README.md)
+</details>
 
-### Level 3: Digital Electronics
+<details>
+<summary><strong>Level 02 · Analog Electronics</strong> — click to expand</summary>
 
-14. [Logic gates](lessons/10-logic-gates/README.md) - 74HC logic, truth tables, and pull resistors.
-15. [Flip-flop and counter](lessons/11-flip-flop-counter/README.md) - state, clocks, reset, and bounce.
-16. **555 timer oscillator** - generate a clock, measure its frequency and duty cycle, and compare real values with the calculation. **Planned.**
-17. **Simple digital clock** - combine a clock, counters, decoding, and a display without hiding the logic inside a microcontroller. **Planned.**
+<br>
 
-**Next:** [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
+Bias, gain, loading, clipping, noise, and bandwidth — where ideal models start showing their limits.
 
-### Level 4: Microcontrollers
+| # | Lesson | Main idea |
+|---|---|---|
+| 06 | [Light sensor](lessons/06-light-sensor/README.md) | Turning light into a measurable voltage |
+| 07 | [Transistor amplifier](lessons/07-transistor-amplifier/README.md) | Bias, gain, clipping |
+| 08 | [Op-amp signal conditioner](lessons/08-op-amp-conditioner/README.md) | Feedback and supply limits |
+| 09 | [Active filter](lessons/09-active-filter/README.md) | Cutoff frequency and measured response |
 
-18. [GPIO device](lessons/12-gpio-device/README.md) - firmware inputs, outputs, and debouncing.
-19. [Temperature logger](lessons/13-temperature-logger/README.md) - sampling and recorded measurements.
-20. [UART and I2C device](lessons/14-uart-i2c-device/README.md) - serial protocols and error handling.
-21. [PWM motor controller](lessons/15-pwm-motor-controller/README.md) - drivers, current, and motor noise.
+</details>
 
-**Next:** [Level 5: Embedded Systems](levels/05-embedded/README.md)
+<details>
+<summary><strong>Level 03 · Digital Electronics</strong> — click to expand</summary>
 
-### Level 5: Embedded Systems
+<br>
 
-22. [STM32 peripheral project](lessons/16-stm32-peripheral/README.md) - timers, ADC, UART, and debugging.
-23. [ESP32 connected sensor](lessons/17-esp32-connected-sensor/README.md) - networking and failure paths.
-24. [RTOS sensor logger](lessons/18-rtos-sensor-logger/README.md) - tasks, queues, timing, and recovery.
-25. **Custom peripheral** - design a small register-based device over I2C, SPI, or UART and write both ends of the protocol. **Planned.**
-26. **Bootloader exercise** - validate an image, handle versions, and provide a recoverable update path on a board you can reflash. **Planned.**
+Truth tables, reset behaviour, timing, defined logic levels, and switch bounce, before any of it hides inside a microcontroller.
 
-**Next:** [Level 6: PCB Design](levels/06-pcb-design/README.md)
+| # | Lesson | Main idea | Status |
+|---|---|---|---|
+| 10 | [Logic gates](lessons/10-logic-gates/README.md) | 74HC logic, truth tables, pull resistors | ✅ |
+| 11 | [Flip-flop and counter](lessons/11-flip-flop-counter/README.md) | State, clocks, reset, bounce | ✅ |
+| — | 555 timer oscillator | Generate a clock, measure frequency and duty cycle | 🚧 planned |
+| — | Simple digital clock | Clock + counters + decoding + display, no MCU shortcuts | 🚧 planned |
 
-### Level 6: PCB Design
+</details>
 
-19. [KiCad schematic capture](lessons/19-kicad-schematic-capture/README.md) - design the regulated microcontroller schematic.
-20. [Two-layer PCB routing](lessons/20-two-layer-pcb-routing/README.md) - route, run DRC, and generate Gerbers.
+<details>
+<summary><strong>Level 04 · Microcontrollers</strong> — click to expand</summary>
 
-**Next:** [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
+<br>
 
-### Level 7: Hardware Interfaces
+Arduino, ESP32, and Pico boards as practical platforms before bare-MCU design. Verify with serial logs, sensor comparisons, and current measurements.
 
-21. [Logic analyzer decode](lessons/21-logic-analyzer-decode/README.md) - debug SPI or I2C timing and data.
-22. [CAN bus node](lessons/22-can-bus-node/README.md) - build a terminated CAN link and inspect errors.
+| # | Lesson | Main idea |
+|---|---|---|
+| 12 | [GPIO device](lessons/12-gpio-device/README.md) | Firmware inputs, outputs, debouncing |
+| 13 | [Temperature logger](lessons/13-temperature-logger/README.md) | Sampling and recorded measurements |
+| 14 | [UART and I2C device](lessons/14-uart-i2c-device/README.md) | Serial protocols and error handling |
+| 15 | [PWM motor controller](lessons/15-pwm-motor-controller/README.md) | Drivers, current, motor noise |
 
-**Next:** [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+</details>
 
-### Level 8: FPGA and RTL
+<details>
+<summary><strong>Level 05 · Embedded Systems</strong> — click to expand</summary>
 
-23. [Combinational arithmetic RTL](lessons/23-combinational-arithmetic-rtl/README.md) - build and simulate a synthesizable ALU.
-24. [UART RX FSM](lessons/24-uart-rx-fsm/README.md) - synchronize and receive asynchronous serial data.
-25. [cocotb Python testbench](lessons/25-cocotb-python-testbench/README.md) - automate RTL verification.
+<br>
 
-**Next:** [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+Moving from working demos to dependable firmware: STM32, ESP32, RTOS tasks, custom peripherals, bootloaders.
 
-### Level 9: Computer Architecture
+| # | Lesson | Main idea | Status |
+|---|---|---|---|
+| 16 | [STM32 peripheral project](lessons/16-stm32-peripheral/README.md) | Timers, ADC, UART, debugging | ✅ |
+| 17 | [ESP32 connected sensor](lessons/17-esp32-connected-sensor/README.md) | Networking and failure paths | ✅ |
+| 18 | [RTOS sensor logger](lessons/18-rtos-sensor-logger/README.md) | Tasks, queues, timing, recovery | ✅ |
+| — | Custom peripheral | Register-based device over I2C/SPI/UART, both ends of the protocol | 🚧 planned |
+| — | Bootloader exercise | Image validation, versioning, a recoverable update path | 🚧 planned |
 
-26. [RISC-V single-cycle datapath](lessons/26-riscv-single-cycle-datapath/README.md) - implement and trace a small RV32I core.
-27. [Memory-mapped GPIO peripheral](lessons/27-memory-mapped-gpio-peripheral/README.md) - connect RTL registers to a C driver.
-28. [Zephyr native-sim peripheral](lessons/28-zephyr-native-sim-peripheral/README.md) - test a simulated peripheral and driver on the host.
+</details>
 
-**Next:** [Level 10: ASIC Design](levels/10-asic-design/README.md)
+<details>
+<summary><strong>Level 06 · PCB Design</strong> — click to expand</summary>
 
-### Level 10: ASIC Design
+<br>
 
-29. [Yosys RTL synthesis](lessons/29-yosys-rtl-synthesis/README.md) - map RTL to gates and inspect area.
-30. [OpenLane Sky130 flow](lessons/30-openlane-sky130-flow/README.md) - run an open RTL-to-GDSII flow.
-31. [Magic DRC and LVS verification](lessons/31-magic-drc-lvs-verification/README.md) - verify layout rules and connectivity.
+Converting a tested breadboard circuit into a schematic and a real two-layer PCB: footprints, design rules, decoupling, return paths, Gerbers, and revision control.
 
-**Next:** [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+| # | Lesson | Main idea |
+|---|---|---|
+| 19 | [KiCad schematic capture](lessons/19-kicad-schematic-capture/README.md) | Design the regulated microcontroller schematic |
+| 20 | [Two-layer PCB routing](lessons/20-two-layer-pcb-routing/README.md) | Route, run DRC, generate Gerbers |
 
-## All levels at a glance
+</details>
 
-Each level has its own page. Use the links below when you want the complete route rather than only the beginner lesson chain.
+<details>
+<summary><strong>Level 07 · Hardware Interfaces</strong> — click to expand</summary>
 
-### Level 0: Getting Started
+<br>
 
-[Open the Level 0 guide](levels/00-getting-started/README.md)
+Framing, addressing, timing, termination, pull-ups, error handling, and recovery. Verify with a logic analyzer, not vibes.
 
-Learn how breadboards are connected, use a multimeter safely, build the first LED circuit, and measure voltage and current. You are ready to continue when you can draw a simple circuit, identify its return path, and explain a measurement.
+| # | Lesson | Main idea |
+|---|---|---|
+| 21 | [Logic analyzer decode](lessons/21-logic-analyzer-decode/README.md) | Debug SPI or I2C timing and data |
+| 22 | [CAN bus node](lessons/22-can-bus-node/README.md) | Build a terminated CAN link and inspect errors |
 
-**Next:** [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
+</details>
 
-### Level 1: Basic Circuits
+<details>
+<summary><strong>Level 08 · FPGA and RTL</strong> — click to expand</summary>
 
-[Open the Level 1 guide](levels/01-basic-circuits/README.md)
+<br>
 
-Build the LED circuit, voltage divider, button input, transistor switch, and RC circuit. The focus is prediction and measurement: Ohm's law, polarity, switching, charge, discharge, and time constants.
+Synchronous RTL for counters, UART receivers, and memory-mapped peripherals. Verified with simulation, assertions, and synthesis reports, not just "it compiled."
 
-**Next:** [Level 2: Analog Electronics](levels/02-analog/README.md)
+| # | Lesson | Main idea |
+|---|---|---|
+| 23 | [Combinational arithmetic RTL](lessons/23-combinational-arithmetic-rtl/README.md) | Build and simulate a synthesizable ALU |
+| 24 | [UART RX FSM](lessons/24-uart-rx-fsm/README.md) | Synchronize and receive asynchronous serial data |
+| 25 | [cocotb Python testbench](lessons/25-cocotb-python-testbench/README.md) | Automate RTL verification |
 
-### Level 2: Analog Electronics
+</details>
 
-[Open the Level 2 guide](levels/02-analog/README.md)
+<details>
+<summary><strong>Level 09 · Computer Architecture</strong> — click to expand</summary>
 
-Build a light sensor, transistor amplifier, op-amp signal conditioner, and active filter. Learn bias, gain, loading, clipping, noise, bandwidth, and the limits of ideal models. Verify the work with measured voltages and frequency response.
+<br>
 
-**Next:** [Level 3: Digital Electronics](levels/03-digital/README.md)
+From an ALU and register file toward a CPU, memory system, and simulated peripheral. Verify with reference models and waveforms, not assumptions.
 
-### Level 3: Digital Electronics
+| # | Lesson | Main idea |
+|---|---|---|
+| 26 | [RISC-V single-cycle datapath](lessons/26-riscv-single-cycle-datapath/README.md) | Implement and trace a small RV32I core |
+| 27 | [Memory-mapped GPIO peripheral](lessons/27-memory-mapped-gpio-peripheral/README.md) | Connect RTL registers to a C driver |
+| 28 | [Zephyr native-sim peripheral](lessons/28-zephyr-native-sim-peripheral/README.md) | Test a simulated peripheral and driver on the host |
 
-[Open the Level 3 guide](levels/03-digital/README.md)
+</details>
 
-Build logic gates with 74HC ICs, then a flip-flop and counter. Planned extensions add a 555 oscillator and a small digital clock. Verify truth tables, reset behaviour, timing, defined logic levels, and switch bounce before moving to firmware.
+<details>
+<summary><strong>Level 10 · ASIC Design</strong> — click to expand</summary>
 
-**Next:** [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
+<br>
 
-### Level 4: Microcontrollers
+Synthesizable RTL through gates, standard-cell layout, and an open shuttle flow. Verification and documented limitations come **before** anything gets taped out.
 
-[Open the Level 4 guide](levels/04-microcontrollers/README.md)
+| # | Lesson | Main idea |
+|---|---|---|
+| 29 | [Yosys RTL synthesis](lessons/29-yosys-rtl-synthesis/README.md) | Map RTL to gates and inspect area |
+| 30 | [OpenLane Sky130 flow](lessons/30-openlane-sky130-flow/README.md) | Run an open RTL-to-GDSII flow |
+| 31 | [Magic DRC and LVS verification](lessons/31-magic-drc-lvs-verification/README.md) | Verify layout rules and connectivity |
 
-Use a development board for GPIO, temperature logging, UART, I2C, and PWM motor control. Arduino, ESP32, Pico, and STM32 boards are introduced as practical platforms before bare-MCU design. Verify firmware with serial logs, sensor comparisons, bus captures, and current measurements.
+</details>
 
-**Next:** [Level 5: Embedded Systems](levels/05-embedded/README.md)
+<details>
+<summary><strong>Level 11 · Semiconductor Devices</strong> — click to expand</summary>
 
-### Level 5: Embedded Systems
+<br>
 
-[Open the Level 5 guide](levels/05-embedded/README.md)
+Diode, BJT, and MOSFET behaviour through controlled measurements, small-signal models, SPICE, and temperature variation. Stay within device ratings and record uncertainty for every experiment — this is where $E = h\nu$ stops being a formula from a textbook and starts being the reason your LED emits a specific color.
 
-Move from working demos to dependable firmware with STM32, ESP32, RTOS tasks, custom peripherals, and bootloader work. Measure timing, reset causes, resource use, communication failures, and recovery behaviour.
+*No dedicated lesson files yet — this level is theory and simulation-driven. See [Simulation](resources/simulation.md).*
 
-**Next:** [Level 6: PCB Design](levels/06-pcb-design/README.md)
+</details>
 
-### Level 6: PCB Design
+<details>
+<summary><strong>Level 12 · Semiconductor Fabrication</strong> — click to expand</summary>
 
-[Open the Level 6 guide](levels/06-pcb-design/README.md)
+<br>
 
-Convert a tested breadboard circuit into a schematic and a small two-layer PCB. Learn footprints, design rules, decoupling, return paths, connectors, Gerbers, assembly notes, and revision control. Verify the manufactured board against the breadboard measurements.
+Wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield — through process models and simulation.
 
-**Next:** [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
+> ⚠️ **This level is not a home chemistry project.** Study it through models, simulators, and supervised teaching facilities only.
 
-### Level 7: Hardware Interfaces
+</details>
 
-[Open the Level 7 guide](levels/07-interfaces/README.md)
+<details>
+<summary><strong>Level 13 · Advanced Hardware</strong> — click to expand</summary>
 
-Build reliable UART, I2C, SPI, CAN, USB, and Ethernet projects. Focus on framing, addressing, timing, termination, pull-ups, error handling, and recovery. Verify with a logic analyser, protocol documentation, latency measurements, and unplugged-device tests.
+<br>
 
-**Next:** [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+Choose a research question, reproduce a paper's result, investigate open hardware, quantify uncertainty, and publish enough source, data, and limitations for someone else to check your work independently.
 
-### Level 8: FPGA and RTL
+**Next:** choose a deeper branch, revisit a project that didn't work the first time, or [contribute a verified lesson](#-contributing) back to Hardware Atlas.
 
-[Open the Level 8 guide](levels/08-fpga-rtl/README.md)
+</details>
 
-Write synchronous RTL for counters, UART receivers, memory-mapped peripherals, data paths, and small CPU extensions. Verify with simulation, assertions, synthesis reports, timing constraints, and on-board probes.
+## 📚 All 31 lessons
 
-**Next:** [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+Grouped by category for quick scanning. Ordering shows progression, not a prerequisite chain.
 
-### Level 9: Computer Architecture
+### Foundations
 
-[Open the Level 9 guide](levels/09-computer-architecture/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 01 | LED Circuit | [`lessons/01-led-circuit/`](lessons/01-led-circuit/README.md) |
+| 02 | Voltage Divider | [`lessons/02-voltage-divider/`](lessons/02-voltage-divider/README.md) |
+| 03 | Button and LED | [`lessons/03-button-and-led/`](lessons/03-button-and-led/README.md) |
+| 04 | Transistor Switch | [`lessons/04-transistor-switch/`](lessons/04-transistor-switch/README.md) |
+| 05 | RC Circuit | [`lessons/05-rc-circuit/`](lessons/05-rc-circuit/README.md) |
 
-Build from an ALU and register file toward a CPU, memory system, bus, pipeline, cache, or DMA experiment. Verify instruction behaviour with reference models, waveforms, directed tests, and performance measurements.
+### Analog
 
-**Next:** [Level 10: ASIC Design](levels/10-asic-design/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 06 | Light Sensor | [`lessons/06-light-sensor/`](lessons/06-light-sensor/README.md) |
+| 07 | Transistor Amplifier | [`lessons/07-transistor-amplifier/`](lessons/07-transistor-amplifier/README.md) |
+| 08 | Op-Amp Signal Conditioner | [`lessons/08-op-amp-conditioner/`](lessons/08-op-amp-conditioner/README.md) |
+| 09 | Active Filter | [`lessons/09-active-filter/`](lessons/09-active-filter/README.md) |
 
-### Level 10: ASIC Design
+### Digital
 
-[Open the Level 10 guide](levels/10-asic-design/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 10 | Logic Gates | [`lessons/10-logic-gates/`](lessons/10-logic-gates/README.md) |
+| 11 | Flip-Flop Counter | [`lessons/11-flip-flop-counter/`](lessons/11-flip-flop-counter/README.md) |
+| 23 | Combinational Arithmetic RTL | [`lessons/23-combinational-arithmetic-rtl/`](lessons/23-combinational-arithmetic-rtl/README.md) |
+| 24 | UART RX FSM | [`lessons/24-uart-rx-fsm/`](lessons/24-uart-rx-fsm/README.md) |
 
-Take synthesizable RTL through gates, standard-cell layout, verification, timing, area, power estimates, and an open shuttle design. Verification, design rules, and documented limitations come before fabrication.
+### Microcontrollers and embedded
 
-**Next:** [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 12 | GPIO Device | [`lessons/12-gpio-device/`](lessons/12-gpio-device/README.md) |
+| 13 | Temperature Logger | [`lessons/13-temperature-logger/`](lessons/13-temperature-logger/README.md) |
+| 14 | UART I2C Device | [`lessons/14-uart-i2c-device/`](lessons/14-uart-i2c-device/README.md) |
+| 15 | PWM Motor Controller | [`lessons/15-pwm-motor-controller/`](lessons/15-pwm-motor-controller/README.md) |
+| 16 | STM32 Peripheral | [`lessons/16-stm32-peripheral/`](lessons/16-stm32-peripheral/README.md) |
+| 17 | ESP32 Connected Sensor | [`lessons/17-esp32-connected-sensor/`](lessons/17-esp32-connected-sensor/README.md) |
+| 18 | RTOS Sensor Logger | [`lessons/18-rtos-sensor-logger/`](lessons/18-rtos-sensor-logger/README.md) |
+| 28 | Zephyr Native-Sim Peripheral | [`lessons/28-zephyr-native-sim-peripheral/`](lessons/28-zephyr-native-sim-peripheral/README.md) |
 
-### Level 11: Semiconductor Devices
+### PCB and hardware
 
-[Open the Level 11 guide](levels/11-semiconductor-devices/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 19 | KiCad Schematic Capture | [`lessons/19-kicad-schematic-capture/`](lessons/19-kicad-schematic-capture/README.md) |
+| 20 | Two-Layer PCB Routing | [`lessons/20-two-layer-pcb-routing/`](lessons/20-two-layer-pcb-routing/README.md) |
 
-Study diode, BJT, and MOSFET behaviour through controlled measurements, small-signal models, SPICE, temperature variation, and process corners. Stay within device ratings and record uncertainty for every experiment.
+### Communication and debug
 
-**Next:** [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 21 | Logic Analyzer Decode | [`lessons/21-logic-analyzer-decode/`](lessons/21-logic-analyzer-decode/README.md) |
+| 22 | CAN Bus Node | [`lessons/22-can-bus-node/`](lessons/22-can-bus-node/README.md) |
 
-### Level 12: Semiconductor Fabrication
+### RTL and verification
 
-[Open the Level 12 guide](levels/12-semiconductor-fabrication/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 25 | cocotb Python Testbench | [`lessons/25-cocotb-python-testbench/`](lessons/25-cocotb-python-testbench/README.md) |
+| 29 | Yosys RTL Synthesis | [`lessons/29-yosys-rtl-synthesis/`](lessons/29-yosys-rtl-synthesis/README.md) |
 
-Study wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield through process models, simulations, and safe teaching facilities. This level is not a home chemistry project.
+### Computer architecture
 
-**Next:** [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 26 | RISC-V Single-Cycle Datapath | [`lessons/26-riscv-single-cycle-datapath/`](lessons/26-riscv-single-cycle-datapath/README.md) |
+| 27 | Memory-Mapped GPIO Peripheral | [`lessons/27-memory-mapped-gpio-peripheral/`](lessons/27-memory-mapped-gpio-peripheral/README.md) |
 
-### Level 13: Advanced Hardware
+### Open silicon
 
-[Open the Level 13 guide](levels/13-advanced-research/README.md)
+| # | Lesson | Path |
+|---|---|---|
+| 30 | OpenLane Sky130 Flow | [`lessons/30-openlane-sky130-flow/`](lessons/30-openlane-sky130-flow/README.md) |
+| 31 | Magic DRC/LVS Verification | [`lessons/31-magic-drc-lvs-verification/`](lessons/31-magic-drc-lvs-verification/README.md) |
 
-Choose a research question, reproduce a paper result, investigate open hardware, build a prototype, quantify uncertainty, and publish enough source, data, limitations, and instructions for independent review.
+## 🧰 Practical guides
 
-**Next:** choose a deeper branch, revisit a failed project, or contribute a verified lesson to Hardware Atlas.
+| Guide | Use it for |
+|---|---|
+| [Components](resources/components.md) | Buy parts as projects require them — not a warehouse upfront |
+| [Tools](resources/tools.md) | A deliberately ascending workbench, budget to pro |
+| [Power and batteries](resources/power-and-batteries.md) | Wiring and cell safety before you plug anything in |
+| [Simulation](resources/simulation.md) | Test a complicated idea before ordering hardware |
+| [Getting hardware in India](resources/india.md) | Distributors, Delhi NCR sourcing, inspection, returns |
+| [Where to get help](resources/help.md) | Choose a community by problem type |
+| [GATE alongside the roadmap](resources/gate.md) | Strengthen exam prep with project work, not the other way around |
 
-## Practical guides
-
-- [Components](resources/components.md): buy parts as projects require them.
-- [Tools](resources/tools.md): a deliberately ascending workbench.
-- [Power and batteries](resources/power-and-batteries.md): wiring and cell safety before experimentation.
-- [Simulation](resources/simulation.md): test a complicated idea before ordering hardware.
-- [Getting hardware in India](resources/india.md): distributors, Delhi NCR sourcing, inspection, and returns.
-- [Where to get help](resources/help.md): choose a community by problem type.
-- [GATE alongside the roadmap](resources/gate.md): use exam study to strengthen project work without turning this repo into a coaching site.
-
-## Repository
-
-## Find something quickly
+## ⚡ Find something quickly
 
 | I want to... | Open |
 |---|---|
-| Start from zero | [Level 0](levels/00-getting-started/README.md) |
-| Learn basic circuits | [Level 1](levels/01-basic-circuits/README.md) |
-| Learn analog electronics | [Level 2](levels/02-analog/README.md) |
-| Learn digital logic | [Level 3](levels/03-digital/README.md) |
-| Choose a development board | [Components](resources/components.md) and [Level 4](levels/04-microcontrollers/README.md) |
+| Start from zero | [Level 00](#level-00--getting-started) |
+| Learn basic circuits | [Level 01](#level-01--basic-circuits) |
+| Learn analog electronics | [Level 02](#level-02--analog-electronics) |
+| Learn digital logic | [Level 03](#level-03--digital-electronics) |
+| Choose a development board | [Components](resources/components.md) → Level 04 |
 | Buy parts in India | [Getting hardware in India](resources/india.md) |
 | Choose tools | [Tools](resources/tools.md) |
 | Check a circuit before building | [Simulation](resources/simulation.md) |
@@ -310,6 +394,33 @@ Choose a research question, reproduce a paper result, investigate open hardware,
 | Study GATE alongside projects | [GATE guide](resources/gate.md) |
 | Add a new project | [Projects](projects/README.md) and [Contributing](CONTRIBUTING.md) |
 
-## Contributing
+## 🧪 Projects beyond the roadmap
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a project or resource. Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md). Hardware Atlas is available under the [MIT License](LICENSE).
+The 31 lessons above are reference points, not the ceiling. The [`projects/`](projects/README.md) directory documents how to structure and submit a project that doesn't fit the numbered roadmap: a modification, an extension, a teardown, a measurement study, or something built from scratch.
+
+→ [Read the Projects hub](projects/README.md)
+
+## 🎓 GATE 2027 alongside the roadmap
+
+If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has a curated set of resources mapped to the same subjects this roadmap already touches — digital electronics, electronic devices, computer organization, and signals and systems — so exam prep and hands-on building reinforce each other instead of competing for time.
+
+## 🇮🇳 Sourcing hardware in India
+
+[`resources/india.md`](resources/india.md) covers distributors (Element14, Mouser, DigiKey, Robu, and others), Delhi NCR offline markets, component inspection for counterfeits, and return/replacement expectations. An `india.yml` companion is available for structured lookups once you've read the prose version.
+
+## 🤝 Contributing
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before adding a project or resource. Please also follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+Good contributions are reviewed for technical clarity, reproducibility, useful documentation, reasonable sourcing, correct attribution, safe construction, and genuine educational value. A thoughtful breadboard experiment is just as welcome as an advanced PCB.
+
+## 📄 License
+
+Hardware Atlas is available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">
+  Built one measured circuit at a time.<br>
+  ⭐ <strong>Star this repo</strong> if it helped you build something real.
+</p>
