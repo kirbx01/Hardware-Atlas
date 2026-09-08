@@ -76,7 +76,123 @@ The [Level 4 guide](levels/04-microcontrollers/README.md) explains how to choose
 17. [ESP32 connected sensor](lessons/17-esp32-connected-sensor/README.md) - networking and failure paths.
 18. [RTOS sensor logger](lessons/18-rtos-sensor-logger/README.md) - tasks, queues, timing, and recovery.
 
-The [Level 5 guide](levels/05-embedded/README.md) describes the next planned projects: a custom peripheral and a bootloader exercise. The later levels each have their own page, starting with [Level 6: PCB Design](levels/06-pcb-design/README.md).
+The [Level 5 guide](levels/05-embedded/README.md) describes the next planned projects: a custom peripheral and a bootloader exercise.
+
+## All levels at a glance
+
+Each level has its own page. Use the links below when you want the complete route rather than only the beginner lesson chain.
+
+### Level 0: Getting Started
+
+[Open the Level 0 guide](levels/00-getting-started/README.md)
+
+Learn how breadboards are connected, use a multimeter safely, build the first LED circuit, and measure voltage and current. You are ready to continue when you can draw a simple circuit, identify its return path, and explain a measurement.
+
+**Next:** [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
+
+### Level 1: Basic Circuits
+
+[Open the Level 1 guide](levels/01-basic-circuits/README.md)
+
+Build the LED circuit, voltage divider, button input, transistor switch, and RC circuit. The focus is prediction and measurement: Ohm's law, polarity, switching, charge, discharge, and time constants.
+
+**Next:** [Level 2: Analog Electronics](levels/02-analog/README.md)
+
+### Level 2: Analog Electronics
+
+[Open the Level 2 guide](levels/02-analog/README.md)
+
+Build a light sensor, transistor amplifier, op-amp signal conditioner, and active filter. Learn bias, gain, loading, clipping, noise, bandwidth, and the limits of ideal models. Verify the work with measured voltages and frequency response.
+
+**Next:** [Level 3: Digital Electronics](levels/03-digital/README.md)
+
+### Level 3: Digital Electronics
+
+[Open the Level 3 guide](levels/03-digital/README.md)
+
+Build logic gates with 74HC ICs, then a flip-flop and counter. Planned extensions add a 555 oscillator and a small digital clock. Verify truth tables, reset behaviour, timing, defined logic levels, and switch bounce before moving to firmware.
+
+**Next:** [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
+
+### Level 4: Microcontrollers
+
+[Open the Level 4 guide](levels/04-microcontrollers/README.md)
+
+Use a development board for GPIO, temperature logging, UART, I2C, and PWM motor control. Arduino, ESP32, Pico, and STM32 boards are introduced as practical platforms before bare-MCU design. Verify firmware with serial logs, sensor comparisons, bus captures, and current measurements.
+
+**Next:** [Level 5: Embedded Systems](levels/05-embedded/README.md)
+
+### Level 5: Embedded Systems
+
+[Open the Level 5 guide](levels/05-embedded/README.md)
+
+Move from working demos to dependable firmware with STM32, ESP32, RTOS tasks, custom peripherals, and bootloader work. Measure timing, reset causes, resource use, communication failures, and recovery behaviour.
+
+**Next:** [Level 6: PCB Design](levels/06-pcb-design/README.md)
+
+### Level 6: PCB Design
+
+[Open the Level 6 guide](levels/06-pcb-design/README.md)
+
+Convert a tested breadboard circuit into a schematic and a small two-layer PCB. Learn footprints, design rules, decoupling, return paths, connectors, Gerbers, assembly notes, and revision control. Verify the manufactured board against the breadboard measurements.
+
+**Next:** [Level 7: Hardware Interfaces and Communication](levels/07-interfaces/README.md)
+
+### Level 7: Hardware Interfaces and Communication
+
+[Open the Level 7 guide](levels/07-interfaces/README.md)
+
+Build reliable UART, I2C, SPI, CAN, USB, and Ethernet projects. Focus on framing, addressing, timing, termination, pull-ups, error handling, and recovery. Verify with a logic analyser, protocol documentation, latency measurements, and unplugged-device tests.
+
+**Next:** [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+
+### Level 8: FPGA and RTL
+
+[Open the Level 8 guide](levels/08-fpga-rtl/README.md)
+
+Write synchronous RTL for counters, UART receivers, memory-mapped peripherals, data paths, and small CPU extensions. Verify with simulation, assertions, synthesis reports, timing constraints, and on-board probes.
+
+**Next:** [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+
+### Level 9: Computer Architecture
+
+[Open the Level 9 guide](levels/09-computer-architecture/README.md)
+
+Build from an ALU and register file toward a CPU, memory system, bus, pipeline, cache, or DMA experiment. Verify instruction behaviour with reference models, waveforms, directed tests, and performance measurements.
+
+**Next:** [Level 10: ASIC Design](levels/10-asic-design/README.md)
+
+### Level 10: ASIC Design
+
+[Open the Level 10 guide](levels/10-asic-design/README.md)
+
+Take synthesizable RTL through gates, standard-cell layout, verification, timing, area, power estimates, and an open shuttle design. Verification, design rules, and documented limitations come before fabrication.
+
+**Next:** [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+
+### Level 11: Semiconductor Devices
+
+[Open the Level 11 guide](levels/11-semiconductor-devices/README.md)
+
+Study diode, BJT, and MOSFET behaviour through controlled measurements, small-signal models, SPICE, temperature variation, and process corners. Stay within device ratings and record uncertainty for every experiment.
+
+**Next:** [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
+
+### Level 12: Semiconductor Fabrication
+
+[Open the Level 12 guide](levels/12-semiconductor-fabrication/README.md)
+
+Study wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield through process models, simulations, and safe teaching facilities. This level is not a home chemistry project.
+
+**Next:** [Level 13: Advanced Hardware and Research](levels/13-advanced-research/README.md)
+
+### Level 13: Advanced Hardware and Research
+
+[Open the Level 13 guide](levels/13-advanced-research/README.md)
+
+Choose a research question, reproduce a paper result, investigate open hardware, build a prototype, quantify uncertainty, and publish enough source, data, limitations, and instructions for independent review.
+
+**Next:** choose a deeper branch, revisit a failed project, or contribute a verified lesson to Hardware Atlas.
 
 ## Practical guides
 
