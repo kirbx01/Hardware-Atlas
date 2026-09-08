@@ -7,24 +7,27 @@ There is a given roadmap for GATE 2027 PREPARATION in [resources/gate.md](https:
 
 Start where you are. Pick a project, check its prerequisites, buy only what that project needs, measure the result, and follow its next step.
 
-## Quick navigation
+## Level navigation
+
+- [Level 0: Getting Started](levels/00-getting-started/README.md)
+- [Level 1: Basic Circuits](levels/01-basic-circuits/README.md)
+- [Level 2: Analog Electronics](levels/02-analog/README.md)
+- [Level 3: Digital Electronics](levels/03-digital/README.md)
+- [Level 4: Microcontrollers](levels/04-microcontrollers/README.md)
+- [Level 5: Embedded Systems](levels/05-embedded/README.md)
+- [Level 6: PCB Design](levels/06-pcb-design/README.md)
+- [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
+- [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+- [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+- [Level 10: ASIC Design](levels/10-asic-design/README.md)
+- [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+- [Level 12: Semiconductor Fabrication](levels/12-semiconductor-fabrication/README.md)
+- [Level 13: Advanced Hardware](levels/13-advanced-research/README.md)
+
+## Repository navigation
 
 - [Roadmap](#roadmap)
 - [Complete project chain](#complete-project-chain-levels-0-to-5)
-- [Level 0: Getting Started](#level-0-getting-started)
-- [Level 1: Basic Circuits](#level-1-basic-circuits)
-- [Level 2: Analog Electronics](#level-2-analog-electronics)
-- [Level 3: Digital Electronics](#level-3-digital-electronics)
-- [Level 4: Microcontrollers](#level-4-microcontrollers)
-- [Level 5: Embedded Systems](#level-5-embedded-systems)
-- [Level 6: PCB Design](#level-6-pcb-design)
-- [Level 7: Hardware Interfaces](#level-7-hardware-interfaces)
-- [Level 8: FPGA and RTL](#level-8-fpga-and-rtl)
-- [Level 9: Computer Architecture](#level-9-computer-architecture)
-- [Level 10: ASIC Design](#level-10-asic-design)
-- [Level 11: Semiconductor Devices](#level-11-semiconductor-devices)
-- [Level 12: Semiconductor Fabrication](#level-12-semiconductor-fabrication)
-- [Level 13: Advanced Hardware](#level-13-advanced-hardware)
 - [Practical guides](#practical-guides)
 - [Find something quickly](#find-something-quickly)
 - [Contributing](#contributing)
