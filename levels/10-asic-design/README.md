@@ -4,11 +4,13 @@ ASIC work moves from synthesizable RTL to gates, physical constraints, verificat
 
 ## Project sequence
 
-1. **RTL-to-gates flow:** synthesize a small design and inspect area and timing.
-2. **Standard-cell layout:** place and route a small block with power and clock constraints.
-3. **Verification flow:** combine simulation, lint, formal checks, and coverage.
-4. **Open shuttle design:** prepare a small hardened block for an open silicon flow such as Tiny Tapeout.
-5. **Post-silicon comparison:** compare measured silicon behaviour with pre-silicon assumptions.
+1. [Yosys RTL synthesis](../../lessons/29-yosys-rtl-synthesis/README.md): map RTL to gates and inspect optimization and area reports.
+2. [OpenLane Sky130 flow](../../lessons/30-openlane-sky130-flow/README.md): run an RTL-to-GDSII physical-design flow and review its reports.
+3. [Magic DRC and LVS verification](../../lessons/31-magic-drc-lvs-verification/README.md): check layout rules and compare extracted layout against the intended netlist.
+4. **Standard-cell layout:** place and route a small block with power and clock constraints.
+5. **Verification flow:** combine simulation, lint, formal checks, and coverage.
+6. **Open shuttle design:** prepare a small hardened block for an open silicon flow such as Tiny Tapeout.
+7. **Post-silicon comparison:** compare measured silicon behaviour with pre-silicon assumptions.
 
 ## Verify
 

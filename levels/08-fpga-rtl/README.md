@@ -4,11 +4,12 @@ Here hardware behaviour is described as synchronous logic and verified before it
 
 ## Project sequence
 
-1. **RTL counter and testbench:** write a clocked counter and prove reset and rollover behaviour.
-2. **UART receiver:** sample a serial stream and test framing errors in simulation.
-3. **Memory-mapped peripheral:** expose registers to a simple bus and connect it to a soft processor or host.
-4. **FPGA data path:** stream samples through a filter or checksum block and measure timing.
-5. **Small soft CPU extension:** add or modify one instruction or peripheral interface.
+1. [Combinational arithmetic RTL](../../lessons/23-combinational-arithmetic-rtl/README.md): write and simulate a synthesizable multi-bit ALU.
+2. [UART RX FSM](../../lessons/24-uart-rx-fsm/README.md): synchronize an asynchronous input and handle serial reception errors.
+3. [cocotb Python testbench](../../lessons/25-cocotb-python-testbench/README.md): automate RTL verification with Python and Verilator.
+4. **RTL counter and testbench:** write a clocked counter and prove reset and rollover behaviour.
+5. **Memory-mapped peripheral:** expose registers to a simple bus and connect it to a soft processor or host.
+6. **FPGA data path:** stream samples through a filter or checksum block and measure timing.
 
 ## Verify
 

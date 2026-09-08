@@ -128,6 +128,44 @@ This is the practical route through the currently active part of the roadmap. It
 
 **Next:** [Level 6: PCB Design](levels/06-pcb-design/README.md)
 
+### Level 6: PCB Design
+
+19. [KiCad schematic capture](lessons/19-kicad-schematic-capture/README.md) - design the regulated microcontroller schematic.
+20. [Two-layer PCB routing](lessons/20-two-layer-pcb-routing/README.md) - route, run DRC, and generate Gerbers.
+
+**Next:** [Level 7: Hardware Interfaces](levels/07-interfaces/README.md)
+
+### Level 7: Hardware Interfaces
+
+21. [Logic analyzer decode](lessons/21-logic-analyzer-decode/README.md) - debug SPI or I2C timing and data.
+22. [CAN bus node](lessons/22-can-bus-node/README.md) - build a terminated CAN link and inspect errors.
+
+**Next:** [Level 8: FPGA and RTL](levels/08-fpga-rtl/README.md)
+
+### Level 8: FPGA and RTL
+
+23. [Combinational arithmetic RTL](lessons/23-combinational-arithmetic-rtl/README.md) - build and simulate a synthesizable ALU.
+24. [UART RX FSM](lessons/24-uart-rx-fsm/README.md) - synchronize and receive asynchronous serial data.
+25. [cocotb Python testbench](lessons/25-cocotb-python-testbench/README.md) - automate RTL verification.
+
+**Next:** [Level 9: Computer Architecture](levels/09-computer-architecture/README.md)
+
+### Level 9: Computer Architecture
+
+26. [RISC-V single-cycle datapath](lessons/26-riscv-single-cycle-datapath/README.md) - implement and trace a small RV32I core.
+27. [Memory-mapped GPIO peripheral](lessons/27-memory-mapped-gpio-peripheral/README.md) - connect RTL registers to a C driver.
+28. [Zephyr native-sim peripheral](lessons/28-zephyr-native-sim-peripheral/README.md) - test a simulated peripheral and driver on the host.
+
+**Next:** [Level 10: ASIC Design](levels/10-asic-design/README.md)
+
+### Level 10: ASIC Design
+
+29. [Yosys RTL synthesis](lessons/29-yosys-rtl-synthesis/README.md) - map RTL to gates and inspect area.
+30. [OpenLane Sky130 flow](lessons/30-openlane-sky130-flow/README.md) - run an open RTL-to-GDSII flow.
+31. [Magic DRC and LVS verification](lessons/31-magic-drc-lvs-verification/README.md) - verify layout rules and connectivity.
+
+**Next:** [Level 11: Semiconductor Devices](levels/11-semiconductor-devices/README.md)
+
 ## All levels at a glance
 
 Each level has its own page. Use the links below when you want the complete route rather than only the beginner lesson chain.
