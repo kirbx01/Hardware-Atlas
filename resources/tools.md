@@ -1,4 +1,4 @@
-# 🇮🇳 The Indian Electronics Workbench
+# The Electronics Workbench
 
 Specific tools, local pricing, procurement routes, and the reasoning behind each pick. A bench built from a random general-marketplace search accumulates tools that look right and measure wrong. Avoid unverified generic listings; source from specialized Indian tool sellers and component distributors instead Robu, Mouser India, ElectronicsComp, or the SP Road (Bangalore) / Lamington Road (Mumbai) hardware markets, and dedicated test-gear importers for anything calibration-sensitive.
 
