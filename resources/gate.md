@@ -14,7 +14,6 @@ Instead:
 
 A project is not proof of GATE readiness, and solving GATE questions is not proof that you can build hardware.
 
----
 
 ## 1. Current GATE Reference
 
@@ -41,7 +40,7 @@ The paper uses MCQ, MSQ and NAT questions. Negative marking applies to incorrect
 
 **Do not build this README around an old syllabus.** Whenever a new GATE cycle is announced, compare this section against the new official syllabus.
 
----
+
 
 # 2. The GATE ↔ Hardware Philosophy
 
@@ -76,7 +75,7 @@ These become increasingly useful depending on whether your roadmap moves toward 
 
 These are useful for the examination but should **not consume the time you need for engineering projects**.
 
----
+ 
 
 # 3. Recommended Study Loop
 
@@ -126,7 +125,7 @@ Consider a topic reasonably complete only when you can:
 4. Solve a slightly modified problem.
 5. Apply the concept in a circuit, simulation, HDL design or embedded system when applicable.
 
----
+ 
 
 # 4. Resource Rule
 
@@ -154,7 +153,7 @@ Another recent discussion recommended a simple loop of:
 
 **lecture → deeper reference → PYQs → patch weaknesses**, with PYQ accuracy used as a progression signal.
 
----
+ 
 
 # 5. Subject-by-Subject Resource Map
 
@@ -199,7 +198,7 @@ Use topic-wise GATE PYQs after every major topic.
 Concept → 15–30 basic problems → PYQs → error log
 ```
 
----
+ 
 
 # 5.2 Network Theory
 
@@ -268,7 +267,7 @@ If you study Thevenin's theorem, actually use it on a circuit.
 
 If you study RC transients, measure one.
 
----
+ 
 
 # 5.3 Signals and Systems
 
@@ -338,7 +337,7 @@ A great mini-project:
 
 That makes the GATE theory considerably less dead.
 
----
+ 
 
 # 5.4 Electronic Devices
 
@@ -410,7 +409,7 @@ Processors / SoCs
 
 This is one of the clearest examples where GATE theory and actual hardware engineering reinforce each other.
 
----
+ 
 
 # 5.5 Digital Electronics
 
@@ -491,7 +490,7 @@ For FPGA work, implement the same concepts in Verilog/SystemVerilog.
 
 That is the point where GATE Digital Electronics becomes engineering rather than trivia.
 
----
+
 
 # 5.6 Analog Electronics
 
@@ -543,7 +542,7 @@ Every major analog concept should ideally become one of:
 * transistor amplifier
 * filter
 
----
+ 
 
 # 5.7 Control Systems
 
@@ -598,7 +597,7 @@ Corrective action
 
 Then eventually implement a simple controller on an MCU.
 
----
+ 
 
 # 5.8 Communication Systems
 
@@ -653,7 +652,7 @@ recovered signal
 
 An SDR project is an excellent bridge between GATE Communications and real engineering.
 
----
+ 
 
 # 5.9 Electromagnetics
 
@@ -686,7 +685,7 @@ Building vector-calculus fundamentals before diving into EMFT helps understand m
 
 Do not jump into Maxwell's equations while being shaky with vector calculus.
 
----
+ 
 
 # 5.10 General Aptitude
 
@@ -718,7 +717,7 @@ Prioritize:
 
 GA is worth **15 marks**, so it should be treated as a scoring component rather than ignored until the final week.
 
----
+ 
 
 # 6. PYQs Are Not Optional
 
@@ -752,7 +751,7 @@ During revision.
 
 Solve under time pressure.
 
----
+ 
 
 ## PYQ Resources
 
@@ -774,7 +773,7 @@ Always retain the official papers as the final authority.
 
 [Official GATE 2027 papers and syllabus](https://gate2027.iitm.ac.in/exam_papers_and_syllabus)
 
----
+ 
 
 # 7. A Practical Completion Standard
 
@@ -798,14 +797,14 @@ Use this checklist for **every subject**.
 
 A subject is not "done" just because every video has a checkmark.
 
----
+ 
 
 # 8. GATE ↔ Project Mapping
 
 The strongest reason to keep GATE alongside this roadmap is the overlap.
 
 | GATE topic          | Build alongside it              |
-| ------------------- | ------------------------------- |
+|       - |           - |
 | Linear algebra      | CPU/ML/graphics mathematics     |
 | Calculus            | signal/control modelling        |
 | Probability         | communications/noise            |
@@ -823,7 +822,7 @@ The important part is **not forcing every chapter into a project**.
 
 Some GATE material exists because it is examinable, not because you need to build a project around it.
 
----
+ 
 
 # 9. Recommended Order
 
@@ -861,7 +860,7 @@ while another recent ECE discussion preferred starting with Network/EDC/Signals 
 
 For **this hardware roadmap**, the first order is preferable because it gives you useful circuit and digital foundations early.
 
----
+ 
 
 # 10. Weekly Integration With the Hardware Roadmap
 
@@ -905,7 +904,7 @@ The principle is more important:
 
 > **GATE should accumulate every week rather than explode into a six-week panic session.**
 
----
+ 
 
 # 11. The 70% Rule
 
@@ -931,7 +930,7 @@ The exact percentages are not official GATE requirements. They are simply a prac
 
 A recent community workflow similarly suggested using approximately **70%+ PYQ accuracy** as a signal before moving on.
 
----
+ 
 
 # 12. What NOT to Do
 
@@ -971,7 +970,7 @@ Building a UART does not mean you have mastered every Digital Electronics topic.
 
 You should be able to explain a circuit **and build/debug one**.
 
----
+ 
 
 # 13. The Minimal Free Stack
 
@@ -1017,14 +1016,14 @@ That's enough.
 
 You do **not** need 14 paid courses to start.
 
----
+ 
 
 # 14. Recommended Books
 
 Use books selectively.
 
 | Subject     | Reference                                              |
-| ----------- | ------------------------------------------------------ |
+|    -- |                    |
 | Digital     | Morris Mano — Digital Design                           |
 | Network     | Alexander & Sadiku — Fundamentals of Electric Circuits |
 | Devices     | Neamen — Semiconductor Physics and Devices             |
@@ -1039,7 +1038,7 @@ Use books selectively.
 
 If a 700-page textbook takes three months to read and you have learned almost nothing you can apply, you are doing textbook completion rather than engineering.
 
----
+ 
 
 # 15. How GATE Should Interact With the Roadmap
 
@@ -1095,7 +1094,7 @@ Design around non-ideal behaviour
 
 That feedback loop is considerably more valuable than treating GATE as an isolated exam.
 
----
+ 
 
 # 16. Final Rule
 
