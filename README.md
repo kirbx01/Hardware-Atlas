@@ -33,12 +33,11 @@ Start where you are. Pick a project, check its prerequisites, buy only what that
 	5. [Getting hardware in India](resources/india.md)
 	6. [Where to get help](resources/help.md)
 	7. [GATE alongside the roadmap](resources/gate.md)
-3. [Repository](#repository)
-4. [Find something quickly](#find-something-quickly)
-5.  [Projects](projects/README.md)
-6. [Contributing](CONTRIBUTING.md)
-7. [Code of Conduct](CODE_OF_CONDUCT.md)
-8. [License](LICENSE)
+3. [Find something quickly](#find-something-quickly)
+4.  [Projects](projects/README.md)
+5. [Contributing](CONTRIBUTING.md)
+6. [Code of Conduct](CODE_OF_CONDUCT.md)
+7. [License](LICENSE)
 
 ## How to use this repository
 
