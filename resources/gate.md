@@ -14,6 +14,35 @@ Instead:
 
 A project is not proof of GATE readiness, and solving GATE questions is not proof that you can build hardware.
 
+## Quick index
+
+1. [Current GATE Reference](#1-current-gate-reference)
+2. [The GATE and Hardware Philosophy](#2-the-gate--hardware-philosophy)
+3. [Recommended Study Loop](#3-recommended-study-loop)
+4. [Resource Rule](#4-resource-rule)
+5. [Subject-by-Subject Resource Map](#5-subject-by-subject-resource-map)
+        1. [Engineering Mathematics](#51-engineering-mathematics)
+        2. [Network Theory](#52-network-theory)
+        3. [Signals and Systems](#53-signals-and-systems)
+        4. [Electronic Devices](#54-electronic-devices)
+        5. [Digital Electronics](#55-digital-electronics)
+        6. [Analog Electronics](#56-analog-electronics)
+        7. [Control Systems](#57-control-systems)
+        8. [Communication Systems](#58-communication-systems)
+        9. [Electromagnetics](#59-electromagnetics)
+        10. [General Aptitude](#510-general-aptitude)
+6. [PYQs Are Not Optional](#6-pyqs-are-not-optional)
+7. [A Practical Completion Standard](#7-a-practical-completion-standard)
+8. [GATE and Project Mapping](#8-gate--project-mapping)
+9. [Recommended Order](#9-recommended-order)
+10. [Weekly Integration With the Hardware Roadmap](#10-weekly-integration-with-the-hardware-roadmap)
+11. [The 70% Rule](#11-the-70-rule)
+12. [What Not to Do](#12-what-not-to-do)
+13. [The Minimal Free Stack](#13-the-minimal-free-stack)
+14. [Recommended Books](#14-recommended-books)
+15. [How GATE Should Interact With the Roadmap](#15-how-gate-should-interact-with-the-roadmap)
+16. [Final Rule](#16-final-rule)
+
 
 ## 1. Current GATE Reference
 
