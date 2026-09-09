@@ -25,7 +25,6 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 ## 📑 Table of contents
 
 - [🗺️ The roadmap](#️-the-roadmap)
-- [🔍 All 14 levels, in detail](#-all-14-levels-in-detail)
 - [📚 All 31 lessons](#-all-31-lessons)
 - [🧰 Practical guides](#-practical-guides)
 - [⚡ Find something quickly](#-find-something-quickly)
