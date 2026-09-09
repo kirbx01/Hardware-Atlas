@@ -1,98 +1,163 @@
-# Lesson 5: RC Circuit
+# 05-RC Circuit
 
-## What you are building
+A resistor and capacitor in series, charging and discharging over time instead of switching instantly. This is where "instant" stops being true and time becomes a variable you can calculate and control.
 
-Two circuits: first, a plain resistor-capacitor (RC) network where you measure the capacitor's voltage over time as it charges and discharges, to see the RC time constant with your own numbers instead of just a formula. Second, a capacitor combined with the transistor switch from Lesson 4 to build an LED that fades out gradually after you release a button, instead of switching off instantly.
+- **Difficulty:** Beginner
+- **Prerequisites:** [Lesson 2: Voltage Divider](../02-voltage-divider/README.md)
+- **Approximate time:** 30 to 45 minutes
+- **What you'll build:** An RC network that fades an LED on and off instead of switching it sharply, with the fade timing measured and matched to a formula
 
-## What you will learn
+## Why build this?
 
-- What a capacitor is and how it stores charge, in contrast to a resistor, which simply dissipates energy.
-- The RC time constant (`tau = R x C`) and what it physically means: the time for the capacitor's voltage to reach about 63% of its target value while charging, or fall to about 37% of its starting value while discharging.
-- Why charging and discharging are exponential, not linear, and the practical "5 time constant" rule for when a capacitor is considered fully charged or discharged.
-- How to combine a capacitor with a transistor to build simple timing behavior without a microcontroller or a dedicated timer IC, and develop intuition for what circuits like the 555 timer do internally.
+Every debounce circuit, timing circuit, and analog filter in this repository depends on the RC time constant. So does the active filter in [Lesson 9](../09-active-filter/README.md). This lesson isolates that one idea — a capacitor resists sudden changes in voltage — so you can see it directly, timing it with a stopwatch or an oscilloscope before it gets folded into a more complex circuit.
 
-## Prerequisites
+## What you'll learn
 
-[Lesson 1: LED Circuit](../01-led-circuit/README.md), [Lesson 2: Voltage Divider](../02-voltage-divider/README.md), and [Lesson 4: Transistor Switch](../04-transistor-switch/README.md). The second circuit in this lesson directly extends Lesson 4's transistor switch.
+- What a capacitor actually stores, and why it resists instantaneous voltage change.
+- The RC time constant (`τ = R × C`) and what it physically means.
+- The charge and discharge equations and how to predict voltage at any point in time.
+- Why 5τ is treated as "fully charged" or "fully discharged" in practice.
 
-## Components required
+## What you need
 
-- 1x electrolytic capacitor, 100-470uF
-- The capacitor should be rated for at least 16V when using a 9V battery
-- 1x resistor, 10k-100k ohm (larger values make the timing slow enough to watch and time by hand)
-- 1x NPN transistor (same as Lesson 4, e.g. BC547)
-- 1x LED
-- 1x resistor, 220-330 ohm (LED current limiting)
-- 1x resistor, 1k ohm (transistor base, same as Lesson 4)
-- 1x pushbutton
-- Breadboard, jumper wires
-- 9V battery
+| Item | Type | Quantity | Purpose |
+|---|---|---:|---|
+| LED (5mm) | Component | 1 | Visual indicator of the charging voltage |
+| Resistor, 330Ω | Component | 1 | Current-limits the LED |
+| Resistor, 100kΩ | Component | 1 | Sets a slow, human-visible time constant |
+| Electrolytic capacitor, 470µF or 1000µF | Component | 1 | Stores charge; mind polarity |
+| Tactile pushbutton | Component | 1 | Triggers the charge cycle |
+| Breadboard | Tool | 1 | Solderless prototyping surface |
+| Jumper wires | Tool | 5–6 | Connections |
+| 9V battery + snap connector | Component | 1 | Power source |
+| Multimeter | Tool (optional) | 1 | For timing the voltage rise directly |
+| Stopwatch (phone is fine) | Tool | 1 | For timing the visible fade |
 
-## Tools required
+## Before you build
 
-- Digital multimeter, with a stopwatch or phone timer alongside it, since this lesson is about voltage changing over time.
+A capacitor stores charge on two conductive plates separated by an insulator. Voltage across a capacitor cannot change instantaneously, because doing so would require infinite current — instead, it charges and discharges along a predictable curve.
 
-## Circuit explanation
+When a capacitor charges through a resistor from a voltage source, the voltage across it over time follows:
 
-A capacitor stores electrical charge on two conductive plates separated by an insulator. Unlike a resistor, which converts electrical energy to heat continuously, a capacitor holds energy and releases it later. Its behavior is described by `Q = C x V`, charge stored equals capacitance times voltage across it.
+$$V(t) = V_{supply} \times (1 - e^{-t/\tau})$$
 
-When you connect a capacitor to a supply through a resistor, the resistor limits how fast current can flow to charge the capacitor. The voltage across the capacitor doesn't jump instantly to the supply voltage, it rises exponentially, fast at first, then slower as it approaches the target. The rate is described by the time constant:
+where `τ = R × C` is the **time constant**, in seconds when R is in ohms and C is in farads. After one time constant, the capacitor has reached about 63% of the supply voltage. After five time constants (5τ), it's considered fully charged (over 99%).
 
+Discharging follows the mirror-image curve:
+
+$$V(t) = V_{initial} \times e^{-t/\tau}$$
+
+For R = 100kΩ and C = 470µF:
+
+$$\tau = 100{,}000 \times 0.000470 = 47\ seconds$$
+
+That's slow enough to watch an LED fade in real time without any instrumentation — which is exactly why this lesson uses values far larger than a "real" timing circuit would, where τ is often microseconds to milliseconds.
+
+**Polarity matters.** Electrolytic capacitors are polarized: one leg (marked with a stripe, usually the shorter leg) is negative and must connect toward ground, never toward the higher voltage. Reversing it can cause the capacitor to fail, sometimes violently.
+
+## How it works
+
+```mermaid
+flowchart TB
+    Btn["Pushbutton"] --> Vcc["Supply +"]
+    Vcc --> R["100kΩ"]
+    R --> Node["RC node"]
+    Node --> Cplus["Capacitor +"]
+    Cplus -.->|"stores charge"| Cminus["Capacitor -"]
+    Cminus --> Gnd["Ground"]
+    Node --> R330["330Ω"]
+    R330 --> LED["LED"]
+    LED --> Gnd
 ```
-tau = R * C
-```
 
-`tau` is measured in seconds when R is in ohms and C is in farads. After one time constant, the capacitor has reached about 63.2% of its final voltage. After roughly five time constants (5 x tau), it's considered fully charged for practical purposes, over 99% of the way there. Discharging follows the same shape in reverse: after one time constant, the voltage has fallen to about 36.8% of where it started.
+| Component | Role |
+|---|---|
+| Resistor (100kΩ) | Limits the rate of charge into the capacitor, setting τ together with C |
+| Capacitor (470µF) | Stores charge, smoothing the voltage transition instead of an instant jump |
+| LED + 330Ω | Visualizes the rising/falling voltage at the RC node as changing brightness |
 
-For a 100k ohm resistor and a 470uF capacitor:
+When the button connects the supply, current flows through the resistor into the capacitor, charging it gradually. The LED, tapped from the same node, brightens gradually as the voltage there rises — not instantly, because the resistor limits how fast charge can accumulate.
 
-```
-tau = 100,000 * 0.00047 = 47 seconds
-```
+## Build it
 
-That's slow enough to time with a stopwatch, which is exactly why this lesson recommends resistor values in that range rather than something that charges in milliseconds.
+1. Insert the capacitor with its negative leg (marked, shorter) toward the ground rail.
+2. Wire the 100kΩ resistor from the button's output to the capacitor's positive leg — this junction is your RC node.
+3. Wire the 330Ω resistor from the RC node to the LED's anode; wire the LED's cathode to ground.
+4. Wire the button's other side to the battery's positive terminal.
+5. Connect the battery. With the button unpressed, the LED should be off and the capacitor discharged.
+6. Press and hold the button. Watch the LED gradually brighten over several seconds rather than snapping on.
+7. Release the button and watch it gradually dim as the capacitor discharges back through the LED/resistor path.
 
-**The fade-off circuit** combines this with Lesson 4's transistor: instead of the button feeding the base resistor directly, it charges a capacitor connected between the transistor base and ground. While the button is held, the capacitor charges and the transistor saturates normally, lighting the LED fully. When the button is released, the capacitor discharges through the transistor's base-emitter path and other leakage paths. The base voltage falls nonlinearly, so the transistor conducts less and the LED may fade rather than switch off instantly. This demonstrates stored charge controlling timing, but it is not a precise RC timer. A 555 timer or a microcontroller gives more predictable timing.
+## Verify it
 
-## How to build it
+- Time how long it takes the LED to reach its brightest point after pressing — it should roughly match 5τ (about 4 minutes with the values above, though it will visually look "done" well before then since LED brightness isn't linear with voltage).
+- With a multimeter across the capacitor, note the voltage at t = τ seconds after pressing; it should read close to 63% of your supply voltage.
+- Swap the capacitor for a smaller one (100µF) and confirm the fade happens noticeably faster, in proportion to the smaller τ.
 
-**Part A: Charge/discharge measurement**
-1. Connect the resistor in series with the capacitor across your battery. Connect the capacitor's negative leg to ground and check the polarity markings before applying power.
-2. Connect the multimeter across the capacitor only, set to DC voltage.
-3. Connect the battery and immediately start your stopwatch. Record the voltage reading every 5-10 seconds until it stops changing.
-4. Disconnect the battery. Move the series resistor so it sits directly across the capacitor, or use a second resistor of the same value, to provide a controlled discharge path. Do not short a charged capacitor directly with a wire. Time the voltage falling in the same way.
+## What should you see?
 
-**Part B: Transistor fade-off**
-1. Build the transistor + LED circuit from Lesson 4 exactly as before.
-2. Add the capacitor between the transistor's base and ground (in parallel with the base-emitter junction), keeping the base resistor and pushbutton wired the same way as Lesson 4.
-3. Press and hold the button; the LED should light fully, same as before.
-4. Release the button and watch the LED fade rather than switching off instantly.
-5. Try a larger capacitor value and observe the fade taking noticeably longer.
+A visibly gradual brightening when the button is pressed and a gradual dimming when released — never an instant snap in either direction, unlike every previous lesson in this repository.
 
-## What to measure or observe
+## Troubleshooting
 
-- For Part A, plot (even just on paper) voltage against time for both charging and discharging, and mark the point where the voltage crosses 63% (charging) or 37% (discharging) of the total range. Compare that time to your calculated `tau = R x C`.
-- For Part A, confirm that after roughly 5 x tau, the voltage has essentially stopped changing.
-- For Part B, compare the fade with two capacitor values and record the result as an observation, not a precise timing law. The transistor's base-emitter junction makes this discharge nonlinear, so doubling the capacitance will not necessarily double the visible fade time.
+| Symptom | Possible cause | What to check |
+|---|---|---|
+| LED switches instantly, no fade | Wrong resistor value in the RC path (too small), or capacitor not actually in the charge path | Confirm the 100kΝ resistor is between the button and the capacitor, not bypassed |
+| LED never lights, even after a long press | Capacitor installed backwards, possibly damaged | Replace the capacitor, checking polarity carefully this time |
+| LED stays lit after release, never dims | Capacitor not discharging through the LED path | Check the LED/330Ω branch is actually connected to the RC node, not a separate node |
+| Capacitor feels warm or bulges | Reversed polarity or voltage exceeding its rating | Disconnect immediately and replace with a correctly rated, correctly oriented capacitor |
 
 ## Common mistakes
 
-- **Electrolytic capacitor polarity reversed.** Electrolytic capacitors are polarized (unlike ceramic ones) and connecting one backwards can damage it or, at higher voltages, cause it to vent or fail. Always check the marked negative stripe against your ground connection.
-- **Resistor value too small.** With a small resistor, charging happens in well under a second, too fast to time by hand. Start with values in the 10k-100k range for this lesson specifically.
-- **Multimeter loading the circuit.** At very high resistor values (megaohms), a multimeter's own input resistance can slightly affect your readings. Not usually significant at the values used here, but worth knowing as you go to more sensitive circuits later.
-- **Not letting the capacitor fully discharge between repeated tests.** If you start a new charging test with residual charge still on the capacitor, your curve won't match the calculated one, since it isn't starting from zero.
-- **Expecting a perfectly linear fade in Part B.** The fade follows the same exponential shape as any RC discharge; it will look faster at the start and slower near the end, not constant.
+- **Reversing capacitor polarity.** Unlike resistors and most other passives, this one has a right and wrong way round, and getting it wrong can damage the part.
+- **Expecting an instant response.** The entire point of this circuit is that it isn't instant — if your LED snaps on immediately, something is bypassing the RC network.
+- **Using too small a capacitor to see the effect.** At everyday small values (1µF and below) the fade may complete faster than you can perceive; the large values here are chosen specifically to make τ visible.
 
-## Useful resources
+## Think about it
 
-- SparkFun, Capacitors: https://learn.sparkfun.com/tutorials/capacitors
-- Electronics Tutorials, RC Charging Circuit and Time Constant: https://www.electronics-tutorials.ws/rc/rc_1.html
-- Electronics Tutorials, RC Discharging Circuit: https://www.electronics-tutorials.ws/rc/rc_2.html
-- PrepFusion, Network Theory series (starts from KVL/KCL and builds up to RC circuit analysis in depth): https://www.youtube.com/@PrepFusion_GATE
-- Falstad circuit simulator, good for watching an RC charge curve animate in real time before or after building it physically: https://www.falstad.com/circuit/
+- Why does the capacitor charge to 63% (not 50%) after exactly one time constant?
+- If you doubled both R and C, what would happen to τ, and would the final voltage change?
+- Why is 5τ treated as "done" rather than waiting for a mathematically exact 100%, which the exponential curve never actually reaches?
+- How could this exact circuit be used to debounce a mechanical switch instead of fading an LED?
 
-## What's next
+## Experiment with it
 
-This closes out the first five lessons of the roadmap. The next project is [Lesson 6: Light Sensor](../06-light-sensor/README.md), which reuses the voltage-divider idea to turn light into a measured signal.
+- Graph LED brightness (or measured voltage) against time at several points and compare the shape to the exponential charging curve.
+- Try three different capacitor values (100µF, 470µF, 1000µF) with the same resistor and compare the fade times.
+- Replace the resistor with a potentiometer and adjust the fade speed live while the circuit is charging.
 
-The later route is [Level 2: Analog Electronics](../../levels/02-analog/README.md), followed by [Level 3: Digital Electronics](../../levels/03-digital/README.md), [Level 4: Microcontrollers](../../levels/04-microcontrollers/README.md), and [Level 5: Embedded Systems](../../levels/05-embedded/README.md). Those levels now have detailed lessons of their own.
+## Simulation
+
+- [Falstad circuit simulator](https://www.falstad.com/circuit/) — has excellent live animation for RC charging curves.
+- [Wokwi](https://wokwi.com)
+
+## Further reading
+
+- [Wikipedia: RC circuit](https://en.wikipedia.org/wiki/RC_circuit) — full derivation of the charge/discharge equations.
+- [Wikipedia: Capacitor](https://en.wikipedia.org/wiki/Capacitor) — general theory of how charge is stored.
+
+## Hardware Atlas resources
+
+### Components
+For capacitor types (electrolytic, ceramic, tantalum) and when to use each: [Explore Components](../resources/components.md)
+
+### Help
+If the timing doesn't roughly match the formula after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+
+## Sourcing
+
+Electrolytic capacitors in this range are inexpensive and included in most starter kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+
+## Going deeper
+
+The RC time constant reappears as switch debounce delays, low-pass filter cutoffs ([Lesson 9](../09-active-filter/README.md)), power supply smoothing, and the timing behind classic 555-timer circuits. Once you can predict τ, you can predict the behavior of a huge fraction of analog circuits without simulating them.
+
+## Where this fits in Hardware Atlas
+
+```mermaid
+flowchart LR
+    Prev["04: Transistor Switch"] --> Current["05: RC Circuit"]
+    Current --> Next["06: Light Sensor"]
+```
+
+Move to [Lesson 6: Light Sensor](../06-light-sensor/README.md). You've seen a fixed resistor set a fixed time constant; next, you'll use a resistor that changes with light level instead, turning the voltage divider from Lesson 2 into a working sensor.
