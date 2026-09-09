@@ -71,11 +71,7 @@ flowchart LR
 | Resistor | Drops the excess voltage above the LED's forward voltage and limits current to a safe value |
 | LED | Converts current into light once forward biased past its V_f; blocks current entirely in reverse |
 
-The mermaid diagram above shows the circuit-level view: current flows in one loop, and the LED only conducts once forward biased. At the semiconductor level, forward bias means the p-n junction inside the LED is letting both electrons and holes cross and recombine, releasing that energy as light:
-
-![Figure 9: LED p-n junction at forward bias](https://www.mdpi.com/crystals/crystals-09-00531/article_deploy/html/images/crystals-09-00531-g009-550.jpg)
-
-*Figure 9, "LED p-n junction at forward bias," from Schirripa Spagnolo, G.; Leccese, F.; Leccisi, M. "LED as Transmitter and Receiver of Light: A Simple Tool to Demonstration Photoelectric Effect." Crystals 2019, 9(10), 531. https://doi.org/10.3390/cryst9100531. Licensed under CC BY.*
+The diagram above shows the circuit-level view: current flows in one loop, and the LED only conducts once forward biased. At the semiconductor level, forward bias means the p-n junction inside the LED is letting both electrons and holes cross and recombine, releasing that energy as light:
 
 The resistor and LED are in series, so the same current flows through both, and their voltage drops add up to the supply voltage. This is the whole circuit: nothing is hidden, which is exactly why it's the right first project.
 
