@@ -127,14 +127,14 @@ Smooth, apparently continuous speed control across the tested duty cycle values,
 ## Hardware Atlas resources
 
 ### Components
-For choosing between MOSFETs, motor driver ICs (like the L298N or DRV8871), and when a bare MOSFET isn't enough: [Explore Components](../resources/components.md)
+For choosing between MOSFETs, motor driver ICs (like the L298N or DRV8871), and when a bare MOSFET isn't enough: [Explore Components](../../resources/components.md)
 
 ### Help
-If your motor doesn't respond smoothly to duty cycle changes after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your motor doesn't respond smoothly to duty cycle changes after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Logic-level MOSFETs, small hobby DC motors, and flyback diodes are all standard stock at any electronics supplier. For India-specific sourcing: [See India Resources](../resources/india.md)
+Logic-level MOSFETs, small hobby DC motors, and flyback diodes are all standard stock at any electronics supplier. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 
@@ -148,4 +148,4 @@ flowchart LR
     Current --> Done["You've completed the core Hardware Atlas sequence"]
 ```
 
-This is the final lesson in the core sequence. From here, explore the [Resources](../resources/components.md) sections for deeper dives into any component category, or revisit earlier lessons and recombine their circuits into your own projects — every technique from Lesson 1 onward is now available to combine freely.
+This is the final lesson in the core sequence. From here, explore the [Resources](../../resources/components.md) sections for deeper dives into any component category, or revisit earlier lessons and recombine their circuits into your own projects — every technique from Lesson 1 onward is now available to combine freely.

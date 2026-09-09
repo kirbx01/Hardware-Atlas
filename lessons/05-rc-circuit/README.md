@@ -139,14 +139,14 @@ A visibly gradual brightening when the button is pressed and a gradual dimming w
 ## Hardware Atlas resources
 
 ### Components
-For capacitor types (electrolytic, ceramic, tantalum) and when to use each: [Explore Components](../resources/components.md)
+For capacitor types (electrolytic, ceramic, tantalum) and when to use each: [Explore Components](../../resources/components.md)
 
 ### Help
-If the timing doesn't roughly match the formula after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If the timing doesn't roughly match the formula after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Electrolytic capacitors in this range are inexpensive and included in most starter kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+Electrolytic capacitors in this range are inexpensive and included in most starter kits. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

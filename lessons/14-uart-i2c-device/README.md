@@ -120,14 +120,14 @@ Continuously updating temperature, humidity, and pressure values printed to the 
 ## Hardware Atlas resources
 
 ### Components
-For comparing I2C, SPI, and UART sensor modules, and when each protocol makes sense: [Explore Components](../resources/components.md)
+For comparing I2C, SPI, and UART sensor modules, and when each protocol makes sense: [Explore Components](../../resources/components.md)
 
 ### Help
-If the I2C scanner can't find your sensor after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If the I2C scanner can't find your sensor after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-BME280 breakout boards are widely available from hobbyist electronics suppliers, usually with pull-ups already included. For India-specific sourcing: [See India Resources](../resources/india.md)
+BME280 breakout boards are widely available from hobbyist electronics suppliers, usually with pull-ups already included. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

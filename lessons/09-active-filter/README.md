@@ -133,17 +133,17 @@ A flat, gain-of-2 response at low frequencies that gradually rolls off as freque
 ## Hardware Atlas resources
 
 ### Components
-For capacitor selection at filter-relevant frequencies (ceramic vs film vs electrolytic behavior): [Explore Components](../resources/components.md)
+For capacitor selection at filter-relevant frequencies (ceramic vs film vs electrolytic behavior): [Explore Components](../../resources/components.md)
 
 ### Tools
-For using a function generator or oscilloscope to sweep and observe a frequency response directly: [See Tools](../resources/tools.md)
+For using a function generator or oscilloscope to sweep and observe a frequency response directly: [See Tools](../../resources/tools.md)
 
 ### Help
-If you can't observe any rolloff after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If you can't observe any rolloff after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Small ceramic capacitors in this range are inexpensive and included in most component assortments. For India-specific sourcing: [See India Resources](../resources/india.md)
+Small ceramic capacitors in this range are inexpensive and included in most component assortments. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

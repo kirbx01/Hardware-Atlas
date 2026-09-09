@@ -133,10 +133,10 @@ A complete walkthrough of configuring and running the OpenLane flow on a small d
 ## Hardware Atlas resources
 
 ### Simulation
-For toolchain and environment setup shared with the rest of the RTL track: [See Simulation](../resources/simulation.md)
+For toolchain and environment setup shared with the rest of the RTL track: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If a flow stage fails or timing closure can't be reached: [See Hardware Help](../resources/help.md)
+If a flow stage fails or timing closure can't be reached: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

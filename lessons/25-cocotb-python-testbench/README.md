@@ -129,10 +129,10 @@ An introduction to cocotb's coroutine model and a walkthrough of writing a first
 ## Hardware Atlas resources
 
 ### Simulation
-For simulator backends cocotb supports beyond Icarus Verilog: [See Simulation](../resources/simulation.md)
+For simulator backends cocotb supports beyond Icarus Verilog: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If cocotb can't locate the simulator or a test hangs indefinitely: [See Hardware Help](../resources/help.md)
+If cocotb can't locate the simulator or a test hangs indefinitely: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

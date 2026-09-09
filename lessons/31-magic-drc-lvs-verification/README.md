@@ -129,10 +129,10 @@ A practical walkthrough of running both checks against a Sky130 layout, includin
 ## Hardware Atlas resources
 
 ### Simulation
-For the broader open-source silicon toolchain this lesson concludes: [See Simulation](../resources/simulation.md)
+For the broader open-source silicon toolchain this lesson concludes: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If DRC or LVS won't pass, or the tools won't run against your PDK version: [See Hardware Help](../resources/help.md)
+If DRC or LVS won't pass, or the tools won't run against your PDK version: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

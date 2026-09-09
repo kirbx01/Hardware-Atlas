@@ -162,20 +162,20 @@ A short, direct demonstration of exactly this circuit being built on a breadboar
 ## Hardware Atlas resources
 
 ### Components
-If you want to understand resistors, LEDs, or diodes at a deeper level than this lesson covers: [Explore Components](../resources/components.md)
+If you want to understand resistors, LEDs, or diodes at a deeper level than this lesson covers: [Explore Components](../../resources/components.md)
 
 ### Tools
-For choosing a first multimeter or understanding what it's actually measuring: [See Tools](../resources/tools.md)
+For choosing a first multimeter or understanding what it's actually measuring: [See Tools](../../resources/tools.md)
 
 ### Simulation
-For more simulators beyond Wokwi and Falstad: [See Simulation](../resources/simulation.md)
+For more simulators beyond Wokwi and Falstad: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If the LED still won't light after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If the LED still won't light after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Every part in this lesson is cheap, common, and available from almost any electronics supplier or hobby kit. For India-specific sourcing, including where to buy resistor/LED assortments locally: [See India Resources](../resources/india.md)
+Every part in this lesson is cheap, common, and available from almost any electronics supplier or hobby kit. For India-specific sourcing, including where to buy resistor/LED assortments locally: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

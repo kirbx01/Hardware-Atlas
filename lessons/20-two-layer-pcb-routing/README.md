@@ -132,14 +132,14 @@ A hands-on walkthrough of placing parts and routing a small two-layer board end 
 ## Hardware Atlas resources
 
 ### Tools
-For choosing a PCB fabricator and understanding turnaround/cost tradeoffs: [See Tools](../resources/tools.md)
+For choosing a PCB fabricator and understanding turnaround/cost tradeoffs: [See Tools](../../resources/tools.md)
 
 ### Help
-If DRC won't clear or Gerbers look wrong in the viewer: [See Hardware Help](../resources/help.md)
+If DRC won't clear or Gerbers look wrong in the viewer: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Two-layer prototype boards are inexpensive from most fabricators for small quantities. For India-specific fabrication and component sourcing: [See India Resources](../resources/india.md)
+Two-layer prototype boards are inexpensive from most fabricators for small quantities. For India-specific fabrication and component sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

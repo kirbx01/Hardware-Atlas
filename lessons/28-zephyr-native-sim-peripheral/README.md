@@ -125,10 +125,10 @@ A walkthrough of writing a devicetree overlay and a minimal driver, building and
 ## Hardware Atlas resources
 
 ### Tools
-For setting up the Zephyr SDK and `west` across different host platforms: [See Tools](../resources/tools.md)
+For setting up the Zephyr SDK and `west` across different host platforms: [See Tools](../../resources/tools.md)
 
 ### Help
-If the build fails to find the driver or the devicetree overlay has no effect: [See Hardware Help](../resources/help.md)
+If the build fails to find the driver or the devicetree overlay has no effect: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

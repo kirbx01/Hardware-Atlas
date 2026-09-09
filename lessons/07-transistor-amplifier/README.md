@@ -139,17 +139,17 @@ A stable, un-clipped DC voltage at the collector with no input, and a larger, in
 ## Hardware Atlas resources
 
 ### Components
-For transistor characteristics like hFE variation and why datasheets give ranges, not single numbers: [Explore Components](../resources/components.md)
+For transistor characteristics like hFE variation and why datasheets give ranges, not single numbers: [Explore Components](../../resources/components.md)
 
 ### Tools
-For using an oscilloscope to actually see the input and output waveforms side by side: [See Tools](../resources/tools.md)
+For using an oscilloscope to actually see the input and output waveforms side by side: [See Tools](../../resources/tools.md)
 
 ### Help
-If your Q-point won't sit near mid-supply after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your Q-point won't sit near mid-supply after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-The same transistors from Lesson 4 work here; no new components beyond a couple of coupling capacitors. For India-specific sourcing: [See India Resources](../resources/india.md)
+The same transistors from Lesson 4 work here; no new components beyond a couple of coupling capacitors. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

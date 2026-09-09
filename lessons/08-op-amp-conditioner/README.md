@@ -134,14 +134,14 @@ An output voltage that swings roughly twice as much as the raw sensor signal for
 ## Hardware Atlas resources
 
 ### Components
-For choosing between op-amp variants (single-supply, rail-to-rail, precision) beyond the LM358: [Explore Components](../resources/components.md)
+For choosing between op-amp variants (single-supply, rail-to-rail, precision) beyond the LM358: [Explore Components](../../resources/components.md)
 
 ### Help
-If your op-amp output won't move off one rail after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your op-amp output won't move off one rail after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-LM358 dual op-amps are extremely common and inexpensive, often included in analog sensor kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+LM358 dual op-amps are extremely common and inexpensive, often included in analog sensor kits. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

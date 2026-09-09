@@ -139,17 +139,17 @@ A focused walkthrough of exactly the sample/queue/logger pattern used here, with
 ## Hardware Atlas resources
 
 ### Components
-For sensors and ADC fundamentals beyond a potentiometer: [Explore Components](../resources/components.md)
+For sensors and ADC fundamentals beyond a potentiometer: [Explore Components](../../resources/components.md)
 
 ### Tools
-For choosing a dev board and debugger for RTOS work: [See Tools](../resources/tools.md)
+For choosing a dev board and debugger for RTOS work: [See Tools](../../resources/tools.md)
 
 ### Help
-If tasks aren't behaving as expected: [See Hardware Help](../resources/help.md)
+If tasks aren't behaving as expected: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-ESP32 dev boards and basic sensors are widely available. For India-specific sourcing: [See India Resources](../resources/india.md)
+ESP32 dev boards and basic sensors are widely available. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

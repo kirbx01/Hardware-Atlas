@@ -129,14 +129,14 @@ A guided walkthrough of placing symbols, wiring nets, and running ERC on a first
 ## Hardware Atlas resources
 
 ### Tools
-For a broader comparison of KiCad against other EDA tools: [See Tools](../resources/tools.md)
+For a broader comparison of KiCad against other EDA tools: [See Tools](../../resources/tools.md)
 
 ### Help
-If ERC won't pass no matter what you try: [See Hardware Help](../resources/help.md)
+If ERC won't pass no matter what you try: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-KiCad is free and open source; no purchase is required for this lesson. For sourcing the physical LED and resistor if you want to build the board later: [See India Resources](../resources/india.md)
+KiCad is free and open source; no purchase is required for this lesson. For sourcing the physical LED and resistor if you want to build the board later: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

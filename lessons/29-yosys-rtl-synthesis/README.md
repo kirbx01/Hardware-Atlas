@@ -129,10 +129,10 @@ A walkthrough of the `read_verilog`/`synth`/`show` flow on a small design, inclu
 ## Hardware Atlas resources
 
 ### Simulation
-For synthesis and simulation tool setup across this RTL track: [See Simulation](../resources/simulation.md)
+For synthesis and simulation tool setup across this RTL track: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If synthesis produces unexpected warnings or the netlist won't re-simulate: [See Hardware Help](../resources/help.md)
+If synthesis produces unexpected warnings or the netlist won't re-simulate: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

@@ -133,14 +133,14 @@ The LED off under normal room lighting, turning on smoothly as you shade the LDR
 ## Hardware Atlas resources
 
 ### Components
-For LDRs, phototransistors, and other light sensors, and how they compare: [Explore Components](../resources/components.md)
+For LDRs, phototransistors, and other light sensors, and how they compare: [Explore Components](../../resources/components.md)
 
 ### Help
-If your circuit's trigger point seems unpredictable after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your circuit's trigger point seems unpredictable after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-GL5528-type LDRs are common, cheap, and included in most sensor kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+GL5528-type LDRs are common, cheap, and included in most sensor kits. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

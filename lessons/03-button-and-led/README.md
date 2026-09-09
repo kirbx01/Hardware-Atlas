@@ -126,14 +126,14 @@ The LED off with the button at rest, snapping on the instant the button is press
 ## Hardware Atlas resources
 
 ### Components
-For more on switches, tactile buttons, and how their internal contacts are arranged: [Explore Components](../resources/components.md)
+For more on switches, tactile buttons, and how their internal contacts are arranged: [Explore Components](../../resources/components.md)
 
 ### Help
-If the button circuit behaves unpredictably after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If the button circuit behaves unpredictably after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Tactile pushbuttons are sold in every basic component kit and cost only a few cents each. For India-specific sourcing: [See India Resources](../resources/india.md)
+Tactile pushbuttons are sold in every basic component kit and cost only a few cents each. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

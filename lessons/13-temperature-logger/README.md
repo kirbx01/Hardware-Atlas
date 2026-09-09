@@ -131,14 +131,14 @@ A steady stream of plausible room-temperature readings (roughly 20–25°C indoo
 ## Hardware Atlas resources
 
 ### Components
-For thermistor types, digital temperature sensor alternatives, and ADC characteristics across common boards: [Explore Components](../resources/components.md)
+For thermistor types, digital temperature sensor alternatives, and ADC characteristics across common boards: [Explore Components](../../resources/components.md)
 
 ### Help
-If your logged temperature seems implausible after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your logged temperature seems implausible after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-10kΩ NTC thermistors are inexpensive and commonly bundled in sensor kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+10kΩ NTC thermistors are inexpensive and commonly bundled in sensor kits. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

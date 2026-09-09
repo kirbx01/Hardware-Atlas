@@ -135,14 +135,14 @@ A steady, one-count-per-press increment in clean binary on the four LEDs, wrappi
 ## Hardware Atlas resources
 
 ### Components
-For counter/flip-flop IC families and choosing between ripple and synchronous counters: [Explore Components](../resources/components.md)
+For counter/flip-flop IC families and choosing between ripple and synchronous counters: [Explore Components](../../resources/components.md)
 
 ### Help
-If your counter double-counts or resets unexpectedly after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your counter double-counts or resets unexpectedly after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-74HC393 and similar counter ICs are common in digital logic assortment kits. For India-specific sourcing: [See India Resources](../resources/india.md)
+74HC393 and similar counter ICs are common in digital logic assortment kits. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

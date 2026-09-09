@@ -128,10 +128,10 @@ A structured walkthrough of exactly this state machine — IDLE/START/DATA/STOP 
 ## Hardware Atlas resources
 
 ### Simulation
-For waveform viewers and simulators beyond GTKWave/Icarus: [See Simulation](../resources/simulation.md)
+For waveform viewers and simulators beyond GTKWave/Icarus: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If the FSM won't decode a byte correctly: [See Hardware Help](../resources/help.md)
+If the FSM won't decode a byte correctly: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

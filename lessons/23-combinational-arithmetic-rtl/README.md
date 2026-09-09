@@ -127,13 +127,13 @@ A focused introduction to `assign` statements, module structure, and simulating 
 ## Hardware Atlas resources
 
 ### Components
-For digital logic fundamentals underlying gates and adders: [Explore Components](../resources/components.md)
+For digital logic fundamentals underlying gates and adders: [Explore Components](../../resources/components.md)
 
 ### Simulation
-For other free HDL simulators beyond Icarus Verilog: [See Simulation](../resources/simulation.md)
+For other free HDL simulators beyond Icarus Verilog: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If simulation won't compile or results don't match expectations: [See Hardware Help](../resources/help.md)
+If simulation won't compile or results don't match expectations: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

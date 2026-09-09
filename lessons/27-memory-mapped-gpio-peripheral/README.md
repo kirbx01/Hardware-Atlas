@@ -126,10 +126,10 @@ A conceptual walkthrough of address decoding and the DDR/DATA register pattern, 
 ## Hardware Atlas resources
 
 ### Simulation
-For toolchain setup shared across this RTL track: [See Simulation](../resources/simulation.md)
+For toolchain setup shared across this RTL track: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If the peripheral doesn't respond, or RAM and GPIO seem to conflict: [See Hardware Help](../resources/help.md)
+If the peripheral doesn't respond, or RAM and GPIO seem to conflict: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

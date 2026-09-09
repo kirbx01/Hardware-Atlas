@@ -31,77 +31,77 @@ flowchart LR
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 01 | LED Circuit | First circuit, current limiting, Ohm's law in practice | [lessons/01-led-circuit/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/01-led-circuit) |
-| 02 | Voltage Divider | Resistor ratios, loaded vs unloaded output | [lessons/02-voltage-divider/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/02-voltage-divider) |
-| 03 | Button and LED | Digital input, pull-up/pull-down basics | [lessons/03-button-and-led/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/03-button-and-led) |
-| 04 | Transistor Switch | BJT as a switch, base resistor sizing | [lessons/04-transistor-switch/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/04-transistor-switch) |
-| 05 | RC Circuit | Charge/discharge, time constants | [lessons/05-rc-circuit/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/05-rc-circuit) |
-| 06 | Light Sensor | LDR/phototransistor, analog sensing | [lessons/06-light-sensor/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/06-light-sensor) |
+| 01 | LED Circuit | First circuit, current limiting, Ohm's law in practice | [`lessons/01-led-circuit/`](lessons/01-led-circuit/README.md) |
+| 02 | Voltage Divider | Resistor ratios, loaded vs unloaded output | [`lessons/02-voltage-divider/`](lessons/02-voltage-divider/README.md) |
+| 03 | Button and LED | Digital input, pull-up/pull-down basics | [`lessons/03-button-and-led/`](lessons/03-button-and-led/README.md) |
+| 04 | Transistor Switch | BJT as a switch, base resistor sizing | [`lessons/04-transistor-switch/`](lessons/04-transistor-switch/README.md) |
+| 05 | RC Circuit | Charge/discharge, time constants | [`lessons/05-rc-circuit/`](lessons/05-rc-circuit/README.md) |
+| 06 | Light Sensor | LDR/phototransistor, analog sensing | [`lessons/06-light-sensor/`](lessons/06-light-sensor/README.md) |
 
 ### Analog
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 07 | Transistor Amplifier* | BJT small-signal amplification | [lessons/07-transistor-amplifier/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/07-transistor-amplifier) |
-| 08 | Op-Amp Conditioning* | Signal conditioning with operational amplifiers | [lessons/08-op-amp-conditioning/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/08-op-amp-conditioning) |
-| 09 | Active Filter | Op-amp based filtering | [lessons/09-active-filter/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/09-active-filter) |
+| 07 | Transistor Amplifier* | BJT small-signal amplification | [`lessons/07-transistor-amplifier/`](lessons/07-transistor-amplifier/README.md) |
+| 08 | Op-Amp Conditioning* | Signal conditioning with operational amplifiers | [`lessons/08-op-amp-conditioner/`](lessons/08-op-amp-conditioner/README.md) |
+| 09 | Active Filter | Op-amp based filtering | [`lessons/09-active-filter/`](lessons/09-active-filter/README.md) |
 
 ### Digital
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 10 | Logic Gates | Building and testing basic gate logic | [lessons/10-logic-gates/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/10-logic-gates) |
-| 11 | Flip-Flop Counter | Sequential logic, counting circuits | [lessons/11-flip-flop-counter/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/11-flip-flop-counter) |
-| 23 | Combinational Arithmetic* | Adders, comparators, arithmetic logic | [lessons/23-combinational-arithmetic/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/23-combinational-arithmetic) |
-| 24 | UART RX FSM | Finite state machine for serial reception | [lessons/24-uart-rx-fsm/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/24-uart-rx-fsm) |
+| 10 | Logic Gates | Building and testing basic gate logic | [`lessons/10-logic-gates/`](lessons/10-logic-gates/README.md) |
+| 11 | Flip-Flop Counter | Sequential logic, counting circuits | [`lessons/11-flip-flop-counter/`](lessons/11-flip-flop-counter/README.md) |
+| 23 | Combinational Arithmetic* | Adders, comparators, arithmetic logic | [`lessons/23-combinational-arithmetic-rtl/`](lessons/23-combinational-arithmetic-rtl/README.md) |
+| 24 | UART RX FSM | Finite state machine for serial reception | [`lessons/24-uart-rx-fsm/`](lessons/24-uart-rx-fsm/README.md) |
 
 ### Microcontrollers and embedded
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 12 | GPIO Device | Basic microcontroller GPIO control | [lessons/12-gpio-device/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/12-gpio-device) |
-| 13 | Temperature Logger* | Sensor reading and data logging | [lessons/13-temperature-logger/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/13-temperature-logger) |
-| 14 | UART I2C Device | Serial communication protocols | [lessons/14-uart-i2c-device/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/14-uart-i2c-device) |
-| 15 | PWM Motor Control* | Pulse-width modulation for motor speed | [lessons/15-pwm-motor-control/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/15-pwm-motor-control) |
-| 16 | STM32 Peripheral | Vendor peripheral configuration, timers, DMA | [lessons/16-stm32-peripheral/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/16-stm32-peripheral) |
-| 17 | ESP32 Connected Device* | Wireless connectivity, IoT basics | [lessons/17-esp32-connected-device/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/17-esp32-connected-device) |
-| 18 | RTOS Sensor Logger | Real-time OS task scheduling | [lessons/18-rtos-sensor-logger/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/18-rtos-sensor-logger) (includes README.md) |
-| 28 | Zephyr Native Sim* | Firmware testing on host without hardware | [lessons/28-zephyr-native-sim/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/28-zephyr-native-sim) |
+| 12 | GPIO Device | Basic microcontroller GPIO control | [`lessons/12-gpio-device/`](lessons/12-gpio-device/README.md) |
+| 13 | Temperature Logger* | Sensor reading and data logging | [`lessons/13-temperature-logger/`](lessons/13-temperature-logger/README.md) |
+| 14 | UART I2C Device | Serial communication protocols | [`lessons/14-uart-i2c-device/`](lessons/14-uart-i2c-device/README.md) |
+| 15 | PWM Motor Controller* | Pulse-width modulation for motor speed | [`lessons/15-pwm-motor-controller/`](lessons/15-pwm-motor-controller/README.md) |
+| 16 | STM32 Peripheral | Vendor peripheral configuration, timers, DMA | [`lessons/16-stm32-peripheral/`](lessons/16-stm32-peripheral/README.md) |
+| 17 | ESP32 Connected Sensor* | Wireless connectivity, IoT basics | [`lessons/17-esp32-connected-sensor/`](lessons/17-esp32-connected-sensor/README.md) |
+| 18 | RTOS Sensor Logger | Real-time OS task scheduling | [`lessons/18-rtos-sensor-logger/`](lessons/18-rtos-sensor-logger/README.md) |
+| 28 | Zephyr Native-Sim Peripheral* | Firmware testing on host without hardware | [`lessons/28-zephyr-native-sim-peripheral/`](lessons/28-zephyr-native-sim-peripheral/README.md) |
 
 ### PCB and hardware
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 19 | KiCad Schematic Capture* | Schematic design fundamentals | [lessons/19-kicad-schematic-capture/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/19-kicad-schematic-capture) (includes README.md) |
-| 20 | Two-Layer PCB Routing* | PCB layout and routing | [lessons/20-two-layer-pcb-routing/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/20-two-layer-pcb-routing) |
+| 19 | KiCad Schematic Capture* | Schematic design fundamentals | [`lessons/19-kicad-schematic-capture/`](lessons/19-kicad-schematic-capture/README.md) |
+| 20 | Two-Layer PCB Routing* | PCB layout and routing | [`lessons/20-two-layer-pcb-routing/`](lessons/20-two-layer-pcb-routing/README.md) |
 
 ### Communication and debug
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 21 | Logic Analyzer Debugging* | Protocol-level hardware debugging | [lessons/21-logic-analyzer-debugging/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/21-logic-analyzer-debugging) |
-| 22 | CAN Bus Node | CAN transceiver and bus communication | [lessons/22-can-bus-node/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/22-can-bus-node) |
+| 21 | Logic Analyzer Decode* | Protocol-level hardware debugging | [`lessons/21-logic-analyzer-decode/`](lessons/21-logic-analyzer-decode/README.md) |
+| 22 | CAN Bus Node | CAN transceiver and bus communication | [`lessons/22-can-bus-node/`](lessons/22-can-bus-node/README.md) |
 
 ### RTL and verification
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 25 | Cocotb Python Testbench* | Python-based RTL verification | [lessons/25-cocotb-python-testbench/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/25-cocotb-python-testbench) |
-| 29 | Yosys RTL Synthesis | Open-source synthesis flow | [lessons/29-yosys-rtl-synthesis/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/29-yosys-rtl-synthesis) |
+| 25 | Cocotb Python Testbench* | Python-based RTL verification | [`lessons/25-cocotb-python-testbench/`](lessons/25-cocotb-python-testbench/README.md) |
+| 29 | Yosys RTL Synthesis | Open-source synthesis flow | [`lessons/29-yosys-rtl-synthesis/`](lessons/29-yosys-rtl-synthesis/README.md) |
 
 ### Computer architecture
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 26 | RISC-V Single-Cycle CPU* | Building a processor datapath | [lessons/26-riscv-single-cycle-cpu/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/26-riscv-single-cycle-cpu) |
-| 27 | Memory-Mapped IO* | Peripheral addressing and memory maps | [lessons/27-memory-mapped-io/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/27-memory-mapped-io) |
+| 26 | RISC-V Single-Cycle Datapath* | Building a processor datapath | [`lessons/26-riscv-single-cycle-datapath/`](lessons/26-riscv-single-cycle-datapath/README.md) |
+| 27 | Memory-Mapped GPIO Peripheral* | Peripheral addressing and memory maps | [`lessons/27-memory-mapped-gpio-peripheral/`](lessons/27-memory-mapped-gpio-peripheral/README.md) |
 
 ### Open silicon
 
 | # | Project | Main idea | Path |
 |---|---|---|---|
-| 30 | OpenLane Sky130 Flow* | RTL-to-GDSII with an open PDK | [lessons/30-openlane-sky130-flow/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/30-openlane-sky130-flow) |
-| 31 | Magic DRC/LVS Verification* | Layout verification | [lessons/31-magic-drc-lvs-verification/](https://github.com/kirbx01/Hardware-Atlas/tree/main/lessons/31-magic-drc-lvs-verification) |
+| 30 | OpenLane Sky130 Flow* | RTL-to-GDSII with an open PDK | [`lessons/30-openlane-sky130-flow/`](lessons/30-openlane-sky130-flow/README.md) |
+| 31 | Magic DRC/LVS Verification* | Layout verification | [`lessons/31-magic-drc-lvs-verification/`](lessons/31-magic-drc-lvs-verification/README.md) |
 
 ## You don't have to follow the path
 

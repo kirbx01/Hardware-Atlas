@@ -156,14 +156,14 @@ An LED that lights or stays dark in exact, repeatable agreement with the truth t
 ## Hardware Atlas resources
 
 ### Components
-For the 74HC/74HCT/74LS logic families and how to choose between them: [Explore Components](../resources/components.md)
+For the 74HC/74HCT/74LS logic families and how to choose between them: [Explore Components](../../resources/components.md)
 
 ### Help
-If a gate's output doesn't match its truth table after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If a gate's output doesn't match its truth table after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-74HC-series logic ICs are inexpensive and widely available individually or in assortment packs. For India-specific sourcing: [See India Resources](../resources/india.md)
+74HC-series logic ICs are inexpensive and widely available individually or in assortment packs. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

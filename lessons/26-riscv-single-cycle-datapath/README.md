@@ -138,10 +138,10 @@ A structured, stage-by-stage walkthrough of exactly this datapath — decode, re
 ## Hardware Atlas resources
 
 ### Simulation
-For simulator options suited to a project this size: [See Simulation](../resources/simulation.md)
+For simulator options suited to a project this size: [See Simulation](../../resources/simulation.md)
 
 ### Help
-If a specific instruction type won't execute correctly: [See Hardware Help](../resources/help.md)
+If a specific instruction type won't execute correctly: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 

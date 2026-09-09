@@ -131,17 +131,17 @@ A blinking onboard LED and a responsive external LED tied to the button state, f
 ## Hardware Atlas resources
 
 ### Components
-For comparing STM32 families, ARM Cortex-M variants, and choosing a dev board for bare-metal work: [Explore Components](../resources/components.md)
+For comparing STM32 families, ARM Cortex-M variants, and choosing a dev board for bare-metal work: [Explore Components](../../resources/components.md)
 
 ### Tools
-For setting up an ARM GCC toolchain and ST-Link flashing workflow from scratch: [See Tools](../resources/tools.md)
+For setting up an ARM GCC toolchain and ST-Link flashing workflow from scratch: [See Tools](../../resources/tools.md)
 
 ### Help
-If your board won't flash or peripherals won't respond after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your board won't flash or peripherals won't respond after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Blue Pill boards and ST-Link clones are inexpensive and widely available from hobbyist electronics suppliers. For India-specific sourcing: [See India Resources](../resources/india.md)
+Blue Pill boards and ST-Link clones are inexpensive and widely available from hobbyist electronics suppliers. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

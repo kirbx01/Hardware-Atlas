@@ -132,17 +132,17 @@ Build this circuit in a free simulator before or after the physical build to san
 ## Hardware Atlas resources
 
 ### Components
-For a deeper look at resistors and how tolerance and power rating are chosen: [Explore Components](../resources/components.md)
+For a deeper look at resistors and how tolerance and power rating are chosen: [Explore Components](../../resources/components.md)
 
 ### Tools
-For getting the most out of your multimeter beyond simple voltage readings: [See Tools](../resources/tools.md)
+For getting the most out of your multimeter beyond simple voltage readings: [See Tools](../../resources/tools.md)
 
 ### Help
-If your measured values don't match the formula after checking the table above: [See Hardware Help](../resources/help.md)
+If your measured values don't match the formula after checking the table above: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Resistors in this range are sold in assortment packs and are the cheapest component in any kit. For India-specific sourcing: [See India Resources](../resources/india.md)
+Resistors in this range are sold in assortment packs and are the cheapest component in any kit. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

@@ -121,17 +121,17 @@ The LED tracking the button precisely, with the Serial Monitor's printed pin sta
 ## Hardware Atlas resources
 
 ### Components
-For comparing Arduino, ESP32, and other common dev boards and their GPIO capabilities: [Explore Components](../resources/components.md)
+For comparing Arduino, ESP32, and other common dev boards and their GPIO capabilities: [Explore Components](../../resources/components.md)
 
 ### Tools
-For setting up the Arduino IDE or PlatformIO for the first time: [See Tools](../resources/tools.md)
+For setting up the Arduino IDE or PlatformIO for the first time: [See Tools](../../resources/tools.md)
 
 ### Help
-If your board won't program or the pin logic seems inverted after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your board won't program or the pin logic seems inverted after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-Arduino Uno clones and ESP32 dev boards are widely available and a one-time purchase reused across every remaining lesson in this repository. For India-specific sourcing: [See India Resources](../resources/india.md)
+Arduino Uno clones and ESP32 dev boards are widely available and a one-time purchase reused across every remaining lesson in this repository. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

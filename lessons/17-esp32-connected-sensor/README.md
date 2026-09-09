@@ -124,14 +124,14 @@ Regular Serial output confirming both a successful sensor read and a successful 
 ## Hardware Atlas resources
 
 ### Components
-For comparing ESP32 variants and their Wi-Fi/Bluetooth capabilities: [Explore Components](../resources/components.md)
+For comparing ESP32 variants and their Wi-Fi/Bluetooth capabilities: [Explore Components](../../resources/components.md)
 
 ### Help
-If your board won't join Wi-Fi or requests never arrive after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If your board won't join Wi-Fi or requests never arrive after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-ESP32 dev boards are inexpensive and widely available; no new sensor hardware is needed beyond Lesson 14's BME280. For India-specific sourcing: [See India Resources](../resources/india.md)
+ESP32 dev boards are inexpensive and widely available; no new sensor hardware is needed beyond Lesson 14's BME280. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

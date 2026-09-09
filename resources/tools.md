@@ -176,7 +176,7 @@ Buying good tools is half the job; knowing they still read correctly is the othe
 
 The most under-bought "tool" on any bench is a place to write down what you actually did.
 
-* **Record, for every non-trivial circuit:** the component values used, expected measurements (see the [simulation guide](#)'s simulate → build → compare workflow), and what you actually measured.
+* **Record, for every non-trivial circuit:** the component values used, expected measurements (see the [simulation guide](simulation.md)'s simulate → build → compare workflow), and what you actually measured.
 * **Log bench PSU settings** (voltage, current limit) at the moment a circuit failed this is the single most useful piece of information for diagnosing a later repeat failure.
 * **Track calibration dates** from [section 8](#8-calibration--verification) in the same notebook, not a separate system you'll forget to check.
 * **Physical or digital both work** the requirement is consistency, not format. A notebook you actually update beats a beautifully organized system you abandon after two weeks.

@@ -125,14 +125,14 @@ A practical walkthrough of wiring up a logic analyzer, capturing a real I2C tran
 ## Hardware Atlas resources
 
 ### Tools
-For choosing a logic analyzer and comparing it against an oscilloscope: [See Tools](../resources/tools.md)
+For choosing a logic analyzer and comparing it against an oscilloscope: [See Tools](../../resources/tools.md)
 
 ### Help
-If a capture shows nothing or the decoder produces garbage: [See Hardware Help](../resources/help.md)
+If a capture shows nothing or the decoder produces garbage: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-USB logic analyzers compatible with PulseView/sigrok are inexpensive and widely available. For India-specific sourcing: [See India Resources](../resources/india.md)
+USB logic analyzers compatible with PulseView/sigrok are inexpensive and widely available. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

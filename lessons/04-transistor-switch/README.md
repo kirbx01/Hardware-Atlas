@@ -138,14 +138,14 @@ The LED off with the button released, and lighting at the same brightness as Les
 ## Hardware Atlas resources
 
 ### Components
-For transistor packages, pinouts, and how to read a transistor datasheet: [Explore Components](../resources/components.md)
+For transistor packages, pinouts, and how to read a transistor datasheet: [Explore Components](../../resources/components.md)
 
 ### Help
-If the transistor won't switch cleanly after working through Troubleshooting: [See Hardware Help](../resources/help.md)
+If the transistor won't switch cleanly after working through Troubleshooting: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-2N2222 and BC547 transistors are inexpensive and stocked by nearly every electronics supplier. For India-specific sourcing: [See India Resources](../resources/india.md)
+2N2222 and BC547 transistors are inexpensive and stocked by nearly every electronics supplier. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 

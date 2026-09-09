@@ -130,14 +130,14 @@ A clear conceptual walkthrough of how CAN resolves bus contention and what a fra
 ## Hardware Atlas resources
 
 ### Components
-For CAN transceiver selection and termination guidance: [Explore Components](../resources/components.md)
+For CAN transceiver selection and termination guidance: [Explore Components](../../resources/components.md)
 
 ### Help
-If nodes won't communicate or a controller reports bus-off: [See Hardware Help](../resources/help.md)
+If nodes won't communicate or a controller reports bus-off: [See Hardware Help](../../resources/help.md)
 
 ## Sourcing
 
-CAN transceiver breakout boards and MCP2515 modules are widely available from hobbyist electronics suppliers. For India-specific sourcing: [See India Resources](../resources/india.md)
+CAN transceiver breakout boards and MCP2515 modules are widely available from hobbyist electronics suppliers. For India-specific sourcing: [See India Resources](../../resources/india.md)
 
 ## Going deeper
 
