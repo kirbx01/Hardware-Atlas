@@ -22,7 +22,6 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 ## 📑 Table of contents
 
 - [🛠️ How to use this repository](#-how-to-use-this-repository)
-- [🗺️ The roadmap](#-the-roadmap)
 - [📚 All 31 lessons](#-all-31-lessons)
 - [🧰 Practical guides](#-practical-guides)
 - [⚡ Find something quickly](#-find-something-quickly)
