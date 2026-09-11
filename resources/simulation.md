@@ -53,8 +53,8 @@ Different simulators are strong at different layers of a project, from a blinkin
 | [Wokwi](https://wokwi.com/) | Online, OS independent | Arduino, ESP32, STM32, Raspberry Pi Pico projects | Excellent for testing RTOS tasks and custom I2C/SPI peripherals before flashing hardware. |
 | [Tinkercad Circuits](https://www.tinkercad.com/circuits) | Online, OS independent | First-time circuit and Arduino simulation | Approachable, visual, aimed at absolute beginners. |
 | [Falstad Circuit Simulator](https://www.falstad.com/circuit/) | Online & downloaded, OS independent (Java/HTML5) | Animated intuition for RC, RLC, diode, transistor circuits | Highly visual for understanding current flow in real time. |
-| [Zephyr RTOS (native_sim)](https://docs.zephyrproject.org/latest/boards/posix/native_sim/doc/index.html) | Downloaded; Linux, macOS, Windows (WSL) | Running embedded firmware as a native host executable | Essential for testing RTOS tasks, Bluetooth stacks, and state machines without hardware. |
-| [LVGL PC Simulator](https://docs.lvgl.io/master/get-started/platforms/pc-simulator.html) | Downloaded; Windows, macOS, Linux | Embedded graphics/UI development | Uses SDL to design and debug MCU UI layouts on desktop before flashing. |
+| [Zephyr RTOS (native_sim)](https://docs.zephyrproject.org/latest/boards/native/native_sim/doc/index.html) | Downloaded; Linux, macOS, Windows (WSL) | Running embedded firmware as a native host executable | Essential for testing RTOS tasks, Bluetooth stacks, and state machines without hardware. |
+| [LVGL PC Simulator](https://docs.lvgl.io/master/integration/pc/index.html) | Downloaded; Windows, macOS, Linux | Embedded graphics/UI development | Uses SDL to design and debug MCU UI layouts on desktop before flashing. |
 | [EasyEDA](https://easyeda.com/) | Online & downloaded; Windows, macOS, Linux | Schematic and PCB design | Use *after* circuit behaviour is understood not as a replacement for reading datasheets. |
 | [Fritzing](https://fritzing.org/) | Downloaded; Windows, macOS, Linux | Mapping breadboard prototypes to schematics | Useful for visually documenting a physical build. |
 

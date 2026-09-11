@@ -83,7 +83,7 @@ This is the **suggested** order, not a locked gate. Each lesson page states its 
 
 ## 🔍 All 14 levels, in detail
 
-<details>
+<details id="level-00--getting-started">
 <summary><strong>Level 00 · Getting Started</strong> — click to expand</summary>
 
 <br>
@@ -97,7 +97,7 @@ Learn how breadboards are actually wired internally, use a multimeter safely, bu
 
 </details>
 
-<details>
+<details id="level-01--basic-circuits">
 <summary><strong>Level 01 · Basic Circuits</strong> — click to expand</summary>
 
 <br>
@@ -114,7 +114,7 @@ Ohm's law, polarity, switching, charge, discharge, and time constants — the vo
 
 </details>
 
-<details>
+<details id="level-02--analog-electronics">
 <summary><strong>Level 02 · Analog Electronics</strong> — click to expand</summary>
 
 <br>
@@ -130,7 +130,7 @@ Bias, gain, loading, clipping, noise, and bandwidth — where ideal models start
 
 </details>
 
-<details>
+<details id="level-03--digital-electronics">
 <summary><strong>Level 03 · Digital Electronics</strong> — click to expand</summary>
 
 <br>
@@ -405,7 +405,7 @@ If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has 
 
 ## 🇮🇳 Sourcing hardware in India
 
-[`resources/india.md`](resources/india.md) covers distributors (Element14, Mouser, DigiKey, Robu, and others), Delhi NCR offline markets, component inspection for counterfeits, and return/replacement expectations. An `india.yml` companion is available for structured lookups once you've read the prose version.
+[`resources/india.md`](resources/india.md) covers distributors (Element14, Mouser, DigiKey, Robu, and others), Delhi NCR offline markets, component inspection for counterfeits, and return/replacement expectations.
 
 ## 🤝 Contributing
 

@@ -120,7 +120,7 @@ A practical walkthrough of wiring up a logic analyzer, capturing a real I2C tran
 
 - **Tutorial:** [SparkFun, I2C Communication Protocol](https://learn.sparkfun.com/tutorials/i2c) — background on the protocol fields this lesson's decoder is parsing.
 - **Reference:** [sigrok / PulseView documentation](https://sigrok.org/wiki/PulseView) — the open-source analyzer software used in this lesson.
-- **Reference:** [NXP I2C-bus specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf) — the authoritative source for every timing and signaling detail of the protocol.
+- **Reference:** [NXP I2C-bus specification](https://web.archive.org/web/20210426060837/https://www.nxp.com/docs/en/user-guide/UM10204.pdf) — the authoritative source for every timing and signaling detail of the protocol.
 
 ## Hardware Atlas resources
 

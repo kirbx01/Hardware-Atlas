@@ -123,7 +123,7 @@ A walkthrough of the `read_verilog`/`synth`/`show` flow on a small design, inclu
 ## Further reading
 
 - **Tutorial:** [Yosys Manual](https://yosyshq.readthedocs.io/) — the canonical reference for every command used in this lesson.
-- **Tutorial:** [ZipCPU, Yosys Tutorials](https://zipcpu.com/blog/2018/02/03/yosys-blog.html) — practical, worked examples of synthesizing real designs with Yosys.
+- **Tutorial:** [YosysHQ, Getting Started with Yosys](https://yosyshq.readthedocs.io/projects/yosys/en/latest/getting_started/) — practical, worked examples of synthesizing real designs with Yosys.
 - **Reference:** [Clifford Wolf, Yosys and the Open-Source Silicon Flow](https://yosyshq.net/yosys/) — background on the broader open-source ASIC toolchain this lesson feeds directly into.
 
 ## Hardware Atlas resources

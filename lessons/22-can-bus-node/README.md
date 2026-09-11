@@ -123,7 +123,7 @@ A clear conceptual walkthrough of how CAN resolves bus contention and what a fra
 
 ## Further reading
 
-- **Reference:** [Bosch CAN 2.0 Specification](https://www.bosch-semiconductors.com/ip-modules/can-protocols/can-classic/) — the original, authoritative protocol specification.
+- **Reference:** [Bosch CAN 2.0 Specification](https://www.bosch-semiconductors.com/products/ip-modules/can-protocols/) — the original, authoritative protocol specification.
 - **Tutorial:** [Kvaser, CAN Bus Introduction](https://www.kvaser.com/can-protocol-tutorial/) — an accessible walkthrough of frame structure and bus electrical characteristics.
 - **Reference:** [Microchip MCP2515 datasheet](https://www.microchip.com/en-us/product/mcp2515) — a common standalone CAN controller for MCUs without built-in CAN peripherals.
 

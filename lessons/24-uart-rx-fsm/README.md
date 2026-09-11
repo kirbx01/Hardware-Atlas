@@ -122,7 +122,7 @@ A structured walkthrough of exactly this state machine — IDLE/START/DATA/STOP 
 ## Further reading
 
 - **Tutorial:** [nandland, UART Verilog and VHDL](https://nandland.com/uart-serial-port-module/) — a widely used reference implementation and explanation of this exact design.
-- **Tutorial:** [ASIC World, Verilog FSM Coding](https://www.asic-world.com/verilog/verilog_tutorial.html) — background on Moore vs. Mealy FSM coding styles in Verilog.
+- **Tutorial:** [ASIC World, Verilog FSM Coding](https://www.asic-world.com/verilog/veritut.html) — background on Moore vs. Mealy FSM coding styles in Verilog.
 - **Reference:** [Sparkfun, Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication) — background on the UART protocol this FSM implements.
 
 ## Hardware Atlas resources

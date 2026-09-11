@@ -121,7 +121,7 @@ A focused introduction to `assign` statements, module structure, and simulating 
 ## Further reading
 
 - **Tutorial:** [ASIC World, Verilog Tutorial](https://www.asic-world.com/verilog/veritut.html) — a thorough, free reference covering exactly this level of Verilog.
-- **Reference:** [Icarus Verilog documentation](http://iverilog.icarus.com/) — the simulator used in this lesson.
+- **Reference:** [Icarus Verilog documentation](https://steveicarus.github.io/iverilog/) — the simulator used in this lesson.
 - **Reference:** [nandland, Ripple Carry Adder](https://nandland.com/) — background on adder architectures and their tradeoffs.
 
 ## Hardware Atlas resources

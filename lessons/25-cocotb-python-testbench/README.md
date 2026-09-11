@@ -123,8 +123,8 @@ An introduction to cocotb's coroutine model and a walkthrough of writing a first
 ## Further reading
 
 - **Tutorial:** [cocotb Official Documentation](https://docs.cocotb.org/) — the canonical reference for coroutines, clock generation, and the Makefile-based test runner.
-- **Tutorial:** [cocotb, Quickstart Guide](https://docs.cocotb.org/en/stable/quickstart.html) — a minimal working example to compare directly against this lesson's structure.
-- **Reference:** [ChipVerify, Cocotb Tutorials](https://www.chipverify.com/cocotb/cocotb-tutorial) — additional worked examples across different DUT types.
+- **Tutorial:** [cocotb, Quickstart Guide](https://docs.cocotb.org/en/stable/first_steps.html) — a minimal working example to compare directly against this lesson's structure.
+- **Reference:** [cocotb, Example Testbenches](https://github.com/cocotb/cocotb/tree/master/examples) — additional worked examples across different DUT types.
 
 ## Hardware Atlas resources
 
