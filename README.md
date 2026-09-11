@@ -41,25 +41,6 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 
 The `lessons/` directory holds the detailed build pages. `resources/` covers sourcing, tools, safety, simulation, and help. `projects/` documents the format for contributed, non-roadmap builds. `opportunities/` is the maintained index of hardware-adjacent jobs and programs, refreshed automatically by a scheduled GitHub Action.
 
-## 🗺️ The roadmap
-
-```mermaid
-flowchart TD
-    L0["00 · Getting Started"] --> L1["01 · Basic Circuits"]
-    L1 --> L2["02 · Analog Electronics"]
-    L2 --> L3["03 · Digital Electronics"]
-    L3 --> L4["04 · Microcontrollers"]
-    L4 --> L5["05 · Embedded Systems"]
-    L5 --> L6["06 · PCB Design"]
-    L6 --> L7["07 · Hardware Interfaces"]
-    L7 --> L8["08 · FPGA and RTL"]
-    L8 --> L9["09 · Computer Architecture"]
-    L9 --> L10["10 · ASIC Design"]
-    L10 --> L11["11 · Semiconductor Devices"]
-    L11 --> L12["12 · Semiconductor Fabrication"]
-    L12 --> L13["13 · Advanced Hardware"]
-```
-
 This is the **suggested** order, not a locked gate. Each lesson page states its own prerequisites — if you already have them, skip straight to the interesting part.
 
 | Level | Focus | Start here |
