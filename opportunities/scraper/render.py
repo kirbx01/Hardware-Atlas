@@ -4,9 +4,12 @@ repository README. Replaces the section between the marker comments.
 """
 import json
 import logging
+import re
 from pathlib import Path
 
 log = logging.getLogger(__name__)
+
+MULTI_SPACE = re.compile(r"\s+")
 
 MARK_START = "<!-- BEGIN_OPPORTUNITIES -->"
 MARK_END = "<!-- END_OPPORTUNITIES -->"
@@ -31,7 +34,7 @@ REGION_ORDER = {"India": 0, "International": 1, "Global": 2}
 
 
 def _clean(value: str, limit: int = 40) -> str:
-    value = (value or "").replace("|", "/").replace("\n", " ").strip()
+    value = MULTI_SPACE.sub(" ", (value or "").replace("|", "/")).strip()
     if len(value) > limit:
         return value[: limit - 1].rstrip() + "…"
     return value
@@ -70,7 +73,7 @@ def render_section(opportunities: list[dict]) -> str:
             org = _clean(o.get("organization"))
             loc = _clean(o.get("location"))
             url = o.get("official_url") or "#"
-            areas = ", ".join((o.get("areas") or [])[:3]) or "—"
+            areas = ", ".join((o.get("areas") or [])[:3]) or "General"
             lines.append(f"| {title} | {org} | {loc} | {areas} | [Apply]({url}) |")
         lines.append("")
 

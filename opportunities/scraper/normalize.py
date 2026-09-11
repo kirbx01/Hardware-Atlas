@@ -16,14 +16,18 @@ def _strip_html(text: str | None) -> str:
     return MULTI_SPACE.sub(" ", clean).strip()
 
 
+def _collapse(value: str | None) -> str:
+    return MULTI_SPACE.sub(" ", (value or "").strip())
+
+
 def normalize_record(rec: dict) -> dict:
-    rec["title"] = (rec.get("title") or "").strip()
-    rec["organization"] = (rec.get("organization") or "").strip()
-    rec["location"] = (rec.get("location") or "").strip()
-    rec["official_url"] = (rec.get("official_url") or "").strip()
-    rec["application_url"] = (rec.get("application_url") or "").strip() or None
-    rec["source"] = (rec.get("source") or "").strip()
-    rec["source_id"] = (rec.get("source_id") or "").strip()
+    rec["title"] = _collapse(rec.get("title"))
+    rec["organization"] = _collapse(rec.get("organization"))
+    rec["location"] = _collapse(rec.get("location"))
+    rec["official_url"] = _collapse(rec.get("official_url"))
+    rec["application_url"] = _collapse(rec.get("application_url")) or None
+    rec["source"] = _collapse(rec.get("source"))
+    rec["source_id"] = _collapse(rec.get("source_id"))
 
     raw_desc = rec.pop("_description", "") or ""
     rec["_text"] = _strip_html(raw_desc)

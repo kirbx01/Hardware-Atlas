@@ -13,7 +13,7 @@
 
 ---
 
-Hardware Atlas is a project-first roadmap for learning hardware by **building, measuring, and debugging real things** not by reading fourteen chapters before touching a breadboard. Every lesson tells you what to buy, what to build, what to measure, and what's likely to go wrong, in that order.
+Hardware Atlas is a project-first roadmap for learning hardware by **building, measuring, and debugging real things**, not by reading fourteen chapters before touching a breadboard. Every lesson tells you what to buy, what to build, what to measure, and what's likely to go wrong, in that order.
 
 > 💡 **Philosophy in one line:** predict it with math, build it, measure it, and compare the two. If $V = IR$ doesn't match what your multimeter says, the disagreement is the lesson, not the failure.
 
@@ -21,7 +21,8 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 
 ## 📑 Table of contents
 
-- [🗺️ The roadmap](#️-the-roadmap)
+- [🛠️ How to use this repository](#-how-to-use-this-repository)
+- [🗺️ The roadmap](#-the-roadmap)
 - [📚 All 31 lessons](#-all-31-lessons)
 - [🧰 Practical guides](#-practical-guides)
 - [⚡ Find something quickly](#-find-something-quickly)
@@ -32,7 +33,7 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
-## How to use this repository
+## 🛠️ How to use this repository
 
 1. Find your current level below.
 2. Read the lesson page **before** buying anything; it lists parts, tools, tests, and likely mistakes.
@@ -60,7 +61,7 @@ flowchart TD
     L12 --> L13["13 · Advanced Hardware"]
 ```
 
-This is the **suggested** order, not a locked gate. Each lesson page states its own prerequisites — if you already have them, skip straight to the interesting part.
+This is the **suggested** order, not a locked gate. Each lesson page states its own prerequisites. If you already have them, skip straight to the interesting part.
 
 | Level | Focus | Start here |
 |---|---|---|
@@ -182,7 +183,7 @@ Grouped by category for quick scanning. Ordering shows progression, not a prereq
 
 | Guide | Use it for |
 |---|---|
-| [Components](resources/components.md) | Buy parts as projects require them — not a warehouse upfront |
+| [Components](resources/components.md) | Buy parts as projects require them, not a stockpile upfront |
 | [Tools](resources/tools.md) | A deliberately ascending workbench, budget to pro |
 | [Power and batteries](resources/power-and-batteries.md) | Wiring and cell safety before you plug anything in |
 | [Simulation](resources/simulation.md) | Test a complicated idea before ordering hardware |
@@ -299,7 +300,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Salesforce Developer | SPAN | Bengaluru | Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/345a4fb1-58a4-4d3a-abc8-9cdedf45de54) |
 | Staff Mobile Developer | SPAN | Bengaluru | Embedded, Hardware | [Apply](https://jobs.ashbyhq.com/span/782524bb-f9f1-4296-b7fb-1737f12d069f) |
 | Forward-Deployed Engineer, AI Fabric | Upscale AI | India - Bangalore | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/d86b9479-5716-4903-a2f4-ab3dd93ff8b3) |
-| Principal Engineer - SONiC Manageabilit… | Upscale AI | India - Bangalore | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/749a5df9-9f1c-4590-b162-7531b5b8ed10) |
+| Principal Engineer - SONiC Manageabilit… | Upscale AI | India - Bangalore | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/749a5df9-9f1c-4590-b162-7531b5b8ed10) |
 | Principal Engineer – Design Verification | Upscale AI | India - Bangalore | RTL, ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/33b1a9d4-483b-4f9b-b2cb-9e7bcd2994f6) |
 | Principal Engineer – Physical Design | Upscale AI | India - Bangalore | ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/8160d67a-c69c-4326-9dff-cb16518e2f3a) |
 | Principal Engineer_RTL Design | Upscale AI | India - Bangalore | ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/a26a36dd-47fa-47a5-992d-fef262c93756) |
@@ -365,7 +366,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Epoxy Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/c94b628f-dce0-4ff5-a418-798395817ff9) |
 | Mechanical Product Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/330cb457-baef-4378-adad-258233f669e8) |
 | Senior Compliance Engineer | Lumilens | Bengaluru, India | Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/0c302651-f5b0-495c-bac3-5332cd730ddf) |
-| Senior Director,  Hardware Engineering | Lumilens | Bengaluru, India | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/b732a547-6303-464b-9fec-b721e1cd6f4e) |
+| Senior Director, Hardware Engineering | Lumilens | Bengaluru, India | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/b732a547-6303-464b-9fec-b721e1cd6f4e) |
 | Senior Director, Manufacturing Operatio… | Lumilens | Bengaluru, India | Semiconductor, Electronics, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/382f2a17-d042-4bdb-aa57-70c7375f5b94) |
 | Senior Director, Manufacturing Software… | Lumilens | Bengaluru, India | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/3823bb3d-c762-40c9-8804-a557b5c243bf) |
 | Senior Software Engineer, Autonomy Appl… | Shield AI | New Delhi | Hardware, Edge AI | [Apply](https://jobs.lever.co/shieldai/c223a9c5-e3b3-4da1-b523-1b1045bdf296) |
@@ -400,11 +401,11 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Google Summer of Code | Google / Open Source Communities | Remote | Embedded, Hardware, FPGA | [Apply](https://summerofcode.withgoogle.com/) |
 <!-- END_OPPORTUNITIES -->
 
-The list refreshes automatically every few days. Full dataset: [`opportunities/data/opportunities.json`](opportunities/data/opportunities.json). More about the index: [`opportunities/README.md`](opportunities/README.md).
+The list refreshes automatically on a twice-weekly schedule. Full dataset: [`opportunities/data/opportunities.json`](opportunities/data/opportunities.json). More about the index: [`opportunities/README.md`](opportunities/README.md).
 
 ## 🎓 GATE 2027 alongside the roadmap
 
-If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has a curated set of resources mapped to the same subjects this roadmap already touches digital electronics, electronic devices, computer organization, and signals and systems — so exam prep and hands-on building reinforce each other instead of competing for time.
+If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has a curated set of resources mapped to the same subjects this roadmap already touches: digital electronics, electronic devices, computer organization, and signals and systems, so exam prep and hands-on building reinforce each other instead of competing for time.
 
 ## 🇮🇳 Sourcing hardware in India
 
@@ -419,7 +420,5 @@ Good contributions are reviewed for technical clarity, reproducibility, useful d
 ## 📄 License
 
 Hardware Atlas is available under the [MIT License](LICENSE).
-
----
 
 <p align="center">⭐ Star this repo if it helped you build something real.</p>
