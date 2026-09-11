@@ -405,7 +405,7 @@ If you're also preparing for GATE, [`resources/gate.md`](resources/gate.md) has 
 
 ## 🇮🇳 Sourcing hardware in India
 
-[`resources/india.md`](resources/india.md) covers distributors (Element14, Mouser, DigiKey, Robu, and others), Delhi NCR offline markets, component inspection for counterfeits, and return/replacement expectations.
+[`resources/india.md`](resources/india.md) covers distributors (Element14, Mouser, DigiKey, Robu, and others), Delhi NCR offline markets along with some other metropolitan cities, component inspection for counterfeits, and return/replacement expectations.
 
 ## 🤝 Contributing
 
