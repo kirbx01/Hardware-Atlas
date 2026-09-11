@@ -400,5 +400,6 @@ Good contributions are reviewed for technical clarity, reproducibility, useful d
 ## 📄 License
 
 Hardware Atlas is available under the [MIT License](LICENSE).
+---
 
 <p align="center">⭐ Star this repo if it helped you build something real.</p>
