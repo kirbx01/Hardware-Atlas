@@ -66,7 +66,7 @@ Keep those three ideas — exponential thermal sensitivity, doping asymmetry, an
 
 A diode is what you get when you push a p-type region up against an n-type region and let the carriers sort themselves out.
 
-![PN junction band diagram showing depletion region and band bending](images/pn-junction-band-diagram.svg)
+![PN junction band diagram showing depletion region and band bending](../../images/pnjunctionimage.png)
 
 At the junction, electrons diffuse from the n-side into the p-side and holes diffuse the other way, until the resulting charge imbalance creates an internal electric field strong enough to stop further net diffusion. What's left behind is a **depletion region** — depleted of free carriers — and a **built-in potential**:
 
@@ -88,7 +88,7 @@ $$
 - $V_T = kT/q$ is the **thermal voltage**, about 25.85 mV at 300 K (a good rule of thumb: 26 mV at room temperature).
 - $n$ is the **ideality factor** — 1.0 for an "ideal" diode, closer to 1.5–2 for real silicon diodes where recombination inside the depletion region adds a second current component.
 
-![Diode forward and reverse I-V curve](images/diode-iv-curve.svg)
+![Diode forward and reverse I-V curve](../../images/images.png)
 
 A few consequences worth internalizing:
 
@@ -108,7 +108,7 @@ A SPICE diode model (`.model D1 D(...)`) isn't solving Poisson's equation from s
 
 A Bipolar Junction Transistor is two PN junctions back to back, sharing a thin middle region, arranged so that the middle region's thinness and doping asymmetry make it possible for a small current at one terminal to control a much larger current between the other two.
 
-![NPN BJT structure and carrier flow](images/bjt-structure.svg)
+![NPN BJT structure and carrier flow](../../images/npntransistor.png)
 
 ### Regions of operation
 
@@ -164,7 +164,7 @@ $g_m$ (transconductance) tells you how much collector current you get per volt o
 
 A MOSFET controls current with an electric field across an insulating layer rather than by injecting carriers across a junction — which is why its gate draws (ideally) no DC current at all, unlike a BJT's base.
 
-![NMOS transistor cross-section](images/mosfet-structure.svg)
+![NMOS transistor cross-section](../../images/nmoscrosssection.webp)
 
 ### Threshold and the inversion channel
 
