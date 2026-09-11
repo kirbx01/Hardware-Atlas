@@ -1,10 +1,45 @@
 # Projects
 
+## Index
+
+- [The 31 projects](#the-31-projects)
+  - [Foundations](#foundations)
+  - [Analog](#analog)
+  - [Digital](#digital)
+  - [Microcontrollers and embedded](#microcontrollers-and-embedded)
+  - [PCB and hardware](#pcb-and-hardware)
+  - [Communication and debug](#communication-and-debug)
+  - [RTL and verification](#rtl-and-verification)
+  - [Computer architecture](#computer-architecture)
+  - [Open silicon](#open-silicon)
+- [You don't have to follow the path](#you-dont-have-to-follow-the-path)
+- [Before building anything](#before-building-anything)
+- [Research before you build](#research-before-you-build)
+- [Trusted technical sources](#trusted-technical-sources)
+- [Tutorials](#tutorials)
+- [Interesting videos](#interesting-videos)
+- [Common mistakes](#common-mistakes)
+  - [Electrical mistakes](#electrical-mistakes)
+  - [Measurement mistakes](#measurement-mistakes)
+  - [Datasheet mistakes](#datasheet-mistakes)
+  - [Breadboard mistakes](#breadboard-mistakes)
+- [Don't blindly copy the project](#dont-blindly-copy-the-project)
+- [Modify it](#modify-it)
+- [Your project can be different](#your-project-can-be-different)
+- [Want your project here?](#want-your-project-here)
+- [Getting your GitHub project linked](#getting-your-github-project-linked)
+- [Project quality checklist](#project-quality-checklist)
+- [Hardware Atlas resources](#hardware-atlas-resources)
+- [Choosing your own path](#choosing-your-own-path)
+
 The lessons in this repository are reference points, not a curriculum. Building electronics is not a linear game with one correct route. Someone interested in analog electronics might spend three weeks on a single filter circuit. Someone interested in embedded systems might jump straight from a basic microcontroller project into UART, I2C, RTOS, or PCB work. Someone interested in digital design might skip most of the beginner projects entirely and start from the RTL and computer architecture material.
 
 Use the roadmap as a map, not a set of rules.
 
 ## The 31 projects
+
+Presented in ascending order because the ordering is useful for understanding progression, not because it is a prerequisite chain. Paths assume the `lessons/` directory shown in the repository.
+
 The shape of the roadmap is a branch, not a chain. Foundations feed into several independent directions, and nothing requires finishing one branch before starting another.
 
 ```mermaid
@@ -345,14 +380,15 @@ Not every project needs every item on this list.
 
 | Resource | Purpose |
 |---|---|
-| [Components](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/components.md) | What parts do and when you actually need them |
-| [Tools](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/tools.md) | Choosing and understanding bench tools |
-| [Help](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/help.md) | Getting unstuck, community and forum links |
-| [India](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/india.md) | Sourcing hardware and components within India |
-| [Power and Batteries](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/power-and-batteries.md) | Battery chemistry, charging, and protection |
-| [Simulation](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/simulation.md) | Simulating a circuit before you build it |
-| [GATE](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/gate.md) | Connecting hands-on projects to GATE-level theory |
+| [Components](../resources/components.md) | What parts do and when you actually need them |
+| [Tools](../resources/tools.md) | Choosing and understanding bench tools |
+| [Help](../resources/help.md) | Getting unstuck, community and forum links |
+| [India](../resources/india.md) | Sourcing hardware and components within India |
+| [Power and Batteries](../resources/power-and-batteries.md) | Battery chemistry, charging, and protection |
+| [Simulation](../resources/simulation.md) | Simulating a circuit before you build it |
+| [GATE](../resources/gate.md) | Connecting hands-on projects to GATE-level theory |
 
+This page points toward these resources. It does not duplicate them.
 
 ## Choosing your own path
 
