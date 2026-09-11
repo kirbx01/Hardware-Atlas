@@ -1,4 +1,4 @@
-# Level 01 -- Basic Circuits
+# Level 01 : Basic Circuits
 
 Ohm's law, polarity, switches, charge and discharge, and time constants: the vocabulary every other level reuses.
 
