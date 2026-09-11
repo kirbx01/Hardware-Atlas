@@ -30,7 +30,9 @@ Each opportunity has a `region` field with one of three values:
 - **International**: located outside India
 - **Global**: remote, or open to applicants anywhere
 
-Region is inferred from the location text. It is an inference, not a legal guarantee, so check the original page for actual eligibility.
+Region is inferred from the location text. An Indian location wins even when the role is also remote (so "India (Remote)" is India); a remote role without an Indian location is Global; everything else is International. It is an inference, not a legal guarantee, so check the original page for actual eligibility.
+
+By default the published index keeps only India and Global (remote) roles, so it reads as an India + remote quick-apply list. Run the scraper with `--all-regions` to include International roles as well.
 
 ## The classroom is not this page
 

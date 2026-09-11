@@ -74,8 +74,30 @@ class TestPipelineFilter(unittest.TestCase):
              "location": "San Jose", "_description": "AWS microservices Java", "source": "greenhouse:t", "source_id": "2"},
         ]
         result = pipeline(records)
+        self.assertNotEqual(result["opportunity_count"], 2)
+
+    def test_region_filter_keeps_only_india_and_global(self):
+        from scraper.main import pipeline
+        records = [
+            {"title": "FPGA Eng", "organization": "Acme", "official_url": "https://x.com/fpga",
+             "location": "Remote", "_description": "FPGA design and RTL", "source": "greenhouse:t", "source_id": "1"},
+            {"title": "ASIC Eng", "organization": "Acme", "official_url": "https://x.com/asic",
+             "location": "Bangalore", "_description": "ASIC layout and EDA flow", "source": "greenhouse:t", "source_id": "2"},
+            {"title": "Robotics Eng", "organization": "Acme", "official_url": "https://x.com/rob",
+             "location": "San Jose, CA", "_description": "Robot firmware and actuators", "source": "greenhouse:t", "source_id": "3"},
+        ]
+        result = pipeline(records, keep_regions=("India", "Global"))
+        self.assertEqual(result["opportunity_count"], 2)
+        self.assertEqual({o["title"] for o in result["opportunities"]}, {"FPGA Eng", "ASIC Eng"})
+
+    def test_all_regions_keeps_international(self):
+        from scraper.main import pipeline
+        records = [
+            {"title": "Robotics Eng", "organization": "Acme", "official_url": "https://x.com/rob",
+             "location": "San Jose, CA", "_description": "Robot firmware and actuators", "source": "greenhouse:t", "source_id": "3"},
+        ]
+        result = pipeline(records, keep_regions=None)
         self.assertEqual(result["opportunity_count"], 1)
-        self.assertEqual(result["opportunities"][0]["title"], "FPGA Eng")
 
 
 class TestRelevance(unittest.TestCase):

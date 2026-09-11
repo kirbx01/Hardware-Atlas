@@ -5,6 +5,12 @@ categories, and regions. Rules are transparent and readable.
 import re
 from .config import AREAS, INDIA_KEYWORDS, REMOTE_KEYWORDS
 
+_ESCAPED_INDIA = [re.escape(kw) for kw in INDIA_KEYWORDS]
+_ESCAPED_REMOTE = [re.escape(kw) for kw in REMOTE_KEYWORDS]
+
+INDIA_RE = re.compile(r"\b(?:" + "|".join(_ESCAPED_INDIA) + r")\b", re.IGNORECASE)
+REMOTE_RE = re.compile(r"\b(?:" + "|".join(_ESCAPED_REMOTE) + r")\b", re.IGNORECASE)
+
 AREA_RULES = {
     "Embedded": r"embedded|firmware|microcontroller|mcu|rtos|bare.?metal|arm cortex|stm32|esp32|freertos|zephyr|micropython",
     "FPGA": r"fpga|xilinx|vivado|intel quartus|altera|lattice|altera quartus",
@@ -67,11 +73,15 @@ def classify_category(text: str, title: str = "", employment_type: str = "") -> 
 
 
 def classify_region(location: str, remote: bool | None = None) -> str:
-    loc_lower = (location or "").lower()
-    if any(kw in loc_lower for kw in REMOTE_KEYWORDS):
-        return "Global"
-    if any(kw in loc_lower for kw in INDIA_KEYWORDS):
+    """India wins when the location mentions an Indian city (even if it also
+    says remote, e.g. "India (Remote)"). Otherwise a remote location is
+    Global, and everything else is International. Word-boundary matching
+    avoids "in" in "AustIN" or "SINGapore" flipping roles to India."""
+    loc = (location or "")
+    if INDIA_RE.search(loc):
         return "India"
+    if REMOTE_RE.search(loc):
+        return "Global"
     return "International"
 
 

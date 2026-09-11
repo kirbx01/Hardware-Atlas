@@ -34,6 +34,8 @@ LEVER_BOOTSTRAP = [
     {"slug": "longwall", "name": "Long Wall"},
     {"slug": "upscale-ai", "name": "Upscale AI"},
     {"slug": "humble-robotics", "name": "Humble Robotics"},
+    {"slug": "alifsemi", "name": "Alif Semiconductor"},
+    {"slug": "aeva", "name": "Aeva"},
 ]
 
 ASHBY_BOOTSTRAP = [
@@ -42,15 +44,24 @@ ASHBY_BOOTSTRAP = [
     {"slug": "watney", "name": "Watney"},
     {"slug": "sensmore", "name": "Sensmore"},
     {"slug": "sunday", "name": "Sunday Robotics"},
+    {"slug": "lumilens", "name": "Lumilens"},
+    {"slug": "architect", "name": "Architect"},
+    {"slug": "kandou-ai", "name": "Kandou"},
+    {"slug": "cerebras", "name": "Cerebras Systems"},
+    {"slug": "span", "name": "SPAN"},
+    {"slug": "coram-ai", "name": "Coram AI"},
+    {"slug": "applied", "name": "Applied Intuition"},
+    {"slug": "lat", "name": "LAT Aerospace"},
 ]
 
 INDIA_KEYWORDS = [
-    "india", "bangalore", "bengaluru", "hyderabad", "pune", "chennai",
-    "mumbai", "delhi", "ncr", "gurgaon", "noida", "gujarat", "kolkata",
-    "bhopal", "jaipur", "lucknow", "indore", "coimbatore", "ahmedabad",
-    "nagpur", "patna", "visakhapatnam", "ind", "in",
+    "india", "bharat", "bangalore", "bengaluru", "hyderabad", "pune", "chennai",
+    "mumbai", "delhi", "ncr", "gurgaon", "gurugram", "noida", "gujarat", "kolkata",
+    "bhopal", "jaipur", "lucknow", "indore", "goa", "mysore", "mysuru",
+    "chandigarh", "kanpur", "patna", "visakhapatnam", "coimbatore", "surat",
+    "ahmedabad", "nagpur", "thiruvananthapuram", "in", "ind",
 ]
 
-REMOTE_KEYWORDS = ["remote", "worldwide", "anywhere", "global", "distributed"]
+REMOTE_KEYWORDS = ["remote", "worldwide", "anywhere", "global", "distributed", "virtual"]
 
 STRIP_DATE_TIME = datetime.time(0, 0, 0)

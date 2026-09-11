@@ -91,6 +91,20 @@ class TestRegionClassification(unittest.TestCase):
     def test_global(self):
         self.assertEqual(classify_region("Worldwide"), "Global")
 
+    def test_india_wins_over_remote(self):
+        self.assertEqual(classify_region("India (Remote)"), "India")
+
+    def test_no_in_substring_bug(self):
+        self.assertEqual(classify_region("Austin, TX"), "International")
+        self.assertEqual(classify_region("Singapore"), "International")
+        self.assertEqual(classify_region("Berlin, Germany"), "International")
+
+    def test_in_code(self):
+        self.assertEqual(classify_region("Bengaluru, IND"), "India")
+
+    def test_hyderabad(self):
+        self.assertEqual(classify_region("Hyderabad"), "India")
+
 
 if __name__ == "__main__":
     unittest.main()

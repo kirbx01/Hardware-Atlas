@@ -20,7 +20,7 @@ Three ATS adapters, each using the vendor's documented public read API. No authe
 | Lever | `api.lever.co/v0/postings/{site}?mode=json` | github.com/lever/postings-api |
 | Ashby | `api.ashbyhq.com/posting-api/job-board/{board}` | developers.ashbyhq.com |
 
-Company slugs live in `config.py`. Adding a company means adding its ATS slug to the right bootstrap list.
+Company slugs live in `config.py`. Adding a company means adding its ATS slug to the right bootstrap list. Boards are chosen not only for US hardware teams but also for verified India postings: Alif Semiconductor and Aeva on Lever, and Lumilens, Architect, Kandou, Cerebras Systems, SPAN, Coram AI, Applied Intuition, and LAT Aerospace on Ashby all list Bangalore, Bengaluru, Hyderabad, or Pune roles.
 
 Curated records for scholarships, fellowships, hackathons, and open source programs live in `curated.json` because those programs do not expose reliable public JSON. They carry `"source": "curated"`.
 
@@ -36,9 +36,21 @@ Each board is fetched in parallel (thread pool, no added dependencies) once per 
 
 `classify.py` contains keyword rules, one readable regex per Hardware Atlas area. A role can match several areas, and the keywords are plain enough for contributors to improve. Category and region are derived the same way.
 
+**Region classification:** An Indian city/state keyword always wins, even if the location also says remote (e.g. "India (Remote)" → India). Otherwise a remote-related keyword (remote, worldwide, anywhere, global, distributed, virtual) makes the role Global. Everything else is International. Matching uses word boundaries so "in" inside "AustIN" or "SINGapore" does not cause false positives.
+
 ### Relevance filtering
 
 Raw jobs from a chip company include adjacent roles like recruiters and demand planners whose descriptions merely mention hardware words. `is_hardware_relevant` keeps a record only if the title or team clearly matches an area, or if the description matches an area and the title contains a technical word such as engineer, developer, intern, or scientist. The exact list lives in `TECH_TITLE_RE` in `classify.py`. Tune it there, not in the pipeline.
+
+### Region filtering
+
+By default the pipeline publishes only roles in India or Global (remote worldwide), turning the output into an India + remote quick-apply index. The complementary flag keeps International roles too:
+
+```bash
+python opportunities/scraper/main.py --all-regions
+```
+
+`pipeline(records, keep_regions=("India", "Global"))` in `main.py` is where the default is set; integration tests cover both paths.
 
 ### Deduplication
 

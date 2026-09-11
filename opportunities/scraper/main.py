@@ -47,10 +47,12 @@ def fetch_all() -> list[dict]:
     return records
 
 
-def pipeline(records: list[dict]) -> dict:
+def pipeline(records: list[dict], keep_regions: tuple[str, ...] | None = None) -> dict:
     normalized = normalize_all(records)
     classified = classify_all(normalized)
     hardware_only = [r for r in classified if is_hardware_relevant(r)]
+    if keep_regions:
+        hardware_only = [r for r in hardware_only if r.get("region") in keep_regions]
     deduped = deduplicate(hardware_only)
     errors = validate(deduped)
     if errors:
@@ -79,6 +81,7 @@ def main():
     parser.add_argument("--output", "-o", default=str(DEFAULT_OUTPUT))
     parser.add_argument("--offline", action="store_true")
     parser.add_argument("--no-render", action="store_true")
+    parser.add_argument("--all-regions", action="store_true")
     args = parser.parse_args()
 
     log.info("Fetching opportunities from ATS sources...")
@@ -98,7 +101,13 @@ def main():
         records.extend(_load_curated())
 
     log.info("Raw records before pipeline: %d", len(records))
-    result = pipeline(records)
+    keep = None if args.all_regions else ("India", "Global")
+    result = pipeline(records, keep_regions=keep)
+    log.info(
+        "Pipeline kept %d opportunities (regions=%s)",
+        result["opportunity_count"],
+        "all" if keep is None else ",".join(keep),
+    )
 
     output_path = Path(args.output)
     output_path.parent.mkdir(parents=True, exist_ok=True)
