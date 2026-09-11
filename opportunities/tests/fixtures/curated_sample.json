@@ -1,0 +1,27 @@
+[
+  {
+    "title": "GSOC Sample",
+    "organization": "Test Org",
+    "category": "open_source",
+    "areas": ["Embedded"],
+    "region": "Global",
+    "location": "Remote",
+    "type": "grant",
+    "eligibility": "Students",
+    "official_url": "https://example.com/gsoc",
+    "application_url": "https://example.com/gsoc/apply",
+    "deadline": null,
+    "start_date": null,
+    "end_date": null,
+    "status": "unknown",
+    "recurring": true,
+    "series": "GSOC",
+    "edition": 2026,
+    "remote": true,
+    "student_level": "all",
+    "degree_requirements": null,
+    "field_requirements": null,
+    "source": "curated",
+    "source_id": "gsoc-sample"
+  }
+]

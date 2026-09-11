@@ -1,0 +1,32 @@
+[
+  {
+    "id": "aaa-bbb-ccc",
+    "text": "RTL Verification Engineer",
+    "hostedUrl": "https://jobs.lever.co/shieldai/aaa-bbb-ccc",
+    "applyUrl": "https://jobs.lever.co/shieldai/aaa-bbb-ccc/apply",
+    "categories": {"team": "Hardware", "location": "San Diego, CA", "commitment": "Full-time"},
+    "workplaceType": "hybrid",
+    "createdAt": 1700000000000,
+    "descriptionPlain": "Verify ASIC designs using SystemVerilog UVM methodology."
+  },
+  {
+    "id": "ddd-eee-fff",
+    "text": "Embedded Firmware Intern",
+    "hostedUrl": "https://jobs.lever.co/shieldai/ddd-eee-fff",
+    "applyUrl": "https://jobs.lever.co/shieldai/ddd-eee-fff/apply",
+    "categories": {"team": "Embedded", "location": "Remote", "commitment": "Intern"},
+    "workplaceType": "remote",
+    "createdAt": 1700000000000,
+    "descriptionPlain": "Develop firmware for real-time sensor systems on ARM Cortex-M."
+  },
+  {
+    "id": "ggg-hhh-iii",
+    "text": "Senior Software Engineer",
+    "hostedUrl": "https://jobs.lever.co/shieldai/ggg-hhh-iii",
+    "applyUrl": "https://jobs.lever.co/shieldai/ggg-hhh-iii/apply",
+    "categories": {"team": "Software", "location": "San Diego, CA", "commitment": "Full-time"},
+    "workplaceType": "on-site",
+    "createdAt": 1700000000000,
+    "descriptionPlain": "Cloud software platform development."
+  }
+]

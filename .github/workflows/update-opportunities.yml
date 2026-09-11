@@ -1,0 +1,54 @@
+name: Update opportunities
+
+on:
+  schedule:
+    - cron: "0 6 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip
+
+      - name: Run the opportunity scraper
+        run: python opportunities/scraper/main.py
+
+      - name: Validate generated JSON
+        run: python -c "import json; d=json.load(open('opportunities/data/opportunities.json')); assert isinstance(d, dict); assert isinstance(d['opportunities'], list); print('OK', d['opportunity_count'])"
+
+      - name: Run tests
+        run: python -m unittest discover -s opportunities/tests -v
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet -- opportunities/data/opportunities.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to opportunities data"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add opportunities/data/opportunities.json
+          git commit -m "chore(opportunities): refresh opportunity data"
+          git push

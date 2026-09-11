@@ -1,0 +1,29 @@
+[
+  {
+    "id": 999001,
+    "title": "FPGA Design Engineer",
+    "absolute_url": "https://boards.greenhouse.io/samsungsemiconductor/jobs/999001",
+    "location": {"name": "San Jose, CA"},
+    "departments": [{"name": "Hardware Engineering"}],
+    "updated_at": 1700000000000,
+    "content": "<p>Design and verify FPGA-based systems using Xilinx Vivado and SystemVerilog.</p>"
+  },
+  {
+    "id": 999002,
+    "title": "Summer Hardware Intern",
+    "absolute_url": "https://boards.greenhouse.io/samsungsemiconductor/jobs/999002",
+    "location": {"name": "Austin, TX"},
+    "departments": [{"name": "Internship Program"}],
+    "updated_at": 1700000000000,
+    "content": "<p>Summer internship in hardware verification and RTL design.</p>"
+  },
+  {
+    "id": 999003,
+    "title": "Software Engineer",
+    "absolute_url": "https://boards.greenhouse.io/samsungsemiconductor/jobs/999003",
+    "location": {"name": "Bangalore, India"},
+    "departments": [{"name": "Software"}],
+    "updated_at": 1700000000000,
+    "content": "<p>Backend software development.</p>"
+  }
+]

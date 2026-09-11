@@ -1,0 +1,40 @@
+{
+  "jobs": [
+    {
+      "title": "Electronics / Embedded Robotics Engineer",
+      "location": "Potsdam, Germany",
+      "department": "Engineering",
+      "employmentType": "FullTime",
+      "isRemote": false,
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/sensmore/42e1a6dd",
+      "applyUrl": "https://jobs.ashbyhq.com/sensmore/42e1a6dd",
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "descriptionPlain": "Design custom electronics schematics and PCB layout. Develop firmware on ARM Cortex-M microcontrollers for sensor acquisition and motor control."
+    },
+    {
+      "title": "ML Engineer",
+      "location": "San Francisco, CA",
+      "department": "Research",
+      "employmentType": "FullTime",
+      "isRemote": false,
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/sensmore/ml-eng",
+      "applyUrl": "https://jobs.ashbyhq.com/sensmore/ml-eng",
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "descriptionPlain": "Develop machine learning models for computer vision."
+    },
+    {
+      "title": "Unlisted Position",
+      "location": "Remote",
+      "department": "Internal",
+      "employmentType": "FullTime",
+      "isRemote": true,
+      "isListed": false,
+      "jobUrl": "https://jobs.ashbyhq.com/sensmore/unlisted",
+      "applyUrl": "https://jobs.ashbyhq.com/sensmore/unlisted",
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "descriptionPlain": "Internal position."
+    }
+  ]
+}
