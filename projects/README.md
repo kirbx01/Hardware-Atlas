@@ -356,7 +356,6 @@ Not every project needs every item on this list.
 | [Simulation](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/simulation.md) | Simulating a circuit before you build it |
 | [GATE](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/gate.md) | Connecting hands-on projects to GATE-level theory |
 
-This page points toward these resources. It does not duplicate them.
 
 ## Choosing your own path
 
