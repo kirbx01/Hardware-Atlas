@@ -350,7 +350,7 @@ Not every project needs every item on this list.
 |---|---|
 | [Components](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/components.md) | What parts do and when you actually need them |
 | [Tools](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/tools.md) | Choosing and understanding bench tools |
-| [Help]([resources](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/help.md) | Getting unstuck, community and forum links |
+| [Help](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/help.md) | Getting unstuck, community and forum links |
 | [India](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/india.md) | Sourcing hardware and components within India |
 | [Power and Batteries](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/power-and-batteries.md) | Battery chemistry, charging, and protection |
 | [Simulation](https://github.com/kirbx01/Hardware-Atlas/blob/main/resources/simulation.md) | Simulating a circuit before you build it |
