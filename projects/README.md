@@ -5,9 +5,6 @@ The lessons in this repository are reference points, not a curriculum. Building 
 Use the roadmap as a map, not a set of rules.
 
 ## The 31 projects
-
-Presented in ascending order because the ordering is useful for understanding progression, not because it is a prerequisite chain. Paths assume the `lessons/` directory shown in the repository.
-
 The shape of the roadmap is a branch, not a chain. Foundations feed into several independent directions, and nothing requires finishing one branch before starting another.
 
 ```mermaid
