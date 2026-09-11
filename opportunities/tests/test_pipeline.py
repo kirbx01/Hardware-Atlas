@@ -112,6 +112,14 @@ class TestRelevance(unittest.TestCase):
         rec["areas"] = classify_areas(rec["_text"], rec["title"])
         self.assertTrue(is_hardware_relevant(rec))
 
+    def test_curated_always_kept(self):
+        rec = {
+            "title": "Google Summer of Code", "organization": "Google",
+            "areas": ["Embedded", "Hardware", "FPGA"],
+            "source": "curated", "source_id": "gsoc-2026",
+        }
+        self.assertTrue(is_hardware_relevant(rec))
+
 
 if __name__ == "__main__":
     unittest.main()

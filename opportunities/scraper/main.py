@@ -78,6 +78,7 @@ def main():
     parser = argparse.ArgumentParser(description="Hardware Atlas opportunity scraper")
     parser.add_argument("--output", "-o", default=str(DEFAULT_OUTPUT))
     parser.add_argument("--offline", action="store_true")
+    parser.add_argument("--no-render", action="store_true")
     args = parser.parse_args()
 
     log.info("Fetching opportunities from ATS sources...")
@@ -105,6 +106,14 @@ def main():
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     log.info("Wrote %d opportunities to %s", result["opportunity_count"], output_path)
+
+    if not args.no_render:
+        try:
+            from opportunities.scraper.render import render_from_json
+            repo_root = ROOT.parent
+            render_from_json(output_path, repo_root / "README.md")
+        except Exception as exc:
+            log.error("Failed to render README: %s", exc)
 
 
 if __name__ == "__main__":

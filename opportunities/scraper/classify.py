@@ -106,9 +106,12 @@ def is_hardware_relevant(rec: dict) -> bool:
     """A record is kept if its title/team clearly matches an area, or if
     the description matches an area and the title contains a technical word.
     This filters out roles like planners or recruiters at chip companies
-    whose descriptions merely mention hardware keywords."""
+    whose descriptions merely mention hardware keywords. Curated records
+    are hand-verified with intentional areas and always pass."""
     if not rec.get("areas"):
         return False
+    if rec.get("source") == "curated":
+        return True
     title = rec.get("title", "")
     team = rec.get("_team", "")
     if classify_areas("", title, team):
