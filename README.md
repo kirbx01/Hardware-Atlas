@@ -20,7 +20,7 @@ Hardware Atlas is a project-first roadmap for learning hardware by **building, m
 
 > 💡 **Philosophy in one line:** predict it with math, build it, measure it, and compare the two. If $V = IR$ doesn't match what your multimeter says, the disagreement is the lesson, not the failure.
 
-This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://github.com/kitspace/awesome-electronics): a curated map you dip into, not a checklist you're graded on. Skip what you already know. Jump to what interests you. Come back for the rest later.
+This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://github.com/kitspace/awesome-electronics): a curated map you dip into, Skip what you already know, Jump to what interests you, Come back for the rest later.
 
 ## 📑 Table of contents
 
@@ -84,7 +84,7 @@ This is the **suggested** order, not a locked gate. Each lesson page states its 
 ## 🔍 All 14 levels, in detail
 
 <details id="level-00--getting-started">
-<summary><strong>Level 00 · Getting Started</strong> — click to expand</summary>
+<summary><strong>Level 00 · Getting Started</strong> click to expand</summary>
 
 <br>
 
@@ -98,11 +98,11 @@ Learn how breadboards are actually wired internally, use a multimeter safely, bu
 </details>
 
 <details id="level-01--basic-circuits">
-<summary><strong>Level 01 · Basic Circuits</strong> — click to expand</summary>
+<summary><strong>Level 01 · Basic Circuits</strong> click to expand</summary>
 
 <br>
 
-Ohm's law, polarity, switching, charge, discharge, and time constants — the vocabulary everything else is built on.
+Ohm's law, polarity, switching, charge, discharge, and time constants the vocabulary everything else is built on.
 
 | # | Lesson | Main idea |
 |---|---|---|
@@ -115,11 +115,11 @@ Ohm's law, polarity, switching, charge, discharge, and time constants — the vo
 </details>
 
 <details id="level-02--analog-electronics">
-<summary><strong>Level 02 · Analog Electronics</strong> — click to expand</summary>
+<summary><strong>Level 02 · Analog Electronics</strong> click to expand</summary>
 
 <br>
 
-Bias, gain, loading, clipping, noise, and bandwidth — where ideal models start showing their limits.
+Bias, gain, loading, clipping, noise, and bandwidth are  where ideal models start showing their limits.
 
 | # | Lesson | Main idea |
 |---|---|---|
@@ -131,7 +131,7 @@ Bias, gain, loading, clipping, noise, and bandwidth — where ideal models start
 </details>
 
 <details id="level-03--digital-electronics">
-<summary><strong>Level 03 · Digital Electronics</strong> — click to expand</summary>
+<summary><strong>Level 03 · Digital Electronics</strong> click to expand</summary>
 
 <br>
 
@@ -147,7 +147,7 @@ Truth tables, reset behaviour, timing, defined logic levels, and switch bounce, 
 </details>
 
 <details>
-<summary><strong>Level 04 · Microcontrollers</strong> — click to expand</summary>
+<summary><strong>Level 04 · Microcontrollers</strong> click to expand</summary>
 
 <br>
 
@@ -163,7 +163,7 @@ Arduino, ESP32, and Pico boards as practical platforms before bare-MCU design. V
 </details>
 
 <details>
-<summary><strong>Level 05 · Embedded Systems</strong> — click to expand</summary>
+<summary><strong>Level 05 · Embedded Systems</strong> click to expand</summary>
 
 <br>
 
@@ -180,7 +180,7 @@ Moving from working demos to dependable firmware: STM32, ESP32, RTOS tasks, cust
 </details>
 
 <details>
-<summary><strong>Level 06 · PCB Design</strong> — click to expand</summary>
+<summary><strong>Level 06 · PCB Design</strong>click to expand</summary>
 
 <br>
 
@@ -194,7 +194,7 @@ Converting a tested breadboard circuit into a schematic and a real two-layer PCB
 </details>
 
 <details>
-<summary><strong>Level 07 · Hardware Interfaces</strong> — click to expand</summary>
+<summary><strong>Level 07 · Hardware Interfaces</strong> click to expand</summary>
 
 <br>
 
@@ -208,7 +208,7 @@ Framing, addressing, timing, termination, pull-ups, error handling, and recovery
 </details>
 
 <details>
-<summary><strong>Level 08 · FPGA and RTL</strong> — click to expand</summary>
+<summary><strong>Level 08 · FPGA and RTL</strong> click to expand</summary>
 
 <br>
 
@@ -223,7 +223,7 @@ Synchronous RTL for counters, UART receivers, and memory-mapped peripherals. Ver
 </details>
 
 <details>
-<summary><strong>Level 09 · Computer Architecture</strong> — click to expand</summary>
+<summary><strong>Level 09 · Computer Architecture</strong> click to expand</summary>
 
 <br>
 
@@ -238,7 +238,7 @@ From an ALU and register file toward a CPU, memory system, and simulated periphe
 </details>
 
 <details>
-<summary><strong>Level 10 · ASIC Design</strong> — click to expand</summary>
+<summary><strong>Level 10 · ASIC Design</strong> click to expand</summary>
 
 <br>
 
@@ -253,13 +253,13 @@ Synthesizable RTL through gates, standard-cell layout, and an open shuttle flow.
 </details>
 
 <details>
-<summary><strong>Level 11 · Semiconductor Devices</strong> — click to expand</summary>
+<summary><strong>Level 11 · Semiconductor Devices</strong>click to expand</summary>
 
 <br>
 
 Diode, BJT, and MOSFET behaviour through controlled measurements, small-signal models, SPICE, and temperature variation. Stay within device ratings and record uncertainty for every experiment — this is where $E = h\nu$ stops being a formula from a textbook and starts being the reason your LED emits a specific color.
 
-*No dedicated lesson files yet — this level is theory and simulation-driven. See [Simulation](resources/simulation.md).*
+*No dedicated lesson files yet this level is theory and simulation-driven. See [Simulation](resources/simulation.md).*
 
 </details>
 
