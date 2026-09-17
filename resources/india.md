@@ -80,16 +80,16 @@ Buying offline wins on price and on instant inspection, but you carry the risk: 
 
 | Market | City | Best for | JustDial | Google Maps |
 |---|---|---|---|---|
-| Lajpat Rai Market / Chandni Chowk | Delhi | Cheap bulk passives, connectors, hardware, hand tools | [listings](https://www.justdial.com/search?q=lajpat+rai+market+delhi) | [maps](https://www.google.com/maps/search/Lajpat+Rai+Market,+Delhi) |
-| Nehru Place | Delhi | Salvage: stripped boards, motors, heatsinks, second-hand gear to reverse engineer | [listings](https://www.justdial.com/search?q=nehru+place+delhi) | [maps](https://www.google.com/maps/search/Nehru+Place,+Delhi) |
-| Gaffar Market, Karol Bagh | Delhi | Surplus and refurbished electronics | [listings](https://www.justdial.com/search?q=gaffar+market+karol+bagh+delhi) | [maps](https://www.google.com/maps/search/Gaffar+Market,+Karol+Bagh,+Delhi) |
-| SP Road | Bangalore | The classic components street: passives, ICs, wire, tools | [listings](https://www.justdial.com/search?q=sp+road+electronics+bangalore) | [maps](https://www.google.com/maps/search/SP+Road,+Bangalore) |
-| Ritchie Street | Chennai | Bulk components, tools, repair parts | [listings](https://www.justdial.com/search?q=ritchie+street+electronics+chennai) | [maps](https://www.google.com/maps/search/Ritchie+Street,+Chennai) |
-| Lamington Road | Mumbai | Components, tools, audio and salvage gear | [listings](https://www.justdial.com/search?q=lamington+road+electronics+mumbai) | [maps](https://www.google.com/maps/search/Lamington+Road,+Mumbai) |
-| Kotwali electronics bazaar | Kolkata | Surplus bargains (pricing varies; ask the locals where the good bins are) | [listings](https://www.justdial.com/search?q=electronics+market+kolkata) | [maps](https://www.google.com/maps/search/Electronics+Market,+Kolkata) |
+| Lajpat Rai Market / Chandni Chowk | Delhi | Cheap bulk passives, connectors, hardware, hand tools | [component dealers](https://www.justdial.com/Delhi/Electronic-Component-Dealers-in-Lajpat-Rai-Market/nct-10184815) | [maps](https://www.google.com/maps/search/Lajpat+Rai+Market,+Delhi) |
+| Nehru Place | Delhi | Salvage: stripped boards, motors, heatsinks, second-hand gear to reverse engineer | [computer dealers](https://www.justdial.com/Delhi/Computer-Dealers-in-Nehru-Place/nct-10110698) | [maps](https://www.google.com/maps/search/Nehru+Place,+Delhi) |
+| Gaffar Market, Karol Bagh | Delhi | Surplus and refurbished electronics | [market listing](https://www.justdial.com/Delhi/Gaffar-Market-Block-51-Pt-Quarters-Karol-Bagh/011PXX11-XX11-220127151849-T1H9_BZDET) | [maps](https://www.google.com/maps/search/Gaffar+Market,+Karol+Bagh,+Delhi) |
+| SP Road | Bangalore | The classic components street: passives, ICs, wire, tools | [component dealers](https://www.justdial.com/Bangalore/Electronic-Component-Dealers-in-Sp-Road/nct-10184815) | [maps](https://www.google.com/maps/search/SP+Road,+Bangalore) |
+| Ritchie Street | Chennai | Bulk components, tools, repair parts | [component dealers](https://www.justdial.com/Chennai/Computer-Part-Dealers-in-Richie-Street-Mount-Road/nct-10115684) | [maps](https://www.google.com/maps/search/Ritchie+Street,+Chennai) |
+| Lamington Road | Mumbai | Components, tools, audio and salvage gear | [component dealers](https://www.justdial.com/Mumbai/Electronic-Component-Dealers-in-Lamington-Road/nct-10184815) | [maps](https://www.google.com/maps/search/Lamington+Road,+Mumbai) |
+| Kotwali electronics bazaar | Kolkata | Surplus bargains (pricing varies; ask the locals where the good bins are) | — | [maps](https://www.google.com/maps/search/Electronics+Market,+Kolkata) |
 
 * **Local maker hubs (Delhi NCR):** [Maker Junction](https://www.google.com/maps/search/Maker+Junction,+Delhi) and [Robosaki](https://www.google.com/maps/search/Robosaki,+Delhi) for maker supplies and rapid prototyping.
-* **PCB fabrication (Delhi NCR):** for local prototyping without waiting on international shipping, **Atronics (Mayur Vihar)** and **Megabyte** are solid job shops — [find PCB shops near you on JustDial](https://www.justdial.com/search?q=pcb+manufacturing+delhi).
+* **PCB fabrication (Delhi NCR):** for local prototyping without waiting on international shipping, **Atronics (Mayur Vihar)** and **Megabyte** are solid job shops — [find PCB manufacturers in Delhi on JustDial](https://www.justdial.com/Delhi/PCB-Manufacturers/nct-10233654).
 
 [⬆ Back to top](#-table-of-contents)
 
