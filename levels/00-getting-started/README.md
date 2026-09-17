@@ -5,14 +5,18 @@ Breadboard layout, multimeter basics, and the first real measurement. If you hav
 > [!NOTE]
 > Nothing here is a gate. The point of the level is that your first measurement is boring and safe, so the next one can be interesting.
 
-## What this level covers
+## Prerequisites
+
+No electronics background required. You only need a breadboard, a power source, and a multimeter. If you can already get a stable LED current reading without looking the board up, jump straight to [Level 01](../01-basic-circuits/README.md).
+
+## Core concepts
 
 - How a breadboard is actually wired internally: rows, rails, the centre gap, broken rails
 - Multimeter placement: voltage in parallel, current in series, resistance with power off
 - Building the first LED circuit and taking real numbers from it
 - Ohm's law as a check against what the meter says
 
-## Lessons and exercises
+## Lessons
 
 | # | Lesson | What it builds |
 |---|---|---|
@@ -41,12 +45,13 @@ flowchart LR
 - Forgetting the two power rails on one row are not connected
 - Trusting a number that contradicts Ohm's law instead of re-checking the leads
 
-## Where to go from here
-
-- [Level 01](../01-basic-circuits/README.md) when you want resistors, switches, and time constants.
-- You can also jump straight to any level that interests you; the roadmap is a map, not a route.
-
 ## Resources
 
 - [Tools](../../resources/tools.md) for choosing a multimeter or breadboard.
 - [Components](../../resources/components.md) for understanding parts before buying them.
+- [Opportunities](../../opportunities/README.md) for jobs and programs tagged to entry-level hardware work.
+
+## Where to go from here
+
+- [Level 01](../01-basic-circuits/README.md) when you want resistors, switches, and time constants.
+- Jump straight to any level that interests you; the roadmap is a map, not a route.
