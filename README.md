@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/opportunities-automated-informational.svg" alt="Opportunities automated"/>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"/>
   <img src="https://img.shields.io/badge/made%20for-ECE%20%26%20makers-orange.svg" alt="Made for ECE and makers"/>
-  <img src="https://img.shields.io/github/stars/kirbx01/Hardware-Atlas?style=social" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/stars/kirbx01/Hardware-Atlas?style=social&v=2" alt="GitHub stars"/>
 </p>
 
 ---
