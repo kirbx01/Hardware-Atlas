@@ -1,6 +1,6 @@
 # 🧰 Components & Tools
 
-One buy list, mapped to the folder structure you're actually working through. Do not buy a warehouse. Start with a development board and buy parts as a project calls for them a small labelled assortment is useful only after you know which values you actually use. Move down this document level by level; don't skip to Level 10 tooling before Level 01 parts have taught you the basics.
+One buy list, mapped to the folder structure you're actually working through. Do not buy a warehouse. Start with a development board and buy parts as a project calls for them; a small labelled assortment is useful only after you know which values you actually use. Move down this document level by level; don't skip to Level 10 tooling before Level 01 parts have taught you the basics.
 
 ## 📑 Table of Contents
 
@@ -17,13 +17,13 @@ One buy list, mapped to the folder structure you're actually working through. Do
 11. [08 · FPGA / RTL](#11-08--fpga--rtl)
 12. [09 · Computer Architecture](#12-09--computer-architecture)
 13. [10 · ASIC Design](#13-10--asic-design)
-14. [11–13 · Semiconductor Devices, Fabrication & Advanced Research](#14-1113--semiconductor-devices-fabrication--advanced-research)
+14. [11–13 · Semiconductor Devices, Fabrication & Advanced Hardware](#14-1113--semiconductor-devices-fabrication--advanced-hardware)
 15. [Minimum Viable Kit, Per Level](#15-minimum-viable-kit-per-level)
 
 
 ## 1. Buying Philosophy
 
-Buy against a project's Bill of Materials, not against a fear of running out. A part sitting unused in a bin doesn't teach you anything it just ages.
+Buy against a project's Bill of Materials, not against a fear of running out. A part sitting unused in a bin doesn't teach you anything; it just ages.
 
 ```mermaid
 flowchart LR
@@ -46,7 +46,7 @@ flowchart LR
 
 | Level | Folder | What You're Buying For |
 |---|---|---|
-| 00 | `00-getting-started` | Nothing yet just a dev board and the willingness to read its docs. |
+| 00 | `00-getting-started` | Nothing yet. Just a dev board and the willingness to read its docs. |
 | 01 | `01-basic-circuits` | Passives, LEDs, buttons, first transistors. |
 | 02 | `02-analog` | MOSFETs, comparators, timers, gate drivers, power management. |
 | 03 | `03-digital` | 74HC-family logic ICs. |
@@ -57,7 +57,7 @@ flowchart LR
 | 08 | `08-fpga-rtl` | PMOD modules, JTAG/SWD debuggers. |
 | 09 | `09-computer-architecture` | Same debugger tooling as 08, applied to full cores. |
 | 10 | `10-asic-design` | Shuttle-run prototyping boards, external flash. |
-| 11–13 | `11-semiconductor-devices` → `13-advanced-research` | Mostly software (simulators, EDA, virtual labs) and reading, not a shopping list see the note in [section 14](#14-1113--semiconductor-devices-fabrication--advanced-research). |
+| 11–13 | `11-semiconductor-devices` → `13-advanced-hardware` | Mostly software (simulators, EDA, virtual labs) and reading, not a shopping list see the note in [section 14](#14-1113--semiconductor-devices-fabrication--advanced-hardware). |
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -114,7 +114,7 @@ Switching, signal conditioning, and power components live here.
 
 ## 6. 03 · Digital
 
-Generic "grab some 74HC logic" is not a buy list here's what to actually stock, by function.
+Generic "grab some 74HC logic" is not a buy list. Here's what to actually stock, by function.
 
 | Function | Part | Notes |
 |---|---|---|
@@ -259,15 +259,15 @@ No new component category here reuse the debuggers and diagnostics from [Level 0
 [⬆ Back to top](#-table-of-contents)
 
 
-## 14. 11–13 · Semiconductor Devices, Fabrication & Advanced Research
+## 14. 11–13 · Semiconductor Devices, Fabrication & Advanced Hardware
 
-These three folders are the point where the "buy a part" model runs out you're not purchasing silicon at the device-physics or fab-process level as a hobbyist. What actually fills these folders:
+These three folders are the point where the "buy a part" model runs out. You are not purchasing silicon at the device-physics or fab-process level as a hobbyist. What actually fills these folders:
 
 | Folder | What Fills It | Where |
 |---|---|---|
 | `11-semiconductor-devices` | Device physics simulation, transistor-level modeling | NanoHub, LTspice/Ngspice device models |
 | `12-semiconductor-fabrication` | RTL-to-GDSII flow, layout, LVS tooling | OpenLane, Magic VLSI, KLayout, Netgen |
-| `13-advanced-research` | Reading, coursework, and community depth rather than hardware | University lecture series (Razavi, Mutlu, Hajimiri), papers, forums |
+| `13-advanced-hardware` | Reading, coursework, and community depth rather than hardware | University lecture series (Razavi, Mutlu, Hajimiri), papers, forums |
 
 No purchase list applies here revisit your simulation and learning-resources references instead of this document.
 

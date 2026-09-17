@@ -15,7 +15,7 @@ Wire and batteries are the components most likely to fail silently, then fail ca
 
 ## 1. The Protection Stack
 
-Every lithium power system should be read as a stack, not a single part. A cell with no BMS and no fuse is not "simpler" it's a system with two of its three protection layers missing.
+Every lithium power system should be read as a stack, not a single part. A cell with no BMS and no fuse is not "simpler". It is a system with two of its three protection layers missing.
 
 ```mermaid
 flowchart LR
@@ -29,7 +29,7 @@ flowchart LR
     Fuse -.->|Undersized or omitted| Fail4[Wire insulation melts before anything trips]
 ```
 
-> **Rule of thumb:** If you can't answer "what stops this cell from over-charging, over-discharging, and short-circuiting" in one sentence each, the protection stack is incomplete not simplified.
+> **Rule of thumb:** If you can't answer "what stops this cell from over-charging, over-discharging, and short-circuiting" in one sentence each, the protection stack is incomplete, not simplified.
 
 [⬆ Back to top](#-table-of-contents)
 

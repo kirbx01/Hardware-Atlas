@@ -1,6 +1,6 @@
 # The Electronics Workbench
 
-Specific tools, local pricing, procurement routes, and the reasoning behind each pick. A bench built from a random general-marketplace search accumulates tools that look right and measure wrong. Avoid unverified generic listings; source from specialized Indian tool sellers and component distributors instead Robu, Mouser India, ElectronicsComp, or the SP Road (Bangalore) / Lamington Road (Mumbai) hardware markets, and dedicated test-gear importers for anything calibration-sensitive.
+Specific tools, local pricing, procurement routes, and the reasoning behind each pick. A bench built from a random general-marketplace search accumulates tools that look right and measure wrong. Avoid unverified generic listings. Source from specialized Indian tool sellers and component distributors instead: Robu, Mouser India, ElectronicsComp, or the SP Road (Bangalore) and Lamington Road (Mumbai) hardware markets, plus dedicated test-gear importers for anything calibration-sensitive.
 
 ## 📑 Table of Contents
 
@@ -19,7 +19,7 @@ Specific tools, local pricing, procurement routes, and the reasoning behind each
 
 ## 1. Sourcing by Category
 
-Different tool categories genuinely live in different supply chains in India match the purchase to the right one rather than defaulting to whatever a general marketplace search turns up. A DMM and a bench PSU are not bought the same way, and treating them as if they are is how people end up with uncalibrated "lab equipment" that quietly reports the wrong number for years.
+Different tool categories genuinely live in different supply chains in India. Match the purchase to the right one rather than defaulting to whatever a general marketplace search turns up. A DMM and a bench PSU are not bought the same way, and treating them as if they are is how people end up with uncalibrated "lab equipment" that quietly reports the wrong number for years.
 
 ```mermaid
 flowchart LR
@@ -36,7 +36,7 @@ flowchart LR
     E --> E1[Local hardware stores / IKEA-style organizers / Amazon India]
 ```
 
-* **Precision test gear** (DMMs, scopes, logic analyzers) benefits from a paper trail authorized distributors and known importers can be pushed on warranty and calibration certificates; a random marketplace seller cannot.
+* **Precision test gear** (DMMs, scopes, logic analyzers) benefits from a paper trail; authorized distributors and known importers can be pushed on warranty and calibration certificates. A random marketplace seller cannot.
 * **Bench power / lab equipment** is often cheaper and better supported through old-school scientific/electrical markets than through e-commerce, because these dealers also stock spares and can repair a blown supply.
 * **Soldering & consumables** are commodity items price-shop freely here; brand matters far less than checking the solder's actual alloy ratio and the flux's residue type.
 * **Hand tools & ESD gear** vary enormously in real-world durability at the same price point; buying from a specialist market where you can physically test a plier's action beats a stock photo.
@@ -46,18 +46,18 @@ flowchart LR
 
 ## 2. Measurement & Signal Analysis
 
-Measurement tools are the one category where "buy the wrong thing and it seems to work" is the most dangerous failure mode a miscalibrated meter doesn't announce itself; it just quietly reports numbers you trust.
+Measurement tools are the one category where "buy the wrong thing and it seems to work" is the most dangerous failure mode. A miscalibrated meter does not announce itself; it just quietly reports numbers you trust.
 
 | Tool | What to Buy | Where | Notes |
 |---|---|---|---|
-| Digital Multimeter (DMM) | **UNI-T UT61E+** (True RMS, high count) or budget **Aneng AN8008 / Fluke 101** | Robu.in, ElectronicsComp, or local electrical markets | Mandatory for Levels 0+ buy this before anything else on this list. True RMS matters the moment you measure anything non-sinusoidal (PWM, switching supplies). |
+| Digital Multimeter (DMM) | **UNI-T UT61E+** (True RMS, high count) or budget **Aneng AN8008 / Fluke 101** | Robu.in, ElectronicsComp, or local electrical markets | Mandatory for Levels 0+. Buy this before anything else on the list. True RMS matters the moment you measure anything non-sinusoidal (PWM, switching supplies). |
 | Oscilloscope | **Siglent SDS1104X-E** or **OWON SDS1022** (2-channel, 100MHz digital storage) | Transcat India, Test Instrument India, or authorized distributors | Necessary from Level 2 (Analog) onward. Entry-level digital scopes run ₹25,000–₹40,000. Bandwidth matters more than channel count for most hobbyist signals; don't overspend on 4 channels before you need them. |
 | Logic Analyzer | **Saleae Logic 8 clone** (CY7C68013A, 8-channel, 24MHz USB) | Robu or Amazon India, ~₹500–₹800 | Crucial for Level 7 (Interfaces) I2C/SPI/UART debugging. Pairs with open-source PulseView (Sigrok). A clone is genuinely fine here the value is in the software stack, not the silicon. |
 | LCR Meter | Basic handheld LCR meter, or a DIY transistor/component tester module | Robu.in, ElectronicsComp | Verifies salvaged passives and checks capacitor ESR before reuse; catches a "resistor" that's actually drifted 20% out of spec. |
 | Bench-Grade Frequency Counter (optional) | Any 10MHz+ handheld or bench counter | Local test-gear dealers | Only worth adding once you're doing RF or precision timing work; a scope's built-in measurement is close enough until then. |
 | IR Thermometer / Thermal Camera | Budget IR thermometer gun, or a FLIR-based thermal camera for advanced work | Robu.in, Amazon India | Spots a silently overheating regulator or a solder joint with a hidden short before it becomes visible smoke. |
 
-> **On "True RMS":** A non-True-RMS meter reads sine waves correctly but lies on anything else PWM outputs, switching supply ripple, motor drive waveforms. If your bench touches any of that, the ₹200 price difference between a basic and a True RMS meter is not optional.
+> **On "True RMS":** A non-True-RMS meter reads sine waves correctly but lies on anything else: PWM outputs, switching supply ripple, motor drive waveforms. If your bench touches any of that, the ₹200 price difference between a basic and a True RMS meter is not optional.
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -109,7 +109,7 @@ flowchart TD
 | Flux | Amtech NC-559-ASM, or RMA rosin flux pen/paste | For clean surface-mount soldering; no-clean liquid flux reduces bridging on fine-pitch parts. |
 | Desoldering | Engineer SS-02 desoldering pump (silicone tip) + GOOT Wick 30mm | SS-02 is the gold-standard manual pump; keep wick on hand for fine SMD pads. A desoldering gun is a later upgrade, not a starting requirement. |
 | Tip care | Tip tinner/cleaner, brass wool tip cleaner | Iron tips oxidize and stop transferring heat properly long before they look obviously worn; clean and tin before every session, not just when soldering feels harder. |
-| Fume extraction | DIY fan + carbon filter, or a dedicated benchtop extractor | Protects lungs during long sessions don't skip this, especially with leaded solder and flux fumes in a closed room. |
+| Fume extraction | DIY fan + carbon filter, or a dedicated benchtop extractor | Protects lungs during long sessions. Do not skip this, especially with leaded solder and flux fumes in a closed room. |
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -118,7 +118,7 @@ flowchart TD
 
 | Category | What to Buy | Notes |
 |---|---|---|
-| Pliers & cutters | Engineer NS-04 or Iroda flush cutters (ESD safe) | Avoid cheap ₹50 cutters they blunt after cutting two steel component pins. A good flush cutter should still cut cleanly after months of use. |
+| Pliers & cutters | Engineer NS-04 or Iroda flush cutters (ESD safe) | Avoid cheap ₹50 cutters; they blunt after cutting two steel component pins. A good flush cutter should still cut cleanly after months of use. |
 | Tweezers | Vetus ESD-10 (straight), ESD-11 (curved), ESD-15 (fine curved) | For handling SMD resistors, capacitors, and IC packages without static or slip damage. Keep at least one straight and one curved pair. |
 | Precision screwdrivers | Wiha PicoFinish or Xiaomi Wiha 24-in-1 set | For terminal blocks, enclosures, and general assembly; a cheap magnetized-tip set that slips is worse than no screwdriver at all on a small screw. |
 | Wire strippers | Adjustable automatic wire stripper, or a fixed-gauge manual stripper for your most common wire size | A stripper that nicks the copper strands creates a hidden weak point that fails later under vibration, not immediately. |
@@ -134,10 +134,10 @@ flowchart TD
 |---|---|---|---|
 | Silicone soldering mat | Heat-resistant work surface, often with a magnetic grid for tiny screws/IC pins | No | Fine for general hobbyist soldering with no bare-die ICs on the bench. |
 | True ESD anti-static mat | Dual-layer dissipative rubber mat, connected to a 1MΩ ground cord and grounded wrist strap | Yes only when actually grounded | Mandatory once bare ICs, FPGAs, or motherboards are involved. |
-| Wrist strap | Adjustable conductive strap with a coiled ground cord | Yes when worn and connected | Check continuity with a multimeter occasionally straps do wear out and stop working invisibly. |
+| Wrist strap | Adjustable conductive strap with a coiled ground cord | Yes when worn and connected | Check continuity with a multimeter occasionally; straps do wear out and stop working invisibly. |
 | Fire safety | A small CO2 or dry-powder extinguisher rated for electrical fires, kept within arm's reach | N/A | Especially important anywhere lithium cells are charged or tested unattended charging is the highest-risk habit on most hobbyist benches. |
 
-> **Crucial warning:** A standard silicone mat does **not** protect against electrostatic discharge. If you are handling bare ICs, FPGAs, or repairing motherboards, use a true dissipative ESD mat tied to earth ground, with a wrist strap. Skipping this step doesn't save time it just moves the failure to a later, harder-to-diagnose point, often as an intermittent fault that only shows up weeks after assembly.
+> **Crucial warning:** A standard silicone mat does **not** protect against electrostatic discharge. If you are handling bare ICs, FPGAs, or repairing motherboards, use a true dissipative ESD mat tied to earth ground, with a wrist strap. Skipping this step does not save time. It just moves the failure to a later, harder-to-diagnose point, often as an intermittent fault that only shows up weeks after assembly.
 
 [⬆ Back to top](#-table-of-contents)
 

@@ -1,6 +1,6 @@
 # 🇮🇳 Hardware Sourcing & Electronics Lab Guide
 
-A comprehensive guide for sourcing components, building a diagnostic workbench, and verifying hardware integrity in India. Whether you are building simple microelectronics or complex embedded hybrid systems, this reference covers where to buy, what to stock, and how to avoid counterfeits.
+Sourcing components, building a diagnostic workbench, and verifying hardware integrity in India. Whether you are building simple microelectronics or complex embedded hybrid systems, this reference covers where to buy, what to stock, and how to avoid counterfeits.
 
 ## 📑 Table of Contents
 
@@ -125,7 +125,7 @@ Invest in your bench. Good tools prevent hours of debugging false hardware issue
 | Solder Wire | 60/40 leaded, 0.8mm, 50g+ | Same, plus lead-free for compliance work | Leaded solder is easier for beginners; keep flux pen nearby. |
 | Desoldering Tools | Manual pump | Desoldering gun / braid + pump combo | Braid (copper wick) is essential for fine SMD pads. |
 | Flux | Basic rosin pen | No-clean liquid flux | Reduces bridging and improves wetting on tricky joints. |
-| Fume Extractor | DIY fan + carbon filter | Dedicated benchtop extractor | Protects lungs during long sessions don't skip this. |
+| Fume Extractor | DIY fan + carbon filter | Dedicated benchtop extractor | Protects lungs during long sessions. Don't skip this. |
 
 ### 4.3 Hand Tools & Bench Accessories
 
