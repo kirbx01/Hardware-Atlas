@@ -340,8 +340,8 @@ Include a GitHub repository or project link when possible. A good contribution c
 
 Submit through the normal GitHub contribution process:
 
-Open a pull request, you can watch refer to the docs : [`[Opening a PR]`](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request)
-Contribution guidelines: [`[Contribution guidelines]`](https://github.com/kirbx01/Hardware-Atlas/blob/main/CONTRIBUTING.md)
+- Open a pull request. Start with [GitHub's pull request guide](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request).
+- Follow the [contribution guidelines](../CONTRIBUTING.md) in this repository.
 
 Inclusion is not automatic. Projects are reviewed for:
 
