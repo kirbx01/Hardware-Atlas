@@ -51,3 +51,4 @@ flowchart LR
 
 - [Level 11](../11-semiconductor-devices/README.md) and [Level 12](../12-semiconductor-fabrication/README.md) cover what the PDK is abstracting.
 - Back to [Level 09](../09-computer-architecture/README.md) to re-architect the core now that you know what synthesis rewards.
+- **Related in [Opportunities](../../opportunities/README.md):** CHIPS Alliance (OpenLane, OpenROAD), SEMICON India Hackathon, ChipVerse, ChipCraft, and FOSSEE all run student VLSI and EDA tracks; the ACM SIGDA SRC is the research route.

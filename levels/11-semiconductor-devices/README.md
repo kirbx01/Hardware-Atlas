@@ -328,3 +328,4 @@ If your extracted $V_{TH}$ moves by more than its own uncertainty between two "i
 - [Level 10](../10-asic-design/README.md) connects device behaviour to standard-cell design.
 - Back to [Level 02](../02-analog-electronics/README.md) to re-derive an amplifier with the small-signal model now behind it.
 - [Opportunities](../../opportunities/README.md) for semiconductor, device, and process roles built on this material.
+- **Related in [Opportunities](../../opportunities/README.md):** MITRE eCTF and CSAW ESC exercise device-level probing and side channels; IEEE HOST and CHES publish exactly that research.

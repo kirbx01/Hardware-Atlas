@@ -126,3 +126,4 @@ flowchart TB
 - [Level 13](../13-advanced-hardware/README.md) if you want to reproduce or write up process work yourself.
 - The [OpenLane Sky130 flow](../../lessons/30-openlane-sky130-flow/README.md) to see fabrication constraints appear in a real PDK.
 - Back to [Level 11](../11-semiconductor-devices/README.md) for the device physics each process step is building.
+- **Related in [Opportunities](../../opportunities/README.md):** the SEMICON India Hackathon runs chip design and AI-enabled manufacturing tracks; CHIPS Alliance is the recurring GSoC mentor for the open PDK tooling this level uses.

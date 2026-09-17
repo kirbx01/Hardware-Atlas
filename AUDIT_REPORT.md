@@ -129,6 +129,31 @@ Legend: ✅ fixed · 🔶 partial · ❌ outstanding.
 - **Internal (35 lessons):** every level's lesson-table target exists in `lessons/`.
 - **External (~100 URLs crawled):** 90 healthy; the rest are bot-blocked (403) or timeouts on known-live sites (forums.raspberrypi.com, gateoverflow.in, Digi-Key, st.com, analog.com, vlabs). No dead links found. This repo is private, so GitHub-API/raw anonymous checks 404 by design.
 
+## Extension: opportunities content audit (2026-09-17)
+
+Added 16 curated opportunities in four clusters. All fit the existing schema; no schema change was required.
+
+| Cluster | Entries | Category mapped |
+|---|---|---|
+| Embedded security competitions | MITRE eCTF, CSAW ESC, ISEA-ISAP CTF, MITRE BWSI | `hackathon` (BWSI → `other`) |
+| VLSI hackathons | SEMICON India, ChipVerse, Hardwired, ChipCraft, FOSSEE eSim | `hackathon` |
+| GSoC hardware orgs | CHIPS Alliance, FOSSi Foundation, RISC-V International | `open_source` |
+| Paper-publishing venues | CSAW ARC, IEEE HOST, CHES, ACM SIGDA SRC | `research` |
+
+- **Schema:** `VALID_CATEGORIES` already contains `hackathon`, `research`, `open_source`, `other` (validate.py:9-12); `render.py` `CATEGORY_ORDER` and `CATEGORY_LABELS` likewise. No taxonomy change. Tests extended with `opportunities/tests/test_curated.py` (6 tests: pipeline survive, required fields, area taxonomy, category coverage, URL scheme, published-data validation). Suite now 81 tests, all green.
+- **Pipeline:** entries added to `scraper/curated.json` (source of truth, picked up by CI on every run), then normalized through `normalize_all → classify_all → deduplicate → validate` and merged into `data/opportunities.json` (154 → 170); root README opportunities table re-rendered. Existing ATS records were left byte-identical.
+- **Link fixes (dead links replaced with verified canonical URLs):**
+  - MITRE eCTF press URL → `https://ectf.mitre.org/` (press page is real but curl-bot-blocked; competition home is the stable entry point).
+  - `hostsymposium.org` (dead/timeout) → `https://host.conferences.computer.org/2027/` (IEEE HOST moved to the computer.org domain in 2026).
+  - `iacr.org/events/ches/` (404) → `https://ches.iacr.org/`.
+  - DAC/ICCAD SRC → `https://www.sigda.org/programs/src/` (single SIGDA SRC page covers both DAC and ICCAD).
+  - CSAW ESC: main link `csaw.io/node/52` live; the two background URLs (ccap.udel.edu, NYUAD CCS-AD) verified live.
+- **Live verification:** 16/16 primary URLs HTTP 200 (host.conferences.computer.org returns 403 to curl = bot-blocking, confirmed live via search results, same class as other 403s accepted in the earlier crawl).
+- **GSoC annual caveat:** FOSSi Foundation confirmed as 2026 umbrella org; CHIPS Alliance confirmed through 2024 (recurring); RISC-V International participation varies year to year. The RISC-V record's eligibility text says to confirm the current year before applying, per the request.
+- **Region decision:** the release pipeline publishes only `India` + `Global` regions (workflow runs without `--all-regions`), so US-centric entries (BWSI, MITRE eCTF) are tagged `Global` to survive regeneration rather than being silently dropped as `International`. BWSI's eligibility text still states the US-citizenship requirement. `International` entries only surface under `--all-regions`.
+- **Cross-links added in levels:** `05-embedded-systems` (eCTF/ESC/ISEA-ISAP), `08-fpga-and-rtl` (CHIPS Alliance, FOSSi, Hardwired), `09-computer-architecture` (FOSSi, RISC-V, SIGDA SRC), `10-asic-design` (CHIPS Alliance, SEMICON India, ChipVerse, ChipCraft, FOSSEE, SIGDA SRC), `11-semiconductor-devices` (eCTF/ESC, IEEE HOST, CHES), `12-semiconductor-fabrication` (SEMICON India, CHIPS Alliance) — each named in the level's *Where to go from here* with a link to `opportunities/README.md`.
+- **Link checker:** re-run across `opportunities/` and the six edited levels — 0 broken paths, 0 dead anchors; 75 pre-existing + 6 new tests pass.
+
 ## Residual items (outside this pass)
 
 - Root `README.md` not reclassed (out of scope as agreed).

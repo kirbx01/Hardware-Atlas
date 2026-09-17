@@ -55,3 +55,4 @@ flowchart LR
 - [Level 09](../09-computer-architecture/README.md) builds a RISC-V datapath out of the same RTL habits.
 - [Level 10](../10-asic-design/README.md) takes that RTL toward silicon.
 - Back to [Level 07](../07-hardware-interfaces/README.md) to re-probe the interface you just re-implemented.
+- **Related in [Opportunities](../../opportunities/README.md):** CHIPS Alliance (F4PGA) and FOSSi Foundation are recurring GSoC mentors for open FPGA and RTL tooling; Hardwired runs an FPGA-implementation hackathon.

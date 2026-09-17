@@ -366,13 +366,35 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Memory Developer (remote) | Sunday Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/sunday/f92adbe3-da24-4edd-8599-4f60dec7bd5f) |
 | Packaging Engineer- Flip Chip | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330980009) |
 
+#### 🏆 Hackathons and competitions (8)
+
+| Role | Organization | Location | Areas | Apply |
+|---|---|---|---|---|
+| FOSSEE Circuit Design & Simulation Hack… | FOSSEE (IIT Bombay) with VSD and NIT Ja… | India (online) | Electronics, EDA, Embedded | [Apply](https://fossee.in/node/175) |
+| ChipVerse (IEEE CEDA Bangalore) | IEEE CEDA Bangalore | Bangalore, India | VLSI, ASIC, Embedded | [Apply](https://events.vtools.ieee.org/m/544282) |
+| ISEA-ISAP CTF | ISEA-ISAP / C-DAC | India (online rounds with national fina… | Embedded, Hardware, Low-level Systems | [Apply](https://cystar.iitm.ac.in/isea-isap-ctf-2026/) |
+| ChipCraft (Kalasalingam Academy of Rese… | Kalasalingam Academy of Research and Ed… | Krishnankoil, India | VLSI, ASIC, RTL | [Apply](https://unstop.com/hackathons/chipcraft-20-24hr-vlsi-hackathon-kalasalingam-academy-of-research-and-education-1638332) |
+| SEMICON India Hackathon | SEMICON India / i4c | India (hosted alongside SEMICON India) | VLSI, ASIC, RTL | [Apply](https://i4c.in/hackathon-2026/) |
+| Hardwired (Silicon VLSI Forum, PES Univ… | Silicon VLSI Forum, PES University | Bangalore, India | VLSI, ASIC, FPGA | [Apply](https://events.pes.edu/11418/) |
+| CSAW Embedded Security Challenge (ESC) | CSAW (NYU Tandon) | CSAW finals venues (Brooklyn, Abu Dhabi… | Embedded, Hardware, Low-level Systems | [Apply](https://csaw.io/node/52) |
+| MITRE Embedded Capture the Flag (eCTF) | MITRE | Worldwide (virtual; award ceremony at M… | Embedded, Hardware, Low-level Systems | [Apply](https://ectf.mitre.org/) |
+
+#### 🔬 Research programs (4)
+
+| Role | Organization | Location | Areas | Apply |
+|---|---|---|---|---|
+| DAC and ICCAD Student Research Competit… | ACM / SIGDA | Conference venue varies (DAC and ICCAD) | VLSI, ASIC, EDA | [Apply](https://www.sigda.org/programs/src/) |
+| CSAW Applied Research Competition (ARC) | CSAW (NYU Tandon) | CSAW finals venues (Brooklyn, Abu Dhabi… | Embedded, Hardware, Computer Architecture | [Apply](https://www.csaw.io/research) |
+| CHES (Conference on Cryptographic Hardw… | IACR | Conference venue varies | Embedded, Hardware, Low-level Systems | [Apply](https://ches.iacr.org/) |
+| IEEE HOST (Hardware Oriented Security a… | IEEE | Conference venue varies (Washington, DC… | Hardware, VLSI, Computer Architecture | [Apply](https://host.conferences.computer.org/2027/) |
+
 #### 🧑‍💻 Fellowships (1)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
 | ISCOS RISC-V International Fellowship | RISC-V International | Remote | Computer Architecture, RTL, ASIC | [Apply](https://riscv.org/) |
 
-#### 🌐 Open source programs (6)
+#### 🌐 Open source programs (9)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -381,7 +403,16 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Senior Software Development Engineer in… | Cerebras Systems | Bengaluru, IND | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/cerebras/ba24de32-d882-4e27-b398-90e6356297c5) |
 | Tech Lead Manager, Developer Productivi… | Cerebras Systems | Bengaluru, IND | Hardware, EDA, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/e4bc1ea1-5401-4a3a-af22-21be3378aa4a) |
 | Staff Kernel Optimzation Engineer | Cerebras Systems | Remote | FPGA, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/270407eb-1452-4a36-8f8c-7d64263eaa0a) |
+| CHIPS Alliance GSoC Mentor Organization | CHIPS Alliance (Linux Foundation) | Remote | FPGA, RTL, ASIC | [Apply](https://www.chipsalliance.org/) |
+| FOSSi Foundation GSoC Umbrella | FOSSi Foundation | Remote | Computer Architecture, RTL, ASIC | [Apply](https://fossi-foundation.org/gsoc) |
 | Google Summer of Code | Google / Open Source Communities | Remote | Embedded, Hardware, FPGA | [Apply](https://summerofcode.withgoogle.com/) |
+| RISC-V International Student Contributi… | RISC-V International | Remote | Computer Architecture, RTL, ASIC | [Apply](https://riscv.org/) |
+
+#### 📚 Other (1)
+
+| Role | Organization | Location | Areas | Apply |
+|---|---|---|---|---|
+| MITRE Beaver Works Summer Institute (BW… | MIT Lincoln Laboratory | MIT Lincoln Laboratory, Lexington, MA (… | Embedded, Hardware, Low-level Systems | [Apply](https://beaverworks.ll.mit.edu/CMS/bw/bwsi) |
 <!-- END_OPPORTUNITIES -->
 
 The list refreshes automatically on a twice-weekly schedule. Full dataset: [`opportunities/data/opportunities.json`](opportunities/data/opportunities.json). More about the index: [`opportunities/README.md`](opportunities/README.md).

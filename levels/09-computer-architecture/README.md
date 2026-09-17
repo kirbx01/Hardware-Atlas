@@ -53,3 +53,4 @@ flowchart LR
 
 - [Level 10](../10-asic-design/README.md) synthesizes and lays out the same RTL.
 - Back to [Level 08](../08-fpga-and-rtl/README.md) for the module-level habits this core stacks on top of.
+- **Related in [Opportunities](../../opportunities/README.md):** FOSSi Foundation (CVA6/Ariane, OpenPiton) and RISC-V International mentor the exact open cores this level builds; the ACM SIGDA SRC at DAC/ICCAD takes architecture research posters.

@@ -56,3 +56,4 @@ flowchart LR
 - [Level 06](../06-pcb-design/README.md) to move dependable firmware onto a dependable board.
 - [Level 07](../07-hardware-interfaces/README.md) when "the protocol is fine" stops being a guess.
 - Back to [Level 04](../04-microcontrollers/README.md) to wire the interrupts this level schedules.
+- **Related in [Opportunities](../../opportunities/README.md):** MITRE eCTF and CSAW Embedded Security Challenge (ESC) put secure-embedded design and attack on a team; ISEA-ISAP CTF is the national Indian equivalent.
