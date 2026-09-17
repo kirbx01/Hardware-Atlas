@@ -2,6 +2,8 @@
 
 Sourcing components, building a diagnostic workbench, and verifying hardware integrity in India. Whether you are building simple microelectronics or complex embedded hybrid systems, this reference covers where to buy, what to stock, and how to avoid counterfeits.
 
+> **Related guides →** [Components](components.md) · [Tools](tools.md) · [Power & Batteries](power-and-batteries.md) · [Simulation](simulation.md) · [Help](help.md) · [GATE](gate.md)
+
 ## 📑 Table of Contents
 
 1. [Component Categories & Sourcing Strategy](#1-component-categories--sourcing-strategy)
@@ -25,6 +27,7 @@ Sourcing components, building a diagnostic workbench, and verifying hardware int
    - [Electrical Verification](#53-electrical-verification)
    - [Common Counterfeit/Recycled Red Flags](#54-common-counterfeitrecycled-red-flags)
 6. [Communities & Simulation Tools](#6-communities--simulation-tools)
+7. [Related guides & cross-references](#7-related-guides--cross-references)
 
 
 ## 1. Component Categories & Sourcing Strategy
@@ -58,16 +61,35 @@ flowchart LR
 
 ### Online E-Shopping
 
-* **Element14, Mouser, DigiKey:** The gold standard for authentic ICs, specific microcontrollers, and precision components. Use these for complex development and safety-critical parts.
-* **ElectronicsComp & Electronify India:** Reliable sources for common components, modules, and prototyping quantities.
-* **Robomart & Robu.in:** Excellent for dev boards, maker hardware, and robotics. *Caution:* Do not place 100% trust in these for highly sensitive silicon, as cheap green PCBs or modules sometimes utilize rejected or recycled IC batches.
+| Store | Best for | Link |
+|---|---|---|
+| Mouser India | Authentic ICs, specific MCUs, precision components, safety-critical parts | [mouser.in](https://www.mouser.in/) |
+| Element14 India | Same tier; strong same-day/next-day fulfillment in major metros | [in.element14.com](https://in.element14.com/) |
+| DigiKey India | Same tier; the deepest shared inventory of the big three | [digikey.in](https://www.digikey.in/) |
+| Robu.in | Dev boards, maker hardware, robotics, tools | [robu.in](https://robu.in/) |
+| Robomart | Dev boards, maker hardware, robotics | [robomart.com](https://www.robomart.com/) |
+| ElectronicsComp | Common components, modules, prototyping quantities | [electronicscomp.com](https://www.electronicscomp.com/) |
+| Electronify India | Common components, modules, prototyping quantities | [electronifyindia.com](https://www.electronifyindia.com/) |
+| Electroshield | Passives and common building blocks at low unit prices | [electroshield.com](https://www.electroshield.com/) |
+
+**Element14 / Mouser / DigiKey** are the gold standard for authentic ICs, specific microcontrollers, and precision components — use them for complex development and safety-critical parts. Indian e-stores are excellent for dev boards, maker hardware, and prototyping quantities, but do not place 100% trust in them for highly sensitive silicon: cheap green PCBs or modules sometimes utilize rejected or recycled IC batches. Cross-check any part that matters against the [inspection workflow](#5-quality-control-inspecting-parts).
 
 ### Offline Markets & Salvage (NCR Focus)
 
-* **Lajpat Rai Market / Chandni Chowk:** Ideal for extremely cheap, one-time-use bulk components, connectors, and hand tools. *Note: Vendors rarely accept returns for false or broken parts.*
-* **Nehru Place:** Great for stripping old systems for usable parts, motors, and heatsinks, or finding almost-unused second-hand electronics to reverse engineer.
-* **Maker Junction & Robosaki:** Good local hubs for maker supplies and rapid prototyping.
-* **PCB Fabrication (Delhi NCR):** For local prototyping without waiting for international shipping, **Atronics (Mayur Vihar)** and **Megabyte** are solid local job shops.
+Buying offline wins on price and on instant inspection, but you carry the risk: vendors rarely accept returns on false or broken parts. Run the [inspection workflow](#5-quality-control-inspecting-parts) before money changes hands, not back at the bench. The table below covers the major electronics streets nationwide; the NCR markets get the most detail.
+
+| Market | City | Best for | JustDial | Google Maps |
+|---|---|---|---|---|
+| Lajpat Rai Market / Chandni Chowk | Delhi | Cheap bulk passives, connectors, hardware, hand tools | [listings](https://www.justdial.com/search?q=lajpat+rai+market+delhi) | [maps](https://www.google.com/maps/search/Lajpat+Rai+Market,+Delhi) |
+| Nehru Place | Delhi | Salvage: stripped boards, motors, heatsinks, second-hand gear to reverse engineer | [listings](https://www.justdial.com/search?q=nehru+place+delhi) | [maps](https://www.google.com/maps/search/Nehru+Place,+Delhi) |
+| Gaffar Market, Karol Bagh | Delhi | Surplus and refurbished electronics | [listings](https://www.justdial.com/search?q=gaffar+market+karol+bagh+delhi) | [maps](https://www.google.com/maps/search/Gaffar+Market,+Karol+Bagh,+Delhi) |
+| SP Road | Bangalore | The classic components street: passives, ICs, wire, tools | [listings](https://www.justdial.com/search?q=sp+road+electronics+bangalore) | [maps](https://www.google.com/maps/search/SP+Road,+Bangalore) |
+| Ritchie Street | Chennai | Bulk components, tools, repair parts | [listings](https://www.justdial.com/search?q=ritchie+street+electronics+chennai) | [maps](https://www.google.com/maps/search/Ritchie+Street,+Chennai) |
+| Lamington Road | Mumbai | Components, tools, audio and salvage gear | [listings](https://www.justdial.com/search?q=lamington+road+electronics+mumbai) | [maps](https://www.google.com/maps/search/Lamington+Road,+Mumbai) |
+| Kotwali electronics bazaar | Kolkata | Surplus bargains (pricing varies; ask the locals where the good bins are) | [listings](https://www.justdial.com/search?q=electronics+market+kolkata) | [maps](https://www.google.com/maps/search/Electronics+Market,+Kolkata) |
+
+* **Local maker hubs (Delhi NCR):** [Maker Junction](https://www.google.com/maps/search/Maker+Junction,+Delhi) and [Robosaki](https://www.google.com/maps/search/Robosaki,+Delhi) for maker supplies and rapid prototyping.
+* **PCB fabrication (Delhi NCR):** for local prototyping without waiting on international shipping, **Atronics (Mayur Vihar)** and **Megabyte** are solid job shops — [find PCB shops near you on JustDial](https://www.justdial.com/search?q=pcb+manufacturing+delhi).
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -78,13 +100,16 @@ flowchart LR
 
 Skip the older Uno R3 if you are moving into modern embedded systems. Opt for boards that force you to read datasheets and understand modern architectures:
 
-* **Arduino UNO R4 WiFi**
-* **Nano ESP32**
-* **Raspberry Pi Pico W**
+* **[Arduino UNO R4 WiFi](https://docs.arduino.cc/hardware/uno-r4-wifi/)** — modern AVR with WiFi; the board the roadmap's microcontroller level assumes.
+* **[Arduino Nano ESP32](https://docs.arduino.cc/hardware/nano-esp32/)** — the ESP32-S3 in an Arduino footprint for connected builds.
+* **[Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)** — RP2040, C/C++ and MicroPython, the cheapest honest way to practice bare-metal.
+* **[ESP32 family (Espressif)](https://www.espressif.com/en/products/socs/esp32)** — the SOC line that dominates Indian hobbyist IoT; check the Espressif pages for module variants and the official docs.
+
+All of these are stocked on the [e-stores above](#online-e-shopping). The level-by-level buy list — what to own at each stage, and what to skip — lives in the [Components guide](components.md).
 
 ### Component Inventory
 
-A well-stocked lab should have these on hand:
+A well-stocked lab should have these on hand. The full taxonomy — which values to stock, when to prefer SMD vs THT, and where each category sits on the [levels map](../README.md#-find-something-quickly) — is in the [Components guide](components.md):
 
 * **Logic & Timing:** Comparators, Timer/Oscillators, Logic Level Shifters, Shift Registers.
 * **Conversion:** ADCs and DACs.
@@ -93,6 +118,8 @@ A well-stocked lab should have these on hand:
 * **Modules & Comms:** USB-UART bridges, OLEDs, IMUs, EEPROM chips. *Optional but highly recommended for automotive/industrial:* MCP2515 + TJA1050 (CAN transceivers).
 
 ### Power & Wiring
+
+Everything below goes deeper in the [Power & Batteries guide](power-and-batteries.md): wiring practice, charger boards, protection circuits, and the BMS/fuse stack every lithium build should carry.
 
 * **Wiring:** Use **solid core wires** for clean breadboarding; rely less on messy jumper wires as you advance.
 * **Batteries:** 18650 Li-Ion cells, 3.7V LiPo packs, and CR2032 coins for compact modeling.
@@ -103,7 +130,7 @@ A well-stocked lab should have these on hand:
 
 ## 4. Tools & Diagnostic Workbench
 
-Invest in your bench. Good tools prevent hours of debugging false hardware issues. Tools are grouped below by function, with tiered recommendations (Budget / Hobbyist / Pro) so you can scale spend to how serious the lab is.
+Invest in your bench. Good tools prevent hours of debugging false hardware issues. The **[Tools guide](tools.md)** is the full tool-by-tool breakdown — every purchase, why it earns its place, and where in India to buy it. The tables below group tools by function with tiered recommendations (Budget / Hobbyist / Pro) so you can scale spend to how serious the lab is.
 
 ### 4.1 Measurement & Diagnostic Equipment
 
@@ -216,14 +243,35 @@ flowchart TD
 
 ## 6. Communities & Simulation Tools
 
-Before buying physical components for a complex layout, simulate it.
+Before buying physical components for a complex layout, simulate it. The [Simulation guide](simulation.md) explains what simulation is good for (and what it cannot catch) before you pick a tool.
 
-* **Simulators:** Wokwi, Tinkercad, EasyEDA, Cirkit Designer.
-* **Communities & Forums:**
+* **Simulators:** [Wokwi](https://wokwi.com/), [Tinkercad](https://www.tinkercad.com/), [EasyEDA](https://easyeda.com/), [Cirkit Designer](https://cirkitdesigner.com/).
+* **Communities & Forums:** matching problem type to forum is a skill on its own — the [Help guide](help.md) maps communities to problems so you ask in the right place.
   * *Ideation:* Hackclub, Circuit Digest, Hackster.io, Instructables.
-  * *Advanced Troubleshooting:* Electrical Engineering Stack Exchange, r/ElectricalEngineering, r/ECE.
+  * *Advanced Troubleshooting:* [Electrical Engineering Stack Exchange](https://electronics.stackexchange.com/), r/ElectricalEngineering, r/ECE.
   * *Specific Hardware:* Always refer to the respective official forums for Arduino, ESP32, or Raspberry Pi when working with those ecosystems.
 
 > **Golden Rule:** Always verify a component's price across multiple sources, and heavily prioritize community reviews over marketing descriptions.
+
+[⬆ Back to top](#-table-of-contents)
+
+
+## 7. Related guides & cross-references
+
+Sourcing is only one side of the workbench. Use this page together with the rest of the resources:
+
+| Guide | Use it for | Link |
+|---|---|---|
+| Components | What to buy (and skip) at every level of the roadmap | [components.md](components.md) |
+| Tools | The full tool-by-tool bench plan with Indian pricing and procurement routes | [tools.md](tools.md) |
+| Power & Batteries | Wiring, charging, BMS and fuse protection before you plug lithium in | [power-and-batteries.md](power-and-batteries.md) |
+| Simulation | Checking an idea before ordering hardware | [simulation.md](simulation.md) |
+| Help | Picking the right community or forum for your problem | [help.md](help.md) |
+| GATE | Running exam prep alongside project work | [gate.md](gate.md) |
+| Levels | Where each skill this page buys parts for sits in the roadmap | [levels index](../README.md#-how-to-use-this-repository) |
+| Projects | How to structure a build that outgrows the numbered lessons | [projects guide](../projects/README.md) |
+| Opportunities | Jobs, hackathons, and programs that put this bench to work | [opportunities](../opportunities/README.md) |
+
+The [Components guide](components.md) [Tools guide](tools.md) and [Power & Batteries guide](power-and-batteries.md) share this page's vocabulary: a component bought here is stocked per the components map, tested with the tools you bench here, and powered safely per the power guide.
 
 [⬆ Back to top](#-table-of-contents)
