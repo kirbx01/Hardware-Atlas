@@ -1,11 +1,11 @@
 # 🧰 Components & Tools
 
-One buy list, mapped to the folder structure you're actually working through. Do not buy a warehouse. Start with a development board and buy parts as a project calls for them; a small labelled assortment is useful only after you know which values you actually use. Move down this document level by level; don't skip to Level 10 tooling before Level 01 parts have taught you the basics.
+One buy list, mapped to the folder structure you're actually working through. Do not buy a warehouse. Start with a development board and buy parts as a project calls for them; a small labelled assortment is useful only after you know which values you actually use. Move down this document domain by domain; don't skip to Domain 10 tooling before Domain 01 parts have taught you the basics.
 
 ## 📑 Table of Contents
 
 1. [Buying Philosophy](#1-buying-philosophy)
-2. [Level Map](#2-level-map)
+2. [Domain Map](#2-domain-map)
 3. [00 · Getting Started](#3-00--getting-started)
 4. [01 · Basic Circuits](#4-01--basic-circuits)
 5. [02 · Analog](#5-02--analog)
@@ -37,14 +37,14 @@ flowchart LR
     Log --> Stock[Assortment Grows From Real Usage, Not Guesswork]
 ```
 
-> **On pricing:** Where ₹ figures appear (Levels 06–10), they are rough Indian street/import estimates for single-unit hobbyist quantities. Genuine branded gear carries import duty and GST on top; clones and open-hardware equivalents are cheaper but need vendor vetting for calibration-sensitive work.
+> **On pricing:** Where ₹ figures appear (Domains 06–10), they are rough Indian street/import estimates for single-unit hobbyist quantities. Genuine branded gear carries import duty and GST on top; clones and open-hardware equivalents are cheaper but need vendor vetting for calibration-sensitive work.
 
 [⬆ Back to top](#-table-of-contents)
 
 
-## 2. Level Map
+## 2. Domain Map
 
-| Level | Folder | What You're Buying For |
+| Domain | Folder | What You're Buying For |
 |---|---|---|
 | 00 | `00-getting-started` | Nothing yet. Just a dev board and the willingness to read its docs. |
 | 01 | `01-basic-circuits` | Passives, LEDs, buttons, first transistors. |
@@ -64,7 +64,7 @@ flowchart LR
 
 ## 3. 00 · Getting Started
 
-No purchases at this stage beyond a development board (see [Level 04](#7-04--microcontrollers)). This folder is documentation and setup: install the toolchain, flash the blink example, confirm you can actually talk to the board before buying anything else.
+No purchases at this stage beyond a development board (see [Domain 04](#7-04--microcontrollers)). This folder is documentation and setup: install the toolchain, flash the blink example, confirm you can actually talk to the board before buying anything else.
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -243,7 +243,7 @@ Bridges between your MCU's logic levels and everything else in the world.
 
 ## 12. 09 · Computer Architecture
 
-No new component category here reuse the debuggers and diagnostics from [Level 08](#11-08--fpga--rtl). What changes is the target: instead of a single RTL module, you're debugging a full core (pipeline, cache, memory hierarchy), so lean more on the software side Gem5, Renode, QEMU, Ripes from your simulation toolkit than on new hardware purchases.
+No new component category here reuse the debuggers and diagnostics from [Domain 08](#11-08--fpga--rtl). What changes is the target: instead of a single RTL module, you're debugging a full core (pipeline, cache, memory hierarchy), so lean more on the software side Gem5, Renode, QEMU, Ripes from your simulation toolkit than on new hardware purchases.
 
 [⬆ Back to top](#-table-of-contents)
 
@@ -274,7 +274,7 @@ No purchase list applies here revisit your simulation and learning-resources ref
 [⬆ Back to top](#-table-of-contents)
 
 
-## 15. Minimum Viable Kit, Per Level
+## 15. Minimum Viable Kit, Per Domain
 
 - [ ] **00–01:** Passives, LEDs, buttons, a handful of BC547-class BJTs
 - [ ] **02–03:** A few MOSFETs (rated for your gate-drive voltage), comparators/timers, a couple of 74HC logic ICs
