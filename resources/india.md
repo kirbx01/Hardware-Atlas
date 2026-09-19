@@ -105,7 +105,7 @@ Skip the older Uno R3 if you are moving into modern embedded systems. Opt for bo
 * **[Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico/)** — RP2040, C/C++ and MicroPython, the cheapest honest way to practice bare-metal.
 * **[ESP32 family (Espressif)](https://www.espressif.com/en/products/socs/esp32)** — the SOC line that dominates Indian hobbyist IoT; check the Espressif pages for module variants and the official docs.
 
-All of these are stocked on the [e-stores above](#online-e-shopping). The level-by-level buy list — what to own at each stage, and what to skip — lives in the [Components guide](components.md).
+All of these are stocked on the [e-stores above](#online-e-shopping). The domain-by-domain buy list — what to own at each stage, and what to skip — lives in the [Components guide](components.md).
 
 ### Component Inventory
 

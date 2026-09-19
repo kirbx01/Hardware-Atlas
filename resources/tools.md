@@ -51,8 +51,8 @@ Measurement tools are the one category where "buy the wrong thing and it seems t
 | Tool | What to Buy | Where | Notes |
 |---|---|---|---|
 | Digital Multimeter (DMM) | **UNI-T UT61E+** (True RMS, high count) or budget **Aneng AN8008 / Fluke 101** | Robu.in, ElectronicsComp, or local electrical markets | Mandatory for Levels 0+. Buy this before anything else on the list. True RMS matters the moment you measure anything non-sinusoidal (PWM, switching supplies). |
-| Oscilloscope | **Siglent SDS1104X-E** or **OWON SDS1022** (2-channel, 100MHz digital storage) | Transcat India, Test Instrument India, or authorized distributors | Necessary from Level 2 (Analog) onward. Entry-level digital scopes run ₹25,000–₹40,000. Bandwidth matters more than channel count for most hobbyist signals; don't overspend on 4 channels before you need them. |
-| Logic Analyzer | **Saleae Logic 8 clone** (CY7C68013A, 8-channel, 24MHz USB) | Robu or Amazon India, ~₹500–₹800 | Crucial for Level 7 (Interfaces) I2C/SPI/UART debugging. Pairs with open-source PulseView (Sigrok). A clone is genuinely fine here the value is in the software stack, not the silicon. |
+| Oscilloscope | **Siglent SDS1104X-E** or **OWON SDS1022** (2-channel, 100MHz digital storage) | Transcat India, Test Instrument India, or authorized distributors | Necessary from Domain 2 (Analog) onward. Entry-level digital scopes run ₹25,000–₹40,000. Bandwidth matters more than channel count for most hobbyist signals; don't overspend on 4 channels before you need them. |
+| Logic Analyzer | **Saleae Logic 8 clone** (CY7C68013A, 8-channel, 24MHz USB) | Robu or Amazon India, ~₹500–₹800 | Crucial for Domain 7 (Interfaces) I2C/SPI/UART debugging. Pairs with open-source PulseView (Sigrok). A clone is genuinely fine here the value is in the software stack, not the silicon. |
 | LCR Meter | Basic handheld LCR meter, or a DIY transistor/component tester module | Robu.in, ElectronicsComp | Verifies salvaged passives and checks capacitor ESR before reuse; catches a "resistor" that's actually drifted 20% out of spec. |
 | Bench-Grade Frequency Counter (optional) | Any 10MHz+ handheld or bench counter | Local test-gear dealers | Only worth adding once you're doing RF or precision timing work; a scope's built-in measurement is close enough until then. |
 | IR Thermometer / Thermal Camera | Budget IR thermometer gun, or a FLIR-based thermal camera for advanced work | Robu.in, Amazon India | Spots a silently overheating regulator or a solder joint with a hidden short before it becomes visible smoke. |
@@ -202,13 +202,13 @@ Problems that look like a bad component but are actually a bad bench habit.
 ## 11. Minimum Viable Bench Checklist
 
 - [ ] A True-RMS or budget DMM (UT61E+ / AN8008 / Fluke 101)
-- [ ] A logic analyzer clone before you need one for Level 7 interfacing work
+- [ ] A logic analyzer clone before you need one for Domain 7 interfacing work
 - [ ] A current-limited bench PSU before powering any new circuit for the first time
 - [ ] A temperature-controlled iron (Kada 852D+ or a TS100/Pinecil-class portable) plus leaded solder and flux
 - [ ] An SS-02 pump and desoldering wick before your first rework mistake, not after
 - [ ] ESD-safe flush cutters and Vetus tweezers
 - [ ] A grounded ESD mat and wrist strap the moment bare ICs or FPGAs enter the bench
-- [ ] An oscilloscope only once you're actually doing Level 2+ analog or timing work
+- [ ] An oscilloscope only once you're actually doing Domain 2+ analog or timing work
 - [ ] Labeled storage for passives, ICs, and wire before the bin pile becomes unmanageable
 - [ ] A calibration check schedule for the DMM, PSU, and scope probes
 - [ ] A lab notebook, physical or digital, that you actually update after every non-trivial build

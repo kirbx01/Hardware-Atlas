@@ -5,12 +5,12 @@ Simulation is useful for checking an idea, finding a wrong polarity, estimating 
 ## 📑 Table of Contents
 
 1. [What Simulation Can and Cannot Tell You](#1-what-simulation-can-and-cannot-tell-you)
-2. [Choosing a Simulator by Level](#2-choosing-a-simulator-by-level)
-   - [Level 0–5: Basic Circuits, Embedded & UI](#level-05-basic-circuits-embedded--ui)
-   - [Level 2 & 11: Analog, Mixed-Signal & SPICE](#level-2--11-analog-mixed-signal--spice)
-   - [Level 8: Digital Logic, FPGA & RTL Verification](#level-8-digital-logic-fpga--rtl-verification)
-   - [Level 9: Computer Architecture & SoC](#level-9-computer-architecture--soc)
-   - [Level 10 & 12: VLSI, ASIC Design & Device Physics](#level-10--12-vlsi-asic-design--device-physics)
+2. [Choosing a Simulator by Domain](#2-choosing-a-simulator-by-domain)
+   - [Domain 0–5: Basic Circuits, Embedded & UI](#domain-05-basic-circuits-embedded--ui)
+   - [Domain 2 & 11: Analog, Mixed-Signal & SPICE](#domain-2--11-analog-mixed-signal--spice)
+   - [Domain 8: Digital Logic, FPGA & RTL Verification](#domain-8-digital-logic-fpga--rtl-verification)
+   - [Domain 9: Computer Architecture & SoC](#domain-9-computer-architecture--soc)
+   - [Domain 10 & 12: VLSI, ASIC Design & Device Physics](#domain-10--12-vlsi-asic-design--device-physics)
    - [Academic, Virtual Labs & Learning Resources](#academic-virtual-labs--learning-resources)
 3. [The Simulation Workflow](#3-the-simulation-workflow)
 4. [Simulate → Build → Compare](#4-simulate--build--compare)
@@ -42,11 +42,11 @@ flowchart LR
 [⬆ Back to top](#-table-of-contents)
 
 
-## 2. Choosing a Simulator by Level
+## 2. Choosing a Simulator by Domain
 
-Different simulators are strong at different layers of a project, from a blinking LED to an ASIC tape-out. Pick based on what you're actually trying to verify, not by habit. Levels correspond to rising complexity, not difficulty you can jump straight to Level 8 without ever touching Level 0.
+Different simulators are strong at different layers of a project, from a blinking LED to an ASIC tape-out. Pick based on what you're actually trying to verify, not by habit. Domains correspond to rising complexity, not difficulty — you can jump straight to Domain 8 without ever touching Domain 0.
 
-### Level 0–5: Basic Circuits, Embedded & UI
+### Domain 0–5: Basic Circuits, Embedded & UI
 
 | Tool | Access / OS | Best For | Notes |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Different simulators are strong at different layers of a project, from a blinkin
 | [EasyEDA](https://easyeda.com/) | Online & downloaded; Windows, macOS, Linux | Schematic and PCB design | Use *after* circuit behaviour is understood not as a replacement for reading datasheets. |
 | [Fritzing](https://fritzing.org/) | Downloaded; Windows, macOS, Linux | Mapping breadboard prototypes to schematics | Useful for visually documenting a physical build. |
 
-### Level 2 & 11: Analog, Mixed-Signal & SPICE
+### Domain 2 & 11: Analog, Mixed-Signal & SPICE
 
 | Tool | Access / OS | Best For | Notes |
 |---|---|---|---|
@@ -68,7 +68,7 @@ Different simulators are strong at different layers of a project, from a blinkin
 | [Qucs-S](https://ra3xdh.github.io/) | Downloaded; Windows, macOS, Linux | Graphical schematic capture with Ngspice/XYCE backend | Good middle ground between raw SPICE and a full GUI suite. |
 | [CircuitLab](https://www.circuitlab.com/) | Online, OS independent | Quickly sketching analog blocks | Browser-based mixed-signal simulator. |
 
-### Level 8: Digital Logic, FPGA & RTL Verification
+### Domain 8: Digital Logic, FPGA & RTL Verification
 
 | Tool | Access / OS | Best For | Notes |
 |---|---|---|---|
@@ -79,7 +79,7 @@ Different simulators are strong at different layers of a project, from a blinkin
 | [GTKWave](https://gtkwave.sourceforge.net/) | Downloaded; Windows, macOS, Linux | Reading VCD files, debugging timing diagrams | Companion waveform viewer for the tools above. |
 | [Digital](https://github.com/hneemann/Digital) | Downloaded; Windows, macOS, Linux (Java) | Drawing logic gates visually | Auto-exports designs to Verilog or VHDL. |
 
-### Level 9: Computer Architecture & SoC
+### Domain 9: Computer Architecture & SoC
 
 | Tool | Access / OS | Best For | Notes |
 |---|---|---|---|
@@ -89,7 +89,7 @@ Different simulators are strong at different layers of a project, from a blinkin
 | [Ripes](https://github.com/mortbopet/Ripes) | Downloaded; Windows, macOS, Linux | Visualizing RISC-V datapaths, pipelines, caches | Visual simulator and assembly editor. |
 | [Logisim-Evolution](https://github.com/logisim-evolution/logisim-evolution) | Downloaded; Windows, macOS, Linux (Java) | Designing complex digital logic circuits | Educational tool with FPGA board support. |
 
-### Level 10 & 12: VLSI, ASIC Design & Device Physics
+### Domain 10 & 12: VLSI, ASIC Design & Device Physics
 
 | Tool | Access / OS | Best For | Notes |
 |---|---|---|---|
@@ -158,7 +158,7 @@ Once you have expected numbers on paper, build the block and measure it for real
 ## 5. Minimum Viable Simulation Checklist
 
 - [ ] Identified the single smallest uncertain block in the circuit or design
-- [ ] Picked the right tool for the level of the problem (basic circuit, SPICE, RTL, architecture, or VLSI)
+- [ ] Picked the right tool for the domain of the problem (basic circuit, SPICE, RTL, architecture, or VLSI)
 - [ ] Simulated that block in isolation (not the full schematic or full design)
 - [ ] Recorded expected voltages/timing/logic levels before building
 - [ ] Used the same component values or design parameters in the real build as in the sim
