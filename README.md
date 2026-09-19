@@ -3,7 +3,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"/>
-  <img src="https://img.shields.io/badge/levels-00--13-informational.svg" alt="Levels 00 to 13"/>
+  <img src="https://img.shields.io/badge/domains-14-informational.svg" alt="14 domains"/>
+  <img src="https://img.shields.io/badge/levels-21-informational.svg" alt="21 levels"/>
   <img src="https://img.shields.io/badge/lessons-31-success.svg" alt="31 lessons"/>
   <img src="https://img.shields.io/badge/opportunities-automated-informational.svg" alt="Opportunities automated"/>
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"/>
@@ -34,50 +35,52 @@ This is **not a rigid curriculum**. Treat it like [awesome-electronics](https://
 
 ## 🛠️ How to use this repository
 
-1. Find your current level below.
+1. Find your current domain below.
 2. Read the lesson page **before** buying anything; it lists parts, tools, tests, and likely mistakes.
 3. Build the smallest version. Measure it. Write down what you actually observed.
 4. Follow the lesson's **What to build next** link. Don't skip the measurement step just because the LED lit up.
 
-The `lessons/` directory holds the detailed build pages. `resources/` covers sourcing, tools, safety, simulation, and help. `projects/` documents the format for contributed, non-roadmap builds. `opportunities/` is the maintained index of hardware-adjacent jobs and programs, refreshed automatically by a scheduled GitHub Action.
+The `domains/` folder lists each domain, and inside each domain its **levels** — the levels group the lessons in reading order (so `05-embedded-systems` runs `Level 01` through `Level 05`). The `lessons/` directory holds the detailed build pages. `resources/` covers sourcing, tools, safety, simulation, and help. `projects/` documents the format for contributed, non-roadmap builds. `opportunities/` is the maintained index of hardware-adjacent jobs and programs, refreshed automatically by a scheduled GitHub Action.
 
 This is the **suggested** order, not a locked gate. Each lesson page states its own prerequisites. If you already have them, skip straight to the interesting part.
 
-| Level | Focus | Start here |
+| Domain | Focus | Start here |
 |---|---|---|
-| <a id="level-00"></a>00 | Getting Started | Breadboard layout, multimeter basics, first measurements |
-| <a id="level-01"></a>01 | Basic Circuits | Resistors, switches, transistors, RC circuits |
-| <a id="level-02"></a>02 | Analog Electronics | Sensors, amplifiers, op-amps, filters |
-| <a id="level-03"></a>03 | Digital Electronics | Logic, state, timers, counters |
-| <a id="level-04"></a>04 | Microcontrollers | GPIO, ADC, PWM, serial devices |
-| <a id="level-05"></a>05 | Embedded Systems | Sensors, protocols, RTOS, custom peripherals |
-| <a id="level-06"></a>06 | PCB Design | Schematic to prototype |
-| <a id="level-07"></a>07 | Hardware Interfaces | Reliable buses and links |
-| <a id="level-08"></a>08 | FPGA and RTL | Synchronous logic and verification |
-| <a id="level-09"></a>09 | Computer Architecture | Datapaths, memory, CPUs |
-| <a id="level-10"></a>10 | ASIC Design | RTL to silicon flow |
-| <a id="level-11"></a>11 | Semiconductor Devices | Device physics and models |
-| <a id="level-12"></a>12 | Semiconductor Fabrication | Process flow and yield |
-| <a id="level-13"></a>13 | Advanced Hardware | Reproduction and open research |
+| <a id="domain-00"></a>00 | Getting Started | Breadboard layout, multimeter basics, first measurements |
+| <a id="domain-01"></a>01 | Basic Circuits | Resistors, switches, transistors, RC circuits |
+| <a id="domain-02"></a>02 | Analog Electronics | Sensors, amplifiers, op-amps, filters |
+| <a id="domain-03"></a>03 | Digital Electronics | Logic, state, timers, counters |
+| <a id="domain-04"></a>04 | Microcontrollers | GPIO, ADC, PWM, serial devices |
+| <a id="domain-05"></a>05 | Embedded Systems | Sensors, protocols, RTOS, custom peripherals |
+| <a id="domain-06"></a>06 | PCB Design | Schematic to prototype |
+| <a id="domain-07"></a>07 | Hardware Interfaces | Reliable buses and links |
+| <a id="domain-08"></a>08 | FPGA and RTL | Synchronous logic and verification |
+| <a id="domain-09"></a>09 | Computer Architecture | Datapaths, memory, CPUs |
+| <a id="domain-10"></a>10 | ASIC Design | RTL to silicon flow |
+| <a id="domain-11"></a>11 | Semiconductor Devices | Device physics and models |
+| <a id="domain-12"></a>12 | Semiconductor Fabrication | Process flow and yield |
+| <a id="domain-13"></a>13 | Advanced Hardware | Reproduction and open research |
 
-### Which lessons live at which level
+### Which levels live in which domain
 
-| Level | Lessons | Notes |
-|---|---|---|
-| 00 · Getting Started | none | Breadboard map, multimeter practice, first safe circuit |
-| 01 · Basic Circuits | 01–05 | LEDs, dividers, switches, RC circuits |
-| 02 · Analog Electronics | 06–09 | Sensors, amplifiers, filters |
-| 03 · Digital Electronics | 10–11 | Planned: 555 timer oscillator, simple digital clock |
-| 04 · Microcontrollers | 12–15 | GPIO, logging, serial, PWM |
-| 05 · Embedded Systems | 16–18 | Planned: custom peripheral, bootloader exercise |
-| 06 · PCB Design | 19–20 | Schematic capture to routed two-layer board |
-| 07 · Hardware Interfaces | 21–22 | Logic analyzer decode, CAN bus node |
-| 08 · FPGA and RTL | 23–25 | RTL, UART FSM, cocotb testbench |
-| 09 · Computer Architecture | 26–28 | RISC-V core, memory-mapped GPIO, Zephyr native-sim |
-| 10 · ASIC Design | 29–31 | Yosys synthesis, OpenLane flow, Magic DRC/LVS |
-| 11 · Semiconductor Devices | none yet | Theory and simulation driven |
-| 12 · Semiconductor Fabrication | none yet | Process models and simulation only |
-| 13 · Advanced Hardware | none yet | Reproduce research, open hardware |
+Every lesson belongs to exactly one level, and every level belongs to exactly one domain:
+
+| Domain | Levels | Lessons | Notes |
+|---|---|---|---|
+| 00 · Getting Started | -- | none | Breadboard map, multimeter practice, first safe circuit |
+| 01 · Basic Circuits | 01–03 | 01–05 | Ohm's law → switching → time constants |
+| 02 · Analog Electronics | 01–02 | 06–09 | Sensors/amplifiers → op-amp stages |
+| 03 · Digital Electronics | 01 | 10–11 | Planned: 555 timer oscillator, simple digital clock |
+| 04 · Microcontrollers | 01–02 | 12–15 | GPIO/sensing → serial/motor |
+| 05 · Embedded Systems | 01–05 | 16–18, 28 | STM32/ESP32 → RTOS → peripheral → bootloader → Zephyr |
+| 06 · PCB Design | 01 | 19–20 | Schematic capture to routed two-layer board |
+| 07 · Hardware Interfaces | 01 | 21–22 | Logic analyzer decode, CAN bus node |
+| 08 · FPGA and RTL | 01–02 | 23–25 | RTL design → cocotb verification |
+| 09 · Computer Architecture | 01 | 26–27 | RISC-V core, memory-mapped GPIO |
+| 10 · ASIC Design | 01–03 | 29–31 | Yosys → OpenLane → Magic (one level per lesson) |
+| 11 · Semiconductor Devices | -- | none yet | Theory and simulation driven |
+| 12 · Semiconductor Fabrication | -- | none yet | Process models and simulation only |
+| 13 · Advanced Hardware | -- | none yet | Reproduce research, open hardware |
 
 ## 📚 All 31 lessons
 
@@ -175,21 +178,21 @@ Grouped by category for quick scanning. Ordering shows progression, not a prereq
 
 | I want to... | Open |
 |---|---|
-| Start from zero | [Level 00 · Getting Started](#level-00) |
-| Learn basic circuits | [Level 01 · Basic Circuits](#level-01) |
-| Learn analog electronics | [Level 02 · Analog Electronics](#level-02) |
-| Learn digital logic | [Level 03 · Digital Electronics](#level-03) |
-| Program a microcontroller | [Level 04 · Microcontrollers](#level-04) |
-| Build dependable firmware | [Level 05 · Embedded Systems](#level-05) |
-| Design a PCB | [Level 06 · PCB Design](#level-06) |
-| Connect devices reliably | [Level 07 · Hardware Interfaces](#level-07) |
-| Learn FPGA and RTL | [Level 08 · FPGA and RTL](#level-08) |
-| Design a CPU | [Level 09 · Computer Architecture](#level-09) |
-| Design an ASIC | [Level 10 · ASIC Design](#level-10) |
-| Understand semiconductor devices | [Level 11 · Semiconductor Devices](#level-11) |
-| Learn how chips are fabricated | [Level 12 · Semiconductor Fabrication](#level-12) |
-| Do research beyond the roadmap | [Level 13 · Advanced Hardware](#level-13) |
-| Choose a development board | [Components](resources/components.md) → Level 04 |
+| Start from zero | [Domain 00 · Getting Started](#domain-00) |
+| Learn basic circuits | [Domain 01 · Basic Circuits](#domain-01) |
+| Learn analog electronics | [Domain 02 · Analog Electronics](#domain-02) |
+| Learn digital logic | [Domain 03 · Digital Electronics](#domain-03) |
+| Program a microcontroller | [Domain 04 · Microcontrollers](#domain-04) |
+| Build dependable firmware | [Domain 05 · Embedded Systems](#domain-05) |
+| Design a PCB | [Domain 06 · PCB Design](#domain-06) |
+| Connect devices reliably | [Domain 07 · Hardware Interfaces](#domain-07) |
+| Learn FPGA and RTL | [Domain 08 · FPGA and RTL](#domain-08) |
+| Design a CPU | [Domain 09 · Computer Architecture](#domain-09) |
+| Design an ASIC | [Domain 10 · ASIC Design](#domain-10) |
+| Understand semiconductor devices | [Domain 11 · Semiconductor Devices](#domain-11) |
+| Learn how chips are fabricated | [Domain 12 · Semiconductor Fabrication](#domain-12) |
+| Do research beyond the roadmap | [Domain 13 · Advanced Hardware](#domain-13) |
+| Choose a development board | [Components](resources/components.md) → Domain 04 |
 | Buy parts in India | [Getting hardware in India](resources/india.md) |
 | Choose tools | [Tools](resources/tools.md) |
 | Check a circuit before building | [Simulation](resources/simulation.md) |
