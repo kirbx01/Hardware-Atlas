@@ -1,4 +1,4 @@
-# Level 13 -- Advanced Hardware
+# Domain 13 -- Advanced Hardware
 
 Choose a research question, reproduce a paper's result, investigate open hardware, quantify uncertainty, and publish enough source, data, and limitations for someone else to check your work independently.
 
@@ -6,7 +6,7 @@ This level is not a project list. It is a way of working. The output is a writte
 
 ## Prerequisites
 
-Arrive here having finished at least one full branch of the roadmap, from [Level 01](../01-basic-circuits/README.md) up. That is the floor; most people come back after a second or third loop. If you are looking for a structured target, this level is where the curriculum's seminar (EC28), project courses (EC-P1 through EC-P3), and its research-leaning electives like *Introduction to MEMS* and *Nanoelectronics* actually get run for credit.
+Arrive here having finished at least one full branch of the roadmap, from [Domain 01](../01-basic-circuits/README.md) up. That is the floor; most people come back after a second or third loop. If you are looking for a structured target, this domain is where the curriculum's seminar (EC28), project courses (EC-P1 through EC-P3), and its research-leaning electives like *Introduction to MEMS* and *Nanoelectronics* actually get run for credit.
 
 ## Core concepts
 
@@ -17,7 +17,7 @@ Arrive here having finished at least one full branch of the roadmap, from [Level
 
 ## Lessons
 
-No numbered lessons at this level. The lab work is your own reproduction or investigation, documented to the standard in the sections below. If you want a structure to aim at, the [Projects format](../../projects/README.md) gives the write-up template this level's results should satisfy.
+No numbered levels or lessons at this domain. The lab work is your own reproduction or investigation, documented to the standard in the sections below. If you want a structure to aim at, the [Projects format](../../projects/README.md) gives the write-up template this domain's results should satisfy.
 
 > [!NOTE]
 > There is no single correct workflow here. The diagram below is a loop, not a checklist; expect to bounce backward when a measurement does not match what you expected.
@@ -35,7 +35,7 @@ flowchart LR
     W --> P[Publish source, data, and limitations]
 ```
 
-## Ways to work at this level
+## Ways to work at this domain
 
 | Direction | What it looks like | What it demands |
 |---|---|---|
@@ -60,7 +60,7 @@ A reproduction is only useful if the differences are visible. At minimum, record
 
 ## Quantifying uncertainty
 
-Every measurement has error. At this level, that error should be visible instead of implied.
+Every measurement has error. At this domain, that error should be visible instead of implied.
 
 - State instrument accuracy from the datasheet, not an assumed "close enough"
 - Repeat the measurement and report the spread, not a single reading
@@ -96,4 +96,4 @@ There is no fixed next step. Some directions:
 - **Build something new.** Combine ideas from multiple levels into a project that does not exist yet.
 - **Revisit failures.** The circuit that did not work the first time is often the most instructive one.
 - **Contribute.** Add a verified lesson or project back to Hardware Atlas.
-- **Start the loop again.** Back to [Level 00](../00-getting-started/README.md) is a very different trip with a bench full of data behind you.
+- **Start the loop again.** Back to [Domain 00](../00-getting-started/README.md) is a very different trip with a bench full of data behind you.

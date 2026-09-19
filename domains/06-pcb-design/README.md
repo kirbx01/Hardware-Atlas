@@ -1,10 +1,10 @@
-# Level 06 -- PCB Design
+# Domain 06 -- PCB Design
 
 Converting a tested breadboard circuit into a schematic and a real two-layer board. Footprints, design rules, decoupling, return paths, Gerbers, and revision control.
 
 ## Prerequisites
 
-Start from a circuit you have already built and measured in [Level 01](../01-basic-circuits/README.md) through [Level 05](../05-embedded-systems/README.md). The goal is to make the reliable thing reproducible, not to debug electronics while learning a CAD tool at the same time.
+Start from a circuit you have already built and measured in [Domain 01](../01-basic-circuits/README.md) through [Domain 05](../05-embedded-systems/README.md). The goal is to make the reliable thing reproducible, not to debug electronics while learning a CAD tool at the same time.
 
 ## Core concepts
 
@@ -14,14 +14,13 @@ Start from a circuit you have already built and measured in [Level 01](../01-bas
 - Decoupling placement and the return path under every trace
 - Gerber generation and the review you do before ordering
 
-None of this maps to a single AICTE course; board design sits between the curriculum's *Digital System Design* (EC03) and *VLSI Design* (EC24), and the concrete work here is what its project courses (EC-P1 micro and EC-P2 mini projects) are for. It is the only level where the deliverable ships to a factory, so the discipline is review, not just routing.
+None of this maps to a single AICTE course; board design sits between the curriculum's *Digital System Design* (EC03) and *VLSI Design* (EC24), and the concrete work here is what its project courses (EC-P1 micro and EC-P2 mini projects) are for. It is the only domain where the deliverable ships to a factory, so the discipline is review, not just routing.
 
-## Lessons
+## Levels
 
-| # | Lesson | What it builds |
-|---|---|---|
-| 19 | [KiCad schematic capture](../../lessons/19-kicad-schematic-capture/README.md) | Design the regulated microcontroller schematic |
-| 20 | [Two-layer PCB routing](../../lessons/20-two-layer-pcb-routing/README.md) | Route, run DRC, generate Gerbers |
+| Level | Name | Lessons | What it covers |
+|---|---|---|---|
+| 01 | [Schematic to board](levels/01-schematic-to-board/README.md) | 19–20 | KiCad capture, two-layer routing, DRC, Gerbers |
 
 ## From breadboard to board
 
@@ -50,6 +49,6 @@ flowchart LR
 
 ## Where to go from here
 
-- [Level 07](../07-hardware-interfaces/README.md) for bus-level debugging on something you actually routed.
-- [Level 08](../08-fpga-and-rtl/README.md) to design the silicon side of the same tables.
-- Back to [Level 05](../05-embedded-systems/README.md) for the firmware the board is about to run.
+- [Domain 07](../07-hardware-interfaces/README.md) for bus-level debugging on something you actually routed.
+- [Domain 08](../08-fpga-and-rtl/README.md) to design the silicon side of the same tables.
+- Back to [Domain 05](../05-embedded-systems/README.md) for the firmware the board is about to run.

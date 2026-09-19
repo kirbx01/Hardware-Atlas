@@ -1,4 +1,4 @@
-# Level 12 -- Semiconductor Fabrication
+# Domain 12 -- Semiconductor Fabrication
 
 Wafer preparation, oxidation, deposition, lithography, etch, implantation, metallisation, packaging, and yield, through process models and simulation.
 
@@ -7,7 +7,7 @@ Wafer preparation, oxidation, deposition, lithography, etch, implantation, metal
 
 ## Prerequisites
 
-[Level 11](../11-semiconductor-devices/README.md) for the devices you will now watch being built, and a completed pass at [Level 10](../10-asic-design/README.md) so the PDK you ran there stops looking like a black box. The physics track and the tooling track below cover the remainders of AICTE's EC01 fabrication unit and the *VLSI Design* flow from EC24 side by side.
+[Domain 11](../11-semiconductor-devices/README.md) for the devices you will now watch being built, and a completed pass at [Domain 10](../10-asic-design/README.md) so the PDK you ran there stops looking like a black box. The physics track and the tooling track below cover the remainders of AICTE's EC01 fabrication unit and the *VLSI Design* flow from EC24 side by side.
 
 ## Core concepts
 
@@ -19,13 +19,15 @@ Wafer preparation, oxidation, deposition, lithography, etch, implantation, metal
 - Metallisation, interconnect, and packaging
 - Yield: how defects become dollars
 
-The syllabus's *Integrated circuit fabrication process* (oxidation, diffusion, ion implantation, photolithography, etching, chemical vapour deposition, sputtering, twin-tub CMOS process) is the checklist this level walks. The twin-tub CMOS recipe is worth singling out: it is the concrete sequence, two complementary wells, that the standard-cell layout you ran in Level 10 is built on. The [MEMS](https://www.aicte.gov.in/sites/default/files/Final_ECE.pdf) and *Nanoelectronics* electives in the same curriculum are where the process steps here go exotic.
+The syllabus's *Integrated circuit fabrication process* (oxidation, diffusion, ion implantation, photolithography, etching, chemical vapour deposition, sputtering, twin-tub CMOS process) is the checklist this domain walks. The twin-tub CMOS recipe is worth singling out: it is the concrete sequence, two complementary wells, that the standard-cell layout you ran in Domain 10 is built on. The [MEMS](https://www.aicte.gov.in/sites/default/files/Final_ECE.pdf) and *Nanoelectronics* electives in the same curriculum are where the process steps here go exotic.
 
-## Lessons
+## Capstone lesson
+
+This domain has no levels of its own; its capstone runs in the VLSI flow of [Domain 10](../10-asic-design/README.md):
 
 | # | Lesson | What it builds |
 |---|---|---|
-| 30 | [OpenLane Sky130 flow](../../lessons/30-openlane-sky130-flow/README.md) | Run a real RTL-to-GDSII flow against the process this level describes |
+| 30 | [OpenLane Sky130 flow](../../lessons/30-openlane-sky130-flow/README.md) | Run a real RTL-to-GDSII flow against the process this domain describes |
 
 Track B below is the fuller lab sequence; lesson 30 is its capstone.
 
@@ -80,7 +82,7 @@ flowchart TB
 | 5. Hands-on tools and academic frameworks | TCAD process simulation, process integration at modern nodes (3nm/2nm GAA vs. planar) | Have you set up an open-source VLSI design flow or explored a layout viewer like KLayout? |
 
 > [!NOTE]
-> Phases 1-3 are almost entirely conceptual at this level. You are learning to read and reason about a process, not to run it. Phases 4-5 are where you start producing artifacts, Verilog, layouts, simulation results, you can actually check.
+> Phases 1-3 are almost entirely conceptual at this domain. You are learning to read and reason about a process, not to run it. Phases 4-5 are where you start producing artifacts, Verilog, layouts, simulation results, you can actually check.
 
 ### Track B: Open-source EDA and physical design
 
@@ -123,7 +125,7 @@ flowchart TB
 
 ## Where to go from here
 
-- [Level 13](../13-advanced-hardware/README.md) if you want to reproduce or write up process work yourself.
+- [Domain 13](../13-advanced-hardware/README.md) if you want to reproduce or write up process work yourself.
 - The [OpenLane Sky130 flow](../../lessons/30-openlane-sky130-flow/README.md) to see fabrication constraints appear in a real PDK.
-- Back to [Level 11](../11-semiconductor-devices/README.md) for the device physics each process step is building.
-- **Related in [Opportunities](../../opportunities/README.md):** the SEMICON India Hackathon runs chip design and AI-enabled manufacturing tracks; CHIPS Alliance is the recurring GSoC mentor for the open PDK tooling this level uses.
+- Back to [Domain 11](../11-semiconductor-devices/README.md) for the device physics each process step is building.
+- **Related in [Opportunities](../../opportunities/README.md):** the SEMICON India Hackathon runs chip design and AI-enabled manufacturing tracks; CHIPS Alliance is the recurring GSoC mentor for the open PDK tooling this domain uses.

@@ -1,13 +1,13 @@
-# Level 00 -- Getting Started
+# Domain 00 -- Getting Started
 
 Breadboard layout, multimeter basics, and the first real measurement. If you have never put a part into a board or held a probe, this is where to start. If you already have, skip it.
 
 > [!NOTE]
-> Nothing here is a gate. The point of the level is that your first measurement is boring and safe, so the next one can be interesting.
+> Nothing here is a gate. The point of the domain is that your first measurement is boring and safe, so the next one can be interesting. Its levels are the two exercises below; numbered lessons begin in [Domain 01](../01-basic-circuits/README.md).
 
 ## Prerequisites
 
-No electronics background required. You only need a breadboard, a power source, and a multimeter. If you can already get a stable LED current reading without looking the board up, jump straight to [Level 01](../01-basic-circuits/README.md).
+No electronics background required. You only need a breadboard, a power source, and a multimeter. If you can already get a stable LED current reading without looking the board up, jump straight to [Domain 01](../01-basic-circuits/README.md).
 
 ## Core concepts
 
@@ -16,15 +16,14 @@ No electronics background required. You only need a breadboard, a power source, 
 - Building the first LED circuit and taking real numbers from it
 - Ohm's law as a check against what the meter says
 
-## Lessons
+## Exercises
 
-| # | Lesson | What it builds |
+| # | Exercise | What it builds |
 |---|---|---|
-| 01 | [LED circuit](../../lessons/01-led-circuit/README.md) | Ohm's law, polarity, current limiting |
 | -- | Breadboard map | Identify connected rows, power rails, centre gap, broken rails |
 | -- | Multimeter practice | Battery voltage, continuity, resistance, live readings |
 
-The breadboard map and multimeter practice are exercises, not full lesson files. They are part of [Level 00 in the root README](../../README.md) and are short on purpose.
+The breadboard map and multimeter practice are exercises, not full lesson files. They are part of [Domain 00 in the root README](../../README.md#domain-00) and are short on purpose.
 
 ## The loop
 
@@ -53,5 +52,5 @@ flowchart LR
 
 ## Where to go from here
 
-- [Level 01](../01-basic-circuits/README.md) when you want resistors, switches, and time constants.
-- Jump straight to any level that interests you; the roadmap is a map, not a route.
+- [Domain 01](../01-basic-circuits/README.md) when you want resistors, switches, and time constants.
+- Jump straight to any domain that interests you; the roadmap is a map, not a route.

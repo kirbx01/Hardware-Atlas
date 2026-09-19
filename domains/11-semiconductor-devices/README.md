@@ -1,13 +1,13 @@
-# Level 11 -- Semiconductor Devices
+# Domain 11 -- Semiconductor Devices
 
 Diode, BJT, and MOSFET behaviour through controlled measurements, small-signal models, SPICE, and temperature variation. This is where the physics meets the circuits you have already built.
 
 > [!NOTE]
-> This level is theory and simulation-driven. There are no dedicated lesson files yet. See [Simulation](../../resources/simulation.md) for SPICE tools.
+> This domain is theory and simulation-driven. It has no dedicated levels or lesson files yet — the device sections below are the work. An ASIC-level VM is a separate topic. See [Simulation](../../resources/simulation.md) for SPICE tools.
 
 ## Prerequisites
 
-[Level 02](../02-analog-electronics/README.md) for the bias points and gains you will now explain, and [Level 10](../10-asic-design/README.md) if you want to see what the PDK models actually sit on. If this is your first pass at device physics, read the sections in order — each device section leans on the physics primer below. The diode equation, the BJT model, and the MOSFET equations are all the same drift-diffusion story told from a different angle.
+[Domain 02](../02-analog-electronics/README.md) for the bias points and gains you will now explain, and [Domain 10](../10-asic-design/README.md) if you want to see what the PDK models actually sit on. If this is your first pass at device physics, read the sections in order — each device section leans on the physics primer below. The diode equation, the BJT model, and the MOSFET equations are all the same drift-diffusion story told from a different angle.
 
 ## Table of contents
 
@@ -32,13 +32,13 @@ Diode, BJT, and MOSFET behaviour through controlled measurements, small-signal m
 
 ## Lessons
 
-No numbered lesson files yet; this level is theory and simulation-driven. The hands-on work lives inside each device section: measure the part, fit a SPICE model, compare. Start with the [Simulation resource](../../resources/simulation.md) for the toolchain before you buy a part or trust a curve.
+No numbered lesson files yet; this domain is theory and simulation-driven. The hands-on work lives inside each device section: measure the part, fit a SPICE model, compare. Start with the [Simulation resource](../../resources/simulation.md) for the toolchain before you buy a part or trust a curve.
 
 ---
 
 ## A five-minute physics primer
 
-Every device in this level is built from the same raw material story, so it's worth having it straight before you touch a diode, a BJT, or a MOSFET.
+Every device in this domain is built from the same raw material story, so it's worth having it straight before you touch a diode, a BJT, or a MOSFET.
 
 **Bands and the gap.** In a crystal, electrons can only occupy certain energy ranges, called *bands*, separated by forbidden *gaps*. The **valence band** is mostly full; the **conduction band** is mostly empty. The size of the gap between them, $E_g$, is what makes a material a conductor, an insulator, or a semiconductor. Silicon's $E_g \approx 1.12\ \text{eV}$ at room temperature, small enough that a modest amount of thermal energy or doping can push carriers across it. An insulator's $E_g$ is several eV, so nothing moves.
 
@@ -109,7 +109,7 @@ A few consequences you will lean on:
 
 ### What SPICE actually fits
 
-A SPICE diode model (`.model D1 D(...)`) is not solving Poisson's equation from scratch. It is fitting a handful of parameters to your measured curve: `IS` ($I_0$), `N` (ideality factor), `RS` (series resistance, which rounds off the exponential's sharp knee at high current), `TT` (transit time, relevant for switching speed), and `BV`/`IBV` (breakdown voltage and current). Measure your own diode and fit these parameters, rather than trusting the default `.model` values; that measure-versus-model loop is exactly what this level is about.
+A SPICE diode model (`.model D1 D(...)`) is not solving Poisson's equation from scratch. It is fitting a handful of parameters to your measured curve: `IS` ($I_0$), `N` (ideality factor), `RS` (series resistance, which rounds off the exponential's sharp knee at high current), `TT` (transit time, relevant for switching speed), and `BV`/`IBV` (breakdown voltage and current). Measure your own diode and fit these parameters, rather than trusting the default `.model` values; that measure-versus-model loop is exactly what this domain is about.
 
 ---
 
@@ -137,7 +137,7 @@ $$
 \beta = \frac{I_C}{I_B} = \frac{\alpha}{1-\alpha} \quad(\text{often 50–300})
 $$
 
-The full **Ebers–Moll model** treats the BJT as two coupled diode equations, one per junction, plus the coupling terms that describe carriers making it across the base. Read it once so $\beta$ stops feeling like a magic constant. The rest of this level mostly uses the simpler large-signal relation $I_C \approx \beta I_B$ plus the small-signal model below.
+The full **Ebers–Moll model** treats the BJT as two coupled diode equations, one per junction, plus the coupling terms that describe carriers making it across the base. Read it once so $\beta$ stops feeling like a magic constant. The rest of this domain mostly uses the simpler large-signal relation $I_C \approx \beta I_B$ plus the small-signal model below.
 
 ### The Early effect
 
@@ -268,7 +268,7 @@ If your extracted $V_{TH}$ moves by more than its own uncertainty between two "i
 - Treating absolute maximum ratings as a suggested operating range
 - Pushing a part far enough to self-heat during a sweep, then reading a drift as physics
 - Trusting a simulator model over the datasheet you actually have
-- Forgetting that $V_T$, $n_i$, and every leakage current in this level are all exponential in temperature, so a "small" temperature change is rarely small in its effect
+- Forgetting that $V_T$, $n_i$, and every leakage current in this domain are all exponential in temperature, so a "small" temperature change is rarely small in its effect
 - Quoting a $\beta$ or $g_m$ without stating the bias point it was measured at; these parameters are functions of bias, not fixed constants
 - Assuming a MOSFET's square-law equation holds exactly at short channel lengths, where velocity saturation and the rest of the short-channel effects bend the curve well before SPICE's simplest models would predict
 
@@ -276,7 +276,7 @@ If your extracted $V_{TH}$ moves by more than its own uncertainty between two "i
 
 ### Lab bench
 
-- [Simulation](../../resources/simulation.md), the SPICE tools referenced throughout this level.
+- [Simulation](../../resources/simulation.md), the SPICE tools referenced throughout this domain.
 
 ### Foundational reading
 
@@ -324,8 +324,8 @@ If your extracted $V_{TH}$ moves by more than its own uncertainty between two "i
 
 ## Where to go from here
 
-- [Level 12](../12-semiconductor-fabrication/README.md) covers how the devices are actually made.
-- [Level 10](../10-asic-design/README.md) connects device behaviour to standard-cell design.
-- Back to [Level 02](../02-analog-electronics/README.md) to re-derive an amplifier with the small-signal model now behind it.
+- [Domain 12](../12-semiconductor-fabrication/README.md) covers how the devices are actually made.
+- [Domain 10](../10-asic-design/README.md) connects device behaviour to standard-cell design.
+- Back to [Domain 02](../02-analog-electronics/README.md) to re-derive an amplifier with the small-signal model now behind it.
 - [Opportunities](../../opportunities/README.md) for semiconductor, device, and process roles built on this material.
 - **Related in [Opportunities](../../opportunities/README.md):** MITRE eCTF and CSAW ESC exercise device-level probing and side channels; IEEE HOST and CHES publish exactly that research.

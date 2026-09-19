@@ -1,10 +1,10 @@
-# Level 05 -- Embedded Systems
+# Domain 05 -- Embedded Systems
 
 Moving from working demos to dependable firmware. STM32 peripherals, ESP32 networking, RTOS task scheduling, and the debugging that catches problems before they become product failures.
 
 ## Prerequisites
 
-[Level 04](../04-microcontrollers/README.md) or comfortable hands with GPIO and serial on a microcontroller. The timers and interrupts you noted there are the ones this level schedules. You do not need to finish every Level 04 lesson first — start here if the demos already feel easy.
+[Domain 04](../04-microcontrollers/README.md) or comfortable hands with GPIO and serial on a microcontroller. The timers and interrupts you noted there are the ones this domain schedules. You do not need to finish every Domain 04 lesson first — start here if the demos already feel easy.
 
 ## Core concepts
 
@@ -15,21 +15,21 @@ Moving from working demos to dependable firmware. STM32 peripherals, ESP32 netwo
 
 AICTE's *Embedded Systems* (EC20) frames the same material from the product side: embedded memories, analog-digital signal conditioning at the interface, user interfacing, and the design trade-offs a fixed process and a thermal budget force on you. MQTT and the failure-path work here are the applied half of the *Computer Networks* (EC22) application layer. Interrupt-driven scheduling is the thread that runs through all of it — a queue exists precisely because an ISR outlived its use of a shared buffer.
 
-## Lessons
+## Levels
 
-| # | Lesson | What it builds | Status |
-|---|---|---|---|
-| 16 | [STM32 peripheral project](../../lessons/16-stm32-peripheral/README.md) | Timers, ADC, UART, debugging | ✅ |
-| 17 | [ESP32 connected sensor](../../lessons/17-esp32-connected-sensor/README.md) | Networking and failure paths | ✅ |
-| 18 | [RTOS sensor logger](../../lessons/18-rtos-sensor-logger/README.md) | Tasks, queues, timing, recovery | ✅ |
-| -- | Custom peripheral | Register-based device over I2C/SPI/UART, both ends | 🚧 planned |
-| -- | Bootloader exercise | Image validation, versioning, recoverable update | 🚧 planned |
+| Level | Name | Lessons | What it covers | Status |
+|---|---|---|---|---|
+| 01 | [STM32 and ESP32](levels/01-stm32-and-esp32/README.md) | 16–17 | Registers, timers, ADC, networking, failure paths | ✅ |
+| 02 | [RTOS](levels/02-rtos/README.md) | 18 | Tasks, queues, timing, recovery | ✅ |
+| 03 | [Custom peripheral](levels/03-custom-peripheral/README.md) | -- | Register-based device over I2C/SPI/UART, both ends | 🚧 planned |
+| 04 | [Bootloader](levels/04-bootloader/README.md) | -- | Image validation, versioning, recoverable update | 🚧 planned |
+| 05 | [Zephyr](levels/05-zephyr/README.md) | 28 | Simulated peripheral and driver on a native host target | ✅ |
 
 ## From demos to dependable firmware
 
 ```mermaid
 flowchart LR
-    A[Level 04 demos] --> B[STM32 registers and peripherals]
+    A[Domain 04 demos] --> B[STM32 registers and peripherals]
     A --> C[ESP32 networking]
     A --> D[RTOS tasks]
     B --> E[Dependable firmware]
@@ -53,7 +53,7 @@ flowchart LR
 
 ## Where to go from here
 
-- [Level 06](../06-pcb-design/README.md) to move dependable firmware onto a dependable board.
-- [Level 07](../07-hardware-interfaces/README.md) when "the protocol is fine" stops being a guess.
-- Back to [Level 04](../04-microcontrollers/README.md) to wire the interrupts this level schedules.
+- [Domain 06](../06-pcb-design/README.md) to move dependable firmware onto a dependable board.
+- [Domain 07](../07-hardware-interfaces/README.md) when "the protocol is fine" stops being a guess.
+- Back to [Domain 04](../04-microcontrollers/README.md) to wire the interrupts this domain schedules.
 - **Related in [Opportunities](../../opportunities/README.md):** MITRE eCTF and CSAW Embedded Security Challenge (ESC) put secure-embedded design and attack on a team; ISEA-ISAP CTF is the national Indian equivalent.
