@@ -251,7 +251,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | FPGA Engineer | Kandou | Hyderabad | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/kandou-ai/cd7e8219-bcd0-44d5-8e36-6d2cbbe8ba4b) |
 | Lab Technician | Kandou | Hyderabad | FPGA, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/2da70bb2-9358-46b0-93b0-3235456ab7ad) |
 | Linux Software Engineer | Kandou | Pune | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/cd7f6501-e439-486f-a754-2ea7d0cf040b) |
-| Silicon Validation Director/Manager | Kandou | Hyderabad | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/kandou-ai/838868ab-c6d3-4959-904c-e391aa270263) |
+| Silicon Validation Manager | Kandou | Hyderabad | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/kandou-ai/838868ab-c6d3-4959-904c-e391aa270263) |
 | Software Engineer (Firmware) Lead | Kandou | Hyderabad | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/b13c2bbb-d97d-4d61-8936-f95160d4ccb2) |
 | Software Engineer - 2 openings | Kandou | Hyderabad | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/78f57489-f972-4d5e-a964-8fd72bed21b8) |
 | Staff Engineer – Embedded SoC Firmware… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/d0bd9ea3-8823-47ba-b65e-ec940b7a4261) |
@@ -298,8 +298,8 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | PCB Layout Engineering Lead | Cerebras Systems | Remote (US) | ASIC, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/cerebras/e616412a-6412-4f0d-93b9-47644d3e99fa) |
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
 | Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Electronics | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
+| Creative Production Lead (R5947) | Shield AI | Remote | Edge AI | [Apply](https://jobs.lever.co/shieldai/571caa29-8b8f-4a3c-aa4d-77b00fe45766) |
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
-| Sr. Software Engineer, Security | SPAN | Remote | Automotive | [Apply](https://jobs.ashbyhq.com/span/c74a8257-4237-4aea-ad1e-0261c1d627d7) |
 | Territory Sales Manager - Southern CA | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
 | Senior Test Engineer | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/3f12ccd0-a6ca-4bb2-983a-63ff8606fd99) |
 | Senior Test Manager | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/161069b7-ec2b-4bfd-811c-2d56a07ebd75) |
@@ -310,7 +310,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | ASIC Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4354899009) |
 | DFT Lead | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4357713009) |
 | IO Module Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342710009) |
-| Laser Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, EDA | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342587009) |
+| Laser Design Engineer | Volantis Semiconductor | Remote - SF / Boston / Austin | Semiconductor, Electronics, EDA | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342587009) |
 | Lead Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Edge AI | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342653009) |
 | Mechanical Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331551009) |
 | Micro-Optics Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Electronics, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330137009) |
