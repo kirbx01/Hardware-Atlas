@@ -212,7 +212,7 @@ The 31 lessons above are reference points, not the ceiling. The [`projects/`](pr
 Live positions and programs that put the roadmap's skills to work: jobs, internships, hackathons, scholarships, research programs, fellowships, and open source programs tagged with the areas this repo teaches. Open the Apply link to apply on the organization's own page.
 
 <!-- BEGIN_OPPORTUNITIES -->
-#### 💼 Jobs (115)
+#### 💼 Jobs (111)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -229,9 +229,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Firmware Engineer | Applied Intuition | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/applied/4cee3e2f-3fec-42fd-a700-d570798d815a) |
 | Firmware Validation Engineer | Applied Intuition | Bangalore | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/applied/9cfb2e93-8f7c-449e-8d21-61e22fff075a) |
 | Cloud Quality Engineer | Cerebras Systems | Bengaluru, IND | Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/224566db-c2c9-4b81-9534-a9917ea1aaa6) |
-| Manufacturing Bring-up Engineer L2 | Cerebras Systems | Bengaluru, IND | ASIC, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/92939082-317e-41ac-aa98-29dcf9eb5422) |
 | ML Systems Performance Engineer | Cerebras Systems | Bengaluru, IND | Semiconductor, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/474768a4-7e4f-43c9-a9d3-f23dfe6be406) |
-| Senior Engineer: Post Silicon - Bring Up | Cerebras Systems | Bengaluru, IND | RTL, ASIC, VLSI | [Apply](https://jobs.ashbyhq.com/cerebras/6d966c0a-d587-4a16-bf57-cfb4b4eb7eef) |
 | Backend Engineer | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/4689a957-bf88-4eea-9b32-004025bf4544) |
 | Demand Generation Manager | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/5376f055-8c7f-4e53-94dd-b25aac46a782) |
 | Engineering - C++ (Edge) | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/41539d29-f1e7-462c-8236-10336a9909b3) |
@@ -242,18 +240,15 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Sales Development Representative | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/4f0dc654-1aba-4601-a81b-f999ed97803a) |
 | Senior Deal Desk Analyst | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/03515c70-61fc-4115-8dc6-c63941498ebf) |
 | Senior Electrical Engineer | Coram AI | Bangalore | Embedded, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/coram-ai/68c04bbf-e2b1-446c-88c8-a4c1651be748) |
+| 2) Staff Engineer – Embedded Firmware –… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3555686e-7388-4465-b84f-c514aa5029ba) |
 | Digital Design Engineers - 7 openings | Kandou | Hyderabad | RTL, ASIC, VLSI | [Apply](https://jobs.ashbyhq.com/kandou-ai/50d61732-cadb-4b78-a2ff-2b0d3a4af4e7) |
 | Digital Verification Engineers - 7 open… | Kandou | Bangalore or Hyderabad | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/kandou-ai/64d6caaa-ef23-4d42-bde6-fa94cacd777d) |
-| Embedded Software Engineer | Kandou | Hyderabad | Embedded, FPGA, ASIC | [Apply](https://jobs.ashbyhq.com/kandou-ai/82dc7aca-d174-42f4-be8d-bdf97c90d33e) |
 | Firmware Architect | Kandou | Hyderabad | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/4adeeabb-935b-4a70-b175-352d46c10f75) |
 | Firmware Engineer Bare Metal | Kandou | Hyderabad | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/d1a8773d-8fc4-4b25-8093-bb631e04796f) |
-| Firmware Engineer Lead | Kandou | Pune | Embedded, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/kandou-ai/e39b026f-f102-4a59-a030-1219eedbca3b) |
 | FPGA Engineer | Kandou | Hyderabad | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/kandou-ai/cd7e8219-bcd0-44d5-8e36-6d2cbbe8ba4b) |
 | Lab Technician | Kandou | Hyderabad | FPGA, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/2da70bb2-9358-46b0-93b0-3235456ab7ad) |
-| Linux Software Engineer | Kandou | Pune | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/cd7f6501-e439-486f-a754-2ea7d0cf040b) |
 | Silicon Validation Manager | Kandou | Hyderabad | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/kandou-ai/838868ab-c6d3-4959-904c-e391aa270263) |
-| Software Engineer (Firmware) Lead | Kandou | Hyderabad | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/b13c2bbb-d97d-4d61-8936-f95160d4ccb2) |
-| Software Engineer - 2 openings | Kandou | Hyderabad | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/78f57489-f972-4d5e-a964-8fd72bed21b8) |
+| Software Architect | Kandou | Hyderabad | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/kandou-ai/e4dc93cf-ed44-45c8-a55c-fe836a0a3ca8) |
 | Staff Engineer – Embedded SoC Firmware… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/d0bd9ea3-8823-47ba-b65e-ec940b7a4261) |
 | System Firmware Lead (AI Memory Fabrics… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/35668839-756d-46f6-b091-425ca14a3e61) |
 | Embedded System Engineer | LAT Aerospace | Bangalore | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/lat/1705fceb-7a02-43b6-9762-2481b842ceb1) |
@@ -280,7 +275,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Sr. Manager/Director FP&A | Lumilens | Bengaluru, India | Semiconductor, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/c9be49be-29d7-4227-916b-9f52ba761577) |
 | Thermal Engineer | Lumilens | Bengaluru, India | ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/265f9e9e-d409-48fa-9fe7-061161353ef6) |
 | Verification Lead (Lead DV) | Lumilens | Bengaluru, India | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/lumilens/b6a08465-22c2-4df7-833f-db4d751568c0) |
-| Field Marketing Manager, India | Shield AI | New Delhi | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/28136dd4-edd8-4da6-a6a1-7ce139654c96) |
+| Field Marketing Manager, India (R5942) | Shield AI | New Delhi | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/28136dd4-edd8-4da6-a6a1-7ce139654c96) |
 | Device - Software Engineer (Firmware) | SPAN | Bengaluru | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/span/fed58386-54fd-4e5f-ab22-9dc142d0bf8b) |
 | Salesforce Developer | SPAN | Bengaluru | Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/345a4fb1-58a4-4d3a-abc8-9cdedf45de54) |
 | Staff Mobile Developer | SPAN | Bengaluru | Embedded, Hardware | [Apply](https://jobs.ashbyhq.com/span/782524bb-f9f1-4296-b7fb-1737f12d069f) |
@@ -299,6 +294,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
 | Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Electronics | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
 | Creative Production Lead (R5947) | Shield AI | Remote | Edge AI | [Apply](https://jobs.lever.co/shieldai/571caa29-8b8f-4a3c-aa4d-77b00fe45766) |
+| Staff Deep Learning Engineer, State Est… | Shield AI | Remote | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/1ade04ff-f436-487d-9376-7e230be3234f) |
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
 | Territory Sales Manager - Southern CA | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
 | Senior Test Engineer | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/3f12ccd0-a6ca-4bb2-983a-63ff8606fd99) |
@@ -332,16 +328,14 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (28)
+#### 🎓 Internships (25)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
-| Member of Technical Staff - Design Veri… | Architect | Bangalore, India | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/architect/a4fff40f-3b58-4642-8e51-7bdc6edb69f9) |
+| Member of Technical Staff - Microarchit… | Architect | Bangalore, India | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/architect/a4fff40f-3b58-4642-8e51-7bdc6edb69f9) |
 | Global People Operations Lead | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/ae04aa0f-1048-4dfd-a246-ee27e5391183) |
 | Physical Design Engineers - 2 openings | Kandou | Hyderabad | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3451d8b6-a5d6-477a-a27e-0a02ecf95fc2) |
-| Senior SI/PI Engineer, India (Hyderabad… | Kandou | Hyderabad | Semiconductor, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/kandou-ai/77b25bd5-99ac-4ebd-a43f-374db96412ee) |
 | Software Engineer (Firmware) | Kandou | Hyderabad | Embedded, ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/0b95e17d-d529-4b23-80c9-55c00649a7a5) |
-| Software Engineer - Firmware | Kandou | Hyderabad | Embedded, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/kandou-ai/bd384d94-b635-439d-9bee-323b417ac23a) |
 | Aerodynamics Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/cf5b4798-4067-4cd9-8f87-2aa3be19cc6d) |
 | Epoxy Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/c94b628f-dce0-4ff5-a418-798395817ff9) |
 | Senior Compliance Engineer | Lumilens | Bengaluru, India | Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/0c302651-f5b0-495c-bac3-5332cd730ddf) |
@@ -359,7 +353,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | QA Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/54713b31-a4cb-47a7-952f-f13f6418b9bf) |
 | Senior Staff Software Engineer | SPAN | Bengaluru | EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/d4354ae1-3ab2-4027-9911-2969bf77e197) |
 | Senior Staff Systems Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/1b29b693-c5b0-48b8-bac5-b0fbdf356b87) |
-| Systems Integration Engineer | SPAN | Bengaluru | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/span/8fcf0095-cb47-4093-80c7-984cabdaa5dd) |
 | Test Architect | SPAN | Bengaluru | Embedded, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/span/52fddd51-484e-4cd8-b4e4-c428ea5d61bd) |
 | Outreachy Internship | Outreachy | Remote | Embedded, FPGA, EDA | [Apply](https://www.outreachy.org/) |
 | Memory Developer (remote) | Sunday Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/sunday/f92adbe3-da24-4edd-8599-4f60dec7bd5f) |
