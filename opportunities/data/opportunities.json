@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T13:09:02Z",
-  "opportunity_count": 159,
+  "generated_at": "2026-10-01T12:37:11Z",
+  "opportunity_count": 158,
   "opportunities": [
     {
       "title": "Physical Design Engineer - Timing Lead",
@@ -9,6 +9,7 @@
       "areas": [
         "RTL",
         "ASIC",
+        "Semiconductor",
         "Electronics",
         "Hardware",
         "EDA",
@@ -33,7 +34,7 @@
       "field_requirements": null,
       "source": "greenhouse:efficientcomputer",
       "source_id": "4140431009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Advanced Packaging Engineer",
@@ -61,7 +62,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4329700009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Analog/Mixed Signal Designer",
@@ -90,7 +91,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4336994009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Architect- Memory Subsystem",
@@ -119,7 +120,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342719009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Architect- Subsystem",
@@ -148,7 +149,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342723009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ASIC Design Engineer",
@@ -177,7 +178,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4354899009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "DFT Lead",
@@ -206,7 +207,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4357713009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "IO Module Engineer",
@@ -234,7 +235,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342710009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Laser Design Engineer",
@@ -264,7 +265,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342587009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Lead Architect",
@@ -292,7 +293,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342653009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Mechanical Design Engineer",
@@ -320,7 +321,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4331551009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Microarchitect",
@@ -351,7 +352,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4357843009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Micro-Optics Engineer",
@@ -381,7 +382,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4330137009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Network Architect",
@@ -409,35 +410,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342713009",
-      "last_verified": "2026-09-28T13:08:53Z"
-    },
-    {
-      "title": "NoC Architect (Network on Chip)",
-      "organization": "Volantis Semiconductor",
-      "category": "jobs",
-      "areas": [
-        "RTL"
-      ],
-      "region": "Global",
-      "location": "Hybrid Remote/SF Bay Area/Austin/Boston",
-      "type": "full_time",
-      "eligibility": null,
-      "official_url": "https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342725009",
-      "application_url": "https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342725009",
-      "deadline": null,
-      "start_date": null,
-      "end_date": null,
-      "status": "open",
-      "recurring": false,
-      "series": null,
-      "edition": null,
-      "remote": true,
-      "student_level": null,
-      "degree_requirements": null,
-      "field_requirements": null,
-      "source": "greenhouse:volantissemiconductorinc",
-      "source_id": "4342725009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Packaging Engineer- Bump Interconnect",
@@ -465,7 +438,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4330170009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Packaging Engineer- Flip Chip",
@@ -494,7 +467,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4330980009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Packaging Engineer- Materials",
@@ -522,7 +495,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4330706009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "PCB Design Engineer",
@@ -550,7 +523,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4337013009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Photonics Packaging Engineer",
@@ -579,7 +552,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4331554009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "PHY/SERDES Lead",
@@ -607,7 +580,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4336877009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Physical Design Engineer",
@@ -638,7 +611,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4356436009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "PIC Design Engineer",
@@ -668,7 +641,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342450009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Power Delivery System Engineer",
@@ -697,7 +670,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4331636009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Power Integrity Engineer",
@@ -727,7 +700,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4331564009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "SoC Architect",
@@ -757,7 +730,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4356624009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Thermal Design Engineer",
@@ -785,7 +758,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4331552009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Verification Engineer/Lead",
@@ -816,7 +789,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4357877009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Wafer Architect",
@@ -847,7 +820,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4342271009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "XPU Architect",
@@ -878,7 +851,7 @@
       "field_requirements": null,
       "source": "greenhouse:volantissemiconductorinc",
       "source_id": "4337288009",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Creative Production Lead (R5947)",
@@ -906,7 +879,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "571caa29-8b8f-4a3c-aa4d-77b00fe45766",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Field Marketing Manager, India (R5942)",
@@ -934,7 +907,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "28136dd4-edd8-4da6-a6a1-7ce139654c96",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Software Engineer, Autonomy Applications Engineering",
@@ -963,7 +936,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "c223a9c5-e3b3-4da1-b523-1b1045bdf296",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Staff Engineer, Software Autonomy (R5125)",
@@ -993,7 +966,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "0a4c3e5c-3b63-4f16-a483-3a8247f78228",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Deep Learning Engineer, State Estimation (R5785)",
@@ -1021,7 +994,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "1ade04ff-f436-487d-9376-7e230be3234f",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Hardware Recruiter",
@@ -1050,7 +1023,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "7866a552-dd2f-4e81-89cd-67a52d1bbb39",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Software Engineer, Autonomy Applications Engineering",
@@ -1079,7 +1052,7 @@
       "field_requirements": null,
       "source": "lever:shieldai",
       "source_id": "20ba2fbb-f9b3-4408-ac5c-7809a8446ea3",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Forward-Deployed Engineer, AI Fabric",
@@ -1107,7 +1080,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "d86b9479-5716-4903-a2f4-ab3dd93ff8b3",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Engineer - SONiC Manageability & Telemetry",
@@ -1135,7 +1108,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "749a5df9-9f1c-4590-b162-7531b5b8ed10",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Engineer – Design Verification",
@@ -1168,7 +1141,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "33b1a9d4-483b-4f9b-b2cb-9e7bcd2994f6",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Engineer – Physical Design",
@@ -1197,7 +1170,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "8160d67a-c69c-4326-9dff-cb16518e2f3a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Engineer_RTL Design",
@@ -1226,7 +1199,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "a26a36dd-47fa-47a5-992d-fef262c93756",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Engineer_SDK, SAI & Platform Debugging",
@@ -1259,7 +1232,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "b49482aa-a281-414b-bffd-19d04476017e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Manager – Physical Design",
@@ -1292,7 +1265,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "d3366d3e-11e3-4c1a-b615-580d4a9b336b",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Principal Engineer - Design Verification",
@@ -1325,7 +1298,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "9149e72d-ee97-498a-a587-3546d293afb2",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Test Engineer",
@@ -1353,7 +1326,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "3f12ccd0-a6ca-4bb2-983a-63ff8606fd99",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Test Manager",
@@ -1381,7 +1354,7 @@
       "field_requirements": null,
       "source": "lever:upscale-ai",
       "source_id": "161069b7-ec2b-4bfd-811c-2d56a07ebd75",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Embedded Software Developer(RTOS)",
@@ -1410,7 +1383,7 @@
       "field_requirements": null,
       "source": "lever:alifsemi",
       "source_id": "f0d842ee-66ce-42a7-ac48-c409498bd713",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Software Developer- USB",
@@ -1440,7 +1413,7 @@
       "field_requirements": null,
       "source": "lever:alifsemi",
       "source_id": "1f921624-cee6-43b6-9374-8c871ab2abf2",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Business Development Manager (Defense) - Remote",
@@ -1471,7 +1444,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "f6a659ec-b0d4-4f70-8259-582765ef5773",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Optical Aligner and Test Engineer - Bangalore, India",
@@ -1502,7 +1475,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "29f58209-5cc2-4a05-8cb3-5b1f637cc096",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Embedded Software Engineer - Bangalore, India",
@@ -1530,7 +1503,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "511bda52-6282-46a0-a06c-79785669e6e0",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff LiDAR Algorithms Engineer",
@@ -1565,7 +1538,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "1084b26f-5c62-4ba5-8e0d-c1888471959c",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Sensor Validation & Characterisation Engineer",
@@ -1599,7 +1572,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "5acdc4b3-2e27-4a2c-ac4d-da348e54f9c6",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Software Infrastructure Test Architect",
@@ -1631,7 +1604,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "79bcb49b-b8c7-43ea-bcb9-8594487392b0",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Systems Engineer",
@@ -1664,7 +1637,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "8790a37d-6981-4742-b145-2070893db532",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Thermal Engineer",
@@ -1696,7 +1669,7 @@
       "field_requirements": null,
       "source": "lever:aeva",
       "source_id": "c0e7c150-45ff-4286-9b0e-214c89c2cffc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Memory Developer (remote)",
@@ -1725,7 +1698,7 @@
       "field_requirements": null,
       "source": "ashby:sunday",
       "source_id": "f92adbe3-da24-4edd-8599-4f60dec7bd5f",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Software Test Automation Engineer",
@@ -1755,7 +1728,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "268af14e-e0c6-429b-a088-7cff6923d639",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Director, Hardware Engineering",
@@ -1786,7 +1759,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "b732a547-6303-464b-9fec-b721e1cd6f4e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Epoxy Engineer",
@@ -1816,7 +1789,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "c94b628f-dce0-4ff5-a418-798395817ff9",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Power Integrity Engineer",
@@ -1850,7 +1823,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "dd6bfb9e-43fe-4093-82c6-c4ed1384c55b",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Signal Integrity Engineer-1.6 OSFP Board Design",
@@ -1883,7 +1856,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "7798d00c-e4e3-48d6-a43e-065d41bc1c5e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Signal Integrity Engineer",
@@ -1916,7 +1889,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "e9285a8f-df83-4680-96be-9aa566d18f94",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Embedded Firmware Engineer",
@@ -1950,7 +1923,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "c463e5ab-69de-40c1-b4bd-7c133a0ed9fd",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Compliance Engineer",
@@ -1978,7 +1951,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "0c302651-f5b0-495c-bac3-5332cd730ddf",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Director, Manufacturing Operations",
@@ -2008,7 +1981,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "382f2a17-d042-4bdb-aa57-70c7375f5b94",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Sr. Manager/Director FP&A",
@@ -2038,7 +2011,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "c9be49be-29d7-4227-916b-9f52ba761577",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Program Manager",
@@ -2067,7 +2040,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "b8d9ad06-67cb-4bb0-a8d4-cbe5838964fa",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Hardware Test Engineer",
@@ -2097,7 +2070,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "8c2bb962-56ae-4a3b-bc91-2ef11187eef7",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Principal Mechanical Engineer",
@@ -2128,7 +2101,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "74fa6578-aa5f-43fc-b69e-a699bdf6e91e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Thermal Engineer",
@@ -2157,7 +2130,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "265f9e9e-d409-48fa-9fe7-061161353ef6",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Verification Lead (Lead DV)",
@@ -2192,7 +2165,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "b6a08465-22c2-4df7-833f-db4d751568c0",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "RTL Design Lead/IC Front-End Architect/Datapath Lead",
@@ -2223,7 +2196,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "7aa98243-a799-4d2c-8c05-300726cc7170",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Modelling Lead (SystemC / Virtual-Platform Architect)",
@@ -2256,7 +2229,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "33571f85-7e75-4646-80a0-16592bb6ce32",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Director, Manufacturing Software Engineering",
@@ -2289,7 +2262,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "3823bb3d-c762-40c9-8804-a557b5c243bf",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "IT Specialist",
@@ -2318,7 +2291,7 @@
       "field_requirements": null,
       "source": "ashby:lumilens",
       "source_id": "d98bfbe3-237d-4254-9968-f54ad6ff0b1b",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Member of Technical Staff - Microarchitectural Validation",
@@ -2354,7 +2327,7 @@
       "field_requirements": null,
       "source": "ashby:architect",
       "source_id": "a4fff40f-3b58-4642-8e51-7bdc6edb69f9",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Silicon Validation Manager",
@@ -2391,7 +2364,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "838868ab-c6d3-4959-904c-e391aa270263",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Firmware Engineer Bare Metal",
@@ -2426,7 +2399,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "d1a8773d-8fc4-4b25-8093-bb631e04796f",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Firmware Architect",
@@ -2460,7 +2433,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "4adeeabb-935b-4a70-b175-352d46c10f75",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Digital Design Engineers - 7 openings",
@@ -2496,7 +2469,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "50d61732-cadb-4b78-a2ff-2b0d3a4af4e7",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Lab Technician",
@@ -2527,7 +2500,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "2da70bb2-9358-46b0-93b0-3235456ab7ad",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Digital Verification Engineers - 7 openings",
@@ -2561,7 +2534,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "64d6caaa-ef23-4d42-bde6-fa94cacd777d",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Physical Design Engineers - 2 openings",
@@ -2595,7 +2568,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "3451d8b6-a5d6-477a-a27e-0a02ecf95fc2",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Software Architect",
@@ -2627,7 +2600,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "e4dc93cf-ed44-45c8-a55c-fe836a0a3ca8",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "System Firmware Lead (AI Memory Fabrics) – CXL/PCIe Memory fabric controller",
@@ -2661,7 +2634,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "35668839-756d-46f6-b091-425ca14a3e61",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "2) Staff Engineer – Embedded Firmware – CXL/PCIe/Memory controller - Pune & Hyderabad",
@@ -2694,7 +2667,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "3555686e-7388-4465-b84f-c514aa5029ba",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Engineer – Embedded SoC Firmware – DDR Memory controller - Pune & Hyderabad",
@@ -2726,7 +2699,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "d0bd9ea3-8823-47ba-b65e-ec940b7a4261",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Software Engineer (Firmware)",
@@ -2759,7 +2732,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "0b95e17d-d529-4b23-80c9-55c00649a7a5",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "FPGA Engineer",
@@ -2791,7 +2764,7 @@
       "field_requirements": null,
       "source": "ashby:kandou-ai",
       "source_id": "cd7e8219-bcd0-44d5-8e36-6d2cbbe8ba4b",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Manager kernel software",
@@ -2823,7 +2796,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "1c63f451-b4d1-44e4-a31a-8c0cd3045222",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Kernel Optimzation Engineer",
@@ -2854,7 +2827,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "270407eb-1452-4a36-8f8c-7d64263eaa0a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ML Systems Performance Engineer",
@@ -2885,7 +2858,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "474768a4-7e4f-43c9-a9d3-f23dfe6be406",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Cloud Quality Engineer",
@@ -2914,7 +2887,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "224566db-c2c9-4b81-9534-a9917ea1aaa6",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Network Security Engineer (Remote)",
@@ -2944,7 +2917,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "84a9df6b-fe96-4711-8106-971d829b6dc2",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Tech Lead Manager, Developer Productivity",
@@ -2975,7 +2948,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "e4bc1ea1-5401-4a3a-af22-21be3378aa4a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Software Development Engineer in Test (SDET) - AI Cluster Networking and Security",
@@ -3007,7 +2980,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "ba24de32-d882-4e27-b398-90e6356297c5",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Release Qualification Team Lead",
@@ -3037,7 +3010,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "084b4552-7d3a-491b-87ff-92e195aa2ef2",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "PCB Layout Engineering Lead",
@@ -3071,7 +3044,7 @@
       "field_requirements": null,
       "source": "ashby:cerebras",
       "source_id": "e616412a-6412-4f0d-93b9-47644d3e99fa",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Platform Infrastructure Engineer",
@@ -3101,7 +3074,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "618d8db2-903e-4f96-b7d6-567bce3877ed",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Territory Sales Manager - Southern CA",
@@ -3131,7 +3104,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "e57c2d9b-73be-4723-8cf4-40ab724acdbc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Device - Software Engineer (Firmware)",
@@ -3166,7 +3139,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "fed58386-54fd-4e5f-ab22-9dc142d0bf8b",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Staff Mobile Developer",
@@ -3195,7 +3168,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "782524bb-f9f1-4296-b7fb-1737f12d069f",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Enterprise Security Architect",
@@ -3224,7 +3197,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "173b7b48-61fe-412e-8a18-2e498cef0a41",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Test Architect",
@@ -3258,7 +3231,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "52fddd51-484e-4cd8-b4e4-c428ea5d61bd",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Mobile Developer",
@@ -3288,7 +3261,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "6c578fa2-0c81-4814-a531-d2e2af999419",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Staff Systems Engineer",
@@ -3320,7 +3293,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "1b29b693-c5b0-48b8-bac5-b0fbdf356b87",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Staff Software Engineer",
@@ -3349,7 +3322,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "d4354ae1-3ab2-4027-9911-2969bf77e197",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Salesforce Developer",
@@ -3378,7 +3351,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "345a4fb1-58a4-4d3a-abc8-9cdedf45de54",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Device- Senior/Staff Software Engineer (Firmware Engineer)",
@@ -3413,7 +3386,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "aa9dfa4c-dbe9-4608-b914-10baf9ac38a7",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "QA Engineer",
@@ -3444,7 +3417,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "54713b31-a4cb-47a7-952f-f13f6418b9bf",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "HR Intern",
@@ -3472,7 +3445,7 @@
       "field_requirements": null,
       "source": "ashby:span",
       "source_id": "1a44454a-c4eb-4a73-8f5b-7d3b921c0c1f",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Performance Marketing Manager",
@@ -3500,7 +3473,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "6b35ab23-8d54-4ece-a467-eb04ca80da25",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Backend Engineer",
@@ -3528,7 +3501,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "4689a957-bf88-4eea-9b32-004025bf4544",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Sales Development Representative",
@@ -3556,7 +3529,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "4f0dc654-1aba-4601-a81b-f999ed97803a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Demand Generation Manager",
@@ -3584,7 +3557,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "5376f055-8c7f-4e53-94dd-b25aac46a782",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Engineering - C++ (Edge)",
@@ -3612,35 +3585,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "41539d29-f1e7-462c-8236-10336a9909b3",
-      "last_verified": "2026-09-28T13:08:53Z"
-    },
-    {
-      "title": "Global People Operations Lead",
-      "organization": "Coram AI",
-      "category": "internship",
-      "areas": [
-        "Computer Architecture"
-      ],
-      "region": "India",
-      "location": "Bangalore",
-      "type": "full_time",
-      "eligibility": null,
-      "official_url": "https://jobs.ashbyhq.com/coram-ai/ae04aa0f-1048-4dfd-a246-ee27e5391183",
-      "application_url": "https://jobs.ashbyhq.com/coram-ai/ae04aa0f-1048-4dfd-a246-ee27e5391183/application",
-      "deadline": null,
-      "start_date": null,
-      "end_date": null,
-      "status": "open",
-      "recurring": false,
-      "series": null,
-      "edition": null,
-      "remote": false,
-      "student_level": "phd",
-      "degree_requirements": null,
-      "field_requirements": null,
-      "source": "ashby:coram-ai",
-      "source_id": "ae04aa0f-1048-4dfd-a246-ee27e5391183",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Brand and Design Lead",
@@ -3668,7 +3613,35 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "a00ae52e-a91b-4495-a237-97dda5d91ace",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
+    },
+    {
+      "title": "Performance Marketing Manager",
+      "organization": "Coram AI",
+      "category": "jobs",
+      "areas": [
+        "Computer Architecture"
+      ],
+      "region": "Global",
+      "location": "US Remote",
+      "type": "full_time",
+      "eligibility": null,
+      "official_url": "https://jobs.ashbyhq.com/coram-ai/9765dee0-54db-4fb4-9bf5-ceea6cc4412b",
+      "application_url": "https://jobs.ashbyhq.com/coram-ai/9765dee0-54db-4fb4-9bf5-ceea6cc4412b/application",
+      "deadline": null,
+      "start_date": null,
+      "end_date": null,
+      "status": "open",
+      "recurring": false,
+      "series": null,
+      "edition": null,
+      "remote": true,
+      "student_level": "phd",
+      "degree_requirements": null,
+      "field_requirements": null,
+      "source": "ashby:coram-ai",
+      "source_id": "9765dee0-54db-4fb4-9bf5-ceea6cc4412b",
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Electrical Engineer",
@@ -3701,7 +3674,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "68c04bbf-e2b1-446c-88c8-a4c1651be748",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Product Marketing Manager",
@@ -3729,7 +3702,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "64d15d95-322a-471a-aa6e-62e2e1c1aa2c",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Frontend Engineer",
@@ -3758,7 +3731,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "042f309a-4896-4f5c-8db3-57e03f69dd00",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Product Designer",
@@ -3787,7 +3760,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "9083de2f-1806-4f79-bbb1-b2b6248f1b17",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Senior Deal Desk Analyst",
@@ -3815,7 +3788,7 @@
       "field_requirements": null,
       "source": "ashby:coram-ai",
       "source_id": "03515c70-61fc-4115-8dc6-c63941498ebf",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Firmware Engineer",
@@ -3848,7 +3821,7 @@
       "field_requirements": null,
       "source": "ashby:applied",
       "source_id": "4cee3e2f-3fec-42fd-a700-d570798d815a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Electrical Integration Engineer",
@@ -3879,7 +3852,7 @@
       "field_requirements": null,
       "source": "ashby:applied",
       "source_id": "2ffcb384-3729-450c-8363-25818c76f2c7",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Engineering Technician",
@@ -3912,7 +3885,7 @@
       "field_requirements": null,
       "source": "ashby:applied",
       "source_id": "bded8844-1f21-42ee-ab17-7a056440716a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Firmware Validation Engineer",
@@ -3944,7 +3917,7 @@
       "field_requirements": null,
       "source": "ashby:applied",
       "source_id": "9cfb2e93-8f7c-449e-8d21-61e22fff075a",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Rotordynamics Engineer",
@@ -3972,7 +3945,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "a4e556df-b416-481f-9c15-faa1ae14046c",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Mechanical Design Engineer",
@@ -4001,7 +3974,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "921320dd-b9a5-4ce9-b9a8-f8d4ef05ca93",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "RF System Design Engineer",
@@ -4033,7 +4006,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "eddb79af-2f4c-4250-a0ef-a5f496118c1e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "RF Digital Signal Processing Engineer",
@@ -4067,7 +4040,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "a5d251a2-0846-4322-9750-890cc4270d8c",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Structural Design & Analysis Engineer",
@@ -4097,7 +4070,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "33e18cfa-cad8-4b8e-8f50-03bcad93108e",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Manufacturing Engineer",
@@ -4127,7 +4100,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "61338ae8-f402-4cc1-a01c-6c4669d78659",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Materials & Process Engineer",
@@ -4156,7 +4129,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "f94bad0d-dcd2-4f75-a329-b1ff1d6c6a25",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Power Electronics Engineer",
@@ -4189,7 +4162,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "81c74382-50fb-4762-bd0a-0b890ea232ae",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "PCB Design Engineer",
@@ -4223,7 +4196,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "59241fea-95fb-4d96-b897-2366ff6c67ad",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Embedded System Engineer",
@@ -4257,7 +4230,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "1705fceb-7a02-43b6-9762-2481b842ceb1",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Aerodynamics Engineer",
@@ -4288,7 +4261,7 @@
       "field_requirements": null,
       "source": "ashby:lat",
       "source_id": "cf5b4798-4067-4cd9-8f87-2aa3be19cc6d",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Google Summer of Code",
@@ -4320,7 +4293,7 @@
       "field_requirements": "Open source contribution experience",
       "source": "curated",
       "source_id": "gsoc-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Outreachy Internship",
@@ -4351,7 +4324,7 @@
       "field_requirements": null,
       "source": "curated",
       "source_id": "outreachy-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ISCOS RISC-V International Fellowship",
@@ -4382,7 +4355,7 @@
       "field_requirements": "RISC-V related open source contributions",
       "source": "curated",
       "source_id": "riscv-fellowship",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "MITRE Embedded Capture the Flag (eCTF)",
@@ -4412,7 +4385,7 @@
       "field_requirements": "Embedded systems, C/assembly, hardware security",
       "source": "curated",
       "source_id": "mitre-ectf",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "CSAW Embedded Security Challenge (ESC)",
@@ -4442,7 +4415,7 @@
       "field_requirements": "Embedded systems, hardware exploitation, fault injection",
       "source": "curated",
       "source_id": "csaw-esc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ISEA-ISAP CTF",
@@ -4472,7 +4445,7 @@
       "field_requirements": "Cybersecurity, reverse engineering, IoT security",
       "source": "curated",
       "source_id": "isea-isap-ctf-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "MITRE Beaver Works Summer Institute (BWSI)",
@@ -4502,7 +4475,7 @@
       "field_requirements": "Basic programming; embedded security electives",
       "source": "curated",
       "source_id": "bwsi",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "SEMICON India Hackathon",
@@ -4534,7 +4507,7 @@
       "field_requirements": "Chip design, EDA flows, AI-enabled manufacturing",
       "source": "curated",
       "source_id": "semicon-india-hackathon-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ChipVerse (IEEE CEDA Bangalore)",
@@ -4565,7 +4538,7 @@
       "field_requirements": "VLSI design and embedded systems",
       "source": "curated",
       "source_id": "chipverse-ieee-ceda-bangalore-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "Hardwired (Silicon VLSI Forum, PES University)",
@@ -4596,7 +4569,7 @@
       "field_requirements": "Analog and digital VLSI design, FPGA implementation",
       "source": "curated",
       "source_id": "hardwired-pes-university",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "ChipCraft (Kalasalingam Academy of Research and Education)",
@@ -4627,7 +4600,7 @@
       "field_requirements": "VLSI design",
       "source": "curated",
       "source_id": "chipcraft-kalasalingam-2026",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "FOSSEE Circuit Design & Simulation Hackathon",
@@ -4657,7 +4630,7 @@
       "field_requirements": "Circuit design, simulation, open-source EDA with eSim",
       "source": "curated",
       "source_id": "fossee-circuit-design-hackathon",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "CHIPS Alliance GSoC Mentor Organization",
@@ -4689,7 +4662,7 @@
       "field_requirements": "Open-source ASIC/FPGA tooling contribution experience",
       "source": "curated",
       "source_id": "chips-alliance-gsoc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "FOSSi Foundation GSoC Umbrella",
@@ -4720,7 +4693,7 @@
       "field_requirements": "RISC-V and open hardware contribution experience",
       "source": "curated",
       "source_id": "fossi-foundation-gsoc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "RISC-V International Student Contribution Tracks",
@@ -4751,7 +4724,7 @@
       "field_requirements": "RISC-V related open-source contribution experience",
       "source": "curated",
       "source_id": "risc-v-gsoc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "CSAW Applied Research Competition (ARC)",
@@ -4782,7 +4755,7 @@
       "field_requirements": "Security research paper",
       "source": "curated",
       "source_id": "csaw-arc",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "IEEE HOST (Hardware Oriented Security and Trust)",
@@ -4814,7 +4787,7 @@
       "field_requirements": "Hardware security research paper",
       "source": "curated",
       "source_id": "ieee-host-2027",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "CHES (Conference on Cryptographic Hardware and Embedded Systems)",
@@ -4845,7 +4818,7 @@
       "field_requirements": "Cryptographic hardware research paper",
       "source": "curated",
       "source_id": "ches",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     },
     {
       "title": "DAC and ICCAD Student Research Competitions (ACM SIGDA SRC)",
@@ -4877,7 +4850,7 @@
       "field_requirements": "EDA or VLSI research poster",
       "source": "curated",
       "source_id": "acm-sigda-src",
-      "last_verified": "2026-09-28T13:08:53Z"
+      "last_verified": "2026-10-01T12:36:59Z"
     }
   ]
 }

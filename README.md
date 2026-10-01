@@ -292,7 +292,8 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Network Security Engineer (Remote) | Cerebras Systems | Remote (US) | Electronics, Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2) |
 | PCB Layout Engineering Lead | Cerebras Systems | Remote (US) | ASIC, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/cerebras/e616412a-6412-4f0d-93b9-47644d3e99fa) |
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
-| Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Electronics | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
+| Performance Marketing Manager | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/9765dee0-54db-4fb4-9bf5-ceea6cc4412b) |
+| Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
 | Creative Production Lead (R5947) | Shield AI | Remote | Edge AI | [Apply](https://jobs.lever.co/shieldai/571caa29-8b8f-4a3c-aa4d-77b00fe45766) |
 | Staff Deep Learning Engineer, State Est… | Shield AI | Remote | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/1ade04ff-f436-487d-9376-7e230be3234f) |
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
@@ -312,7 +313,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Micro-Optics Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Electronics, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330137009) |
 | Microarchitect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4357843009) |
 | Network Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342713009) |
-| NoC Architect (Network on Chip) | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342725009) |
 | Packaging Engineer- Bump Interconnect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330170009) |
 | Packaging Engineer- Materials | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330706009) |
 | PCB Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337013009) |
@@ -328,12 +328,11 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (25)
+#### 🎓 Internships (24)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
 | Member of Technical Staff - Microarchit… | Architect | Bangalore, India | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/architect/a4fff40f-3b58-4642-8e51-7bdc6edb69f9) |
-| Global People Operations Lead | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/ae04aa0f-1048-4dfd-a246-ee27e5391183) |
 | Physical Design Engineers - 2 openings | Kandou | Hyderabad | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3451d8b6-a5d6-477a-a27e-0a02ecf95fc2) |
 | Software Engineer (Firmware) | Kandou | Hyderabad | Embedded, ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/0b95e17d-d529-4b23-80c9-55c00649a7a5) |
 | Aerodynamics Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/cf5b4798-4067-4cd9-8f87-2aa3be19cc6d) |
