@@ -212,7 +212,7 @@ The 31 lessons above are reference points, not the ceiling. The [`projects/`](pr
 Live positions and programs that put the roadmap's skills to work: jobs, internships, hackathons, scholarships, research programs, fellowships, and open source programs tagged with the areas this repo teaches. Open the Apply link to apply on the organization's own page.
 
 <!-- BEGIN_OPPORTUNITIES -->
-#### 💼 Jobs (111)
+#### 💼 Jobs (110)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -230,16 +230,15 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Firmware Validation Engineer | Applied Intuition | Bangalore | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/applied/9cfb2e93-8f7c-449e-8d21-61e22fff075a) |
 | Cloud Quality Engineer | Cerebras Systems | Bengaluru, IND | Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/224566db-c2c9-4b81-9534-a9917ea1aaa6) |
 | ML Systems Performance Engineer | Cerebras Systems | Bengaluru, IND | Semiconductor, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/474768a4-7e4f-43c9-a9d3-f23dfe6be406) |
-| Backend Engineer | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/4689a957-bf88-4eea-9b32-004025bf4544) |
 | Demand Generation Manager | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/5376f055-8c7f-4e53-94dd-b25aac46a782) |
-| Engineering - C++ (Edge) | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/41539d29-f1e7-462c-8236-10336a9909b3) |
-| Frontend Engineer | Coram AI | Bangalore | EDA, Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/042f309a-4896-4f5c-8db3-57e03f69dd00) |
+| Member of Technical Staff, Backend | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/4689a957-bf88-4eea-9b32-004025bf4544) |
+| Member of Technical Staff, Frontend | Coram AI | Bangalore | EDA, Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/042f309a-4896-4f5c-8db3-57e03f69dd00) |
+| Member of Technical Staff, Real Time Sy… | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/41539d29-f1e7-462c-8236-10336a9909b3) |
 | Performance Marketing Manager | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/6b35ab23-8d54-4ece-a467-eb04ca80da25) |
 | Product Designer | Coram AI | Bangalore | Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/9083de2f-1806-4f79-bbb1-b2b6248f1b17) |
 | Product Marketing Manager | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/64d15d95-322a-471a-aa6e-62e2e1c1aa2c) |
 | Sales Development Representative | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/4f0dc654-1aba-4601-a81b-f999ed97803a) |
 | Senior Deal Desk Analyst | Coram AI | Bangalore | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/03515c70-61fc-4115-8dc6-c63941498ebf) |
-| Senior Electrical Engineer | Coram AI | Bangalore | Embedded, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/coram-ai/68c04bbf-e2b1-446c-88c8-a4c1651be748) |
 | 2) Staff Engineer – Embedded Firmware –… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3555686e-7388-4465-b84f-c514aa5029ba) |
 | Digital Design Engineers - 7 openings | Kandou | Hyderabad | RTL, ASIC, VLSI | [Apply](https://jobs.ashbyhq.com/kandou-ai/50d61732-cadb-4b78-a2ff-2b0d3a4af4e7) |
 | Digital Verification Engineers - 7 open… | Kandou | Bangalore or Hyderabad | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/kandou-ai/64d6caaa-ef23-4d42-bde6-fa94cacd777d) |
@@ -328,7 +327,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (24)
+#### 🎓 Internships (22)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -349,10 +348,8 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | HR Intern | SPAN | Bengaluru | Automotive | [Apply](https://jobs.ashbyhq.com/span/1a44454a-c4eb-4a73-8f5b-7d3b921c0c1f) |
 | Mobile Developer | SPAN | Bengaluru | Embedded, Hardware, Automotive | [Apply](https://jobs.ashbyhq.com/span/6c578fa2-0c81-4814-a531-d2e2af999419) |
 | Platform Infrastructure Engineer | SPAN | Bengaluru | ASIC, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/618d8db2-903e-4f96-b7d6-567bce3877ed) |
-| QA Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/54713b31-a4cb-47a7-952f-f13f6418b9bf) |
 | Senior Staff Software Engineer | SPAN | Bengaluru | EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/d4354ae1-3ab2-4027-9911-2969bf77e197) |
 | Senior Staff Systems Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/1b29b693-c5b0-48b8-bac5-b0fbdf356b87) |
-| Test Architect | SPAN | Bengaluru | Embedded, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/span/52fddd51-484e-4cd8-b4e4-c428ea5d61bd) |
 | Outreachy Internship | Outreachy | Remote | Embedded, FPGA, EDA | [Apply](https://www.outreachy.org/) |
 | Memory Developer (remote) | Sunday Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/sunday/f92adbe3-da24-4edd-8599-4f60dec7bd5f) |
 | Packaging Engineer- Flip Chip | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330980009) |
