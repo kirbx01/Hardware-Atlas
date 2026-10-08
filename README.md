@@ -212,13 +212,13 @@ The 31 lessons above are reference points, not the ceiling. The [`projects/`](pr
 Live positions and programs that put the roadmap's skills to work: jobs, internships, hackathons, scholarships, research programs, fellowships, and open source programs tagged with the areas this repo teaches. Open the Apply link to apply on the organization's own page.
 
 <!-- BEGIN_OPPORTUNITIES -->
-#### 💼 Jobs (110)
+#### 💼 Jobs (112)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
 | Optical Aligner and Test Engineer - Ban… | Aeva | Bangalore | Semiconductor, Electronics, Robotics | [Apply](https://jobs.lever.co/aeva/29f58209-5cc2-4a05-8cb3-5b1f637cc096) |
 | Senior Embedded Software Engineer - Ban… | Aeva | Bangalore | Embedded | [Apply](https://jobs.lever.co/aeva/511bda52-6282-46a0-a06c-79785669e6e0) |
-| Staff LiDAR Algorithms Engineer | Aeva | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.lever.co/aeva/1084b26f-5c62-4ba5-8e0d-c1888471959c) |
+| Senior LiDAR Algorithms Engineer | Aeva | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.lever.co/aeva/1084b26f-5c62-4ba5-8e0d-c1888471959c) |
 | Staff Sensor Validation & Characterisat… | Aeva | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.lever.co/aeva/5acdc4b3-2e27-4a2c-ac4d-da348e54f9c6) |
 | Staff Software Infrastructure Test Arch… | Aeva | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.lever.co/aeva/79bcb49b-b8c7-43ea-bcb9-8594487392b0) |
 | Staff Systems Engineer | Aeva | Bangalore | RTL, Semiconductor, Electronics | [Apply](https://jobs.lever.co/aeva/8790a37d-6981-4742-b145-2070893db532) |
@@ -260,6 +260,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | RF System Design Engineer | LAT Aerospace | Bangalore | RTL, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lat/eddb79af-2f4c-4250-a0ef-a5f496118c1e) |
 | Rotordynamics Engineer | LAT Aerospace | Bangalore | Hardware | [Apply](https://jobs.ashbyhq.com/lat/a4e556df-b416-481f-9c15-faa1ae14046c) |
 | Structural Design & Analysis Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/33e18cfa-cad8-4b8e-8f50-03bcad93108e) |
+| Analog and Mixed Signal Layout Engineer | Lumilens | Bengaluru, India | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/lumilens/ff1c4bac-e6e8-44df-8c11-c54152ccdbfd) |
 | Hardware Test Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/8c2bb962-56ae-4a3b-bc91-2ef11187eef7) |
 | IT Specialist | Lumilens | Bengaluru, India | ASIC, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/d98bfbe3-237d-4254-9968-f54ad6ff0b1b) |
 | Modelling Lead (SystemC / Virtual-Platf… | Lumilens | Bengaluru, India | Embedded, RTL, Semiconductor | [Apply](https://jobs.ashbyhq.com/lumilens/33571f85-7e75-4646-80a0-16592bb6ce32) |
@@ -292,10 +293,13 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | PCB Layout Engineering Lead | Cerebras Systems | Remote (US) | ASIC, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/cerebras/e616412a-6412-4f0d-93b9-47644d3e99fa) |
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
 | Performance Marketing Manager | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/9765dee0-54db-4fb4-9bf5-ceea6cc4412b) |
+| Director of Information Security | Efficient Computer | San Fransisco, Bay Area OR Pittsburgh,… | Semiconductor, Hardware, EDA | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4433877009) |
 | Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
 | Creative Production Lead (R5947) | Shield AI | Remote | Edge AI | [Apply](https://jobs.lever.co/shieldai/571caa29-8b8f-4a3c-aa4d-77b00fe45766) |
+| Engineering Technician 4, Quality Assur… | Shield AI | Remote | Hardware | [Apply](https://jobs.lever.co/shieldai/01a2d105-fe26-495e-bd62-c0aeb11cdbdd) |
 | Staff Deep Learning Engineer, State Est… | Shield AI | Remote | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/1ade04ff-f436-487d-9376-7e230be3234f) |
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
+| Strategic Account Director | SPAN | Remote | Hardware, EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/ea9789b5-416a-46c6-8303-08dc4cc5ed1c) |
 | Territory Sales Manager - Southern CA | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
 | Senior Test Engineer | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/3f12ccd0-a6ca-4bb2-983a-63ff8606fd99) |
 | Senior Test Manager | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/161069b7-ec2b-4bfd-811c-2d56a07ebd75) |
@@ -310,7 +314,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Lead Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Edge AI | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342653009) |
 | Mechanical Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331551009) |
 | Micro-Optics Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Electronics, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330137009) |
-| Microarchitect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4357843009) |
 | Network Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342713009) |
 | Packaging Engineer- Bump Interconnect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330170009) |
 | Packaging Engineer- Materials | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330706009) |
@@ -320,14 +323,13 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Physical Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL, ASIC, Electronics | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4356436009) |
 | PIC Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Electronics | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342450009) |
 | Power Delivery System Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331636009) |
-| Power Integrity Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331564009) |
+| Signal and Power Integrity Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331564009) |
 | SoC Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4356624009) |
-| Thermal Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4331552009) |
 | Verification Engineer/Lead | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4357877009) |
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (22)
+#### 🎓 Internships (24)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -350,6 +352,8 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Platform Infrastructure Engineer | SPAN | Bengaluru | ASIC, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/618d8db2-903e-4f96-b7d6-567bce3877ed) |
 | Senior Staff Software Engineer | SPAN | Bengaluru | EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/d4354ae1-3ab2-4027-9911-2969bf77e197) |
 | Senior Staff Systems Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/1b29b693-c5b0-48b8-bac5-b0fbdf356b87) |
+| Sr Deployment Program Manager, Robotics | Collaborative Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/cobot/8eca602b-829f-4dc3-9c87-72e0dde600ff) |
+| Director of Finance | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4407244009) |
 | Outreachy Internship | Outreachy | Remote | Embedded, FPGA, EDA | [Apply](https://www.outreachy.org/) |
 | Memory Developer (remote) | Sunday Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/sunday/f92adbe3-da24-4edd-8599-4f60dec7bd5f) |
 | Packaging Engineer- Flip Chip | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4330980009) |
