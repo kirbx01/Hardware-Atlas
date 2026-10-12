@@ -276,7 +276,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Thermal Engineer | Lumilens | Bengaluru, India | ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/265f9e9e-d409-48fa-9fe7-061161353ef6) |
 | Verification Lead (Lead DV) | Lumilens | Bengaluru, India | Embedded, FPGA, RTL | [Apply](https://jobs.ashbyhq.com/lumilens/b6a08465-22c2-4df7-833f-db4d751568c0) |
 | Field Marketing Manager, India (R5942) | Shield AI | New Delhi | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/28136dd4-edd8-4da6-a6a1-7ce139654c96) |
-| Device - Software Engineer (Firmware) | SPAN | Bengaluru | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/span/fed58386-54fd-4e5f-ab22-9dc142d0bf8b) |
 | Salesforce Developer | SPAN | Bengaluru | Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/345a4fb1-58a4-4d3a-abc8-9cdedf45de54) |
 | Staff Mobile Developer | SPAN | Bengaluru | Embedded, Hardware | [Apply](https://jobs.ashbyhq.com/span/782524bb-f9f1-4296-b7fb-1737f12d069f) |
 | Forward-Deployed Engineer, AI Fabric | Upscale AI | India - Bangalore | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/d86b9479-5716-4903-a2f4-ab3dd93ff8b3) |
@@ -301,6 +300,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
 | Strategic Account Director | SPAN | Remote | Hardware, EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/ea9789b5-416a-46c6-8303-08dc4cc5ed1c) |
 | Territory Sales Manager - Southern CA | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
+| Director, Field & Channel Marketing Ope… | Upscale AI | US - Remote | Semiconductor, Computer Architecture | [Apply](https://jobs.lever.co/upscale-ai/79aec6d6-01af-4cec-a6c3-7dbb70133d72) |
 | Senior Test Engineer | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/3f12ccd0-a6ca-4bb2-983a-63ff8606fd99) |
 | Senior Test Manager | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/161069b7-ec2b-4bfd-811c-2d56a07ebd75) |
 | Advanced Packaging Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4329700009) |
@@ -342,11 +342,11 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Senior Director, Hardware Engineering | Lumilens | Bengaluru, India | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/b732a547-6303-464b-9fec-b721e1cd6f4e) |
 | Senior Director, Manufacturing Operatio… | Lumilens | Bengaluru, India | Semiconductor, Electronics, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/382f2a17-d042-4bdb-aa57-70c7375f5b94) |
 | Senior Director, Manufacturing Software… | Lumilens | Bengaluru, India | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/3823bb3d-c762-40c9-8804-a557b5c243bf) |
+| Senior Engineering Manager | Shield AI | Bangalore | Robotics, EDA, Edge AI | [Apply](https://jobs.lever.co/shieldai/d618826d-1aff-4516-b02f-8276876061f7) |
 | Senior Software Engineer, Autonomy Appl… | Shield AI | New Delhi | Hardware, Edge AI | [Apply](https://jobs.lever.co/shieldai/c223a9c5-e3b3-4da1-b523-1b1045bdf296) |
 | Senior Staff Engineer, Software Autonom… | Shield AI | New Delhi | Hardware, EDA, Edge AI | [Apply](https://jobs.lever.co/shieldai/0a4c3e5c-3b63-4f16-a483-3a8247f78228) |
 | Staff Software Engineer, Autonomy Appli… | Shield AI | New Delhi | Hardware, Edge AI | [Apply](https://jobs.lever.co/shieldai/20ba2fbb-f9b3-4408-ac5c-7809a8446ea3) |
 | Device- Senior/Staff Software Engineer… | SPAN | Bengaluru | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/span/aa9dfa4c-dbe9-4608-b914-10baf9ac38a7) |
-| Enterprise Security Architect | SPAN | Bengaluru | Hardware, Automotive | [Apply](https://jobs.ashbyhq.com/span/173b7b48-61fe-412e-8a18-2e498cef0a41) |
 | HR Intern | SPAN | Bengaluru | Automotive | [Apply](https://jobs.ashbyhq.com/span/1a44454a-c4eb-4a73-8f5b-7d3b921c0c1f) |
 | Mobile Developer | SPAN | Bengaluru | Embedded, Hardware, Automotive | [Apply](https://jobs.ashbyhq.com/span/6c578fa2-0c81-4814-a531-d2e2af999419) |
 | Platform Infrastructure Engineer | SPAN | Bengaluru | ASIC, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/618d8db2-903e-4f96-b7d6-567bce3877ed) |
@@ -390,10 +390,10 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
+| Full Stack Machine Learning Engineer | Cerebras Systems | Bengaluru, IND | Hardware, Computer Architecture, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/c2198d42-ccad-4bee-aa43-83027aa5e46e) |
 | Manager kernel software | Cerebras Systems | Bengaluru, IND | FPGA, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/cerebras/1c63f451-b4d1-44e4-a31a-8c0cd3045222) |
 | Release Qualification Team Lead | Cerebras Systems | Bengaluru, IND | Hardware, EDA, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/084b4552-7d3a-491b-87ff-92e195aa2ef2) |
 | Senior Software Development Engineer in… | Cerebras Systems | Bengaluru, IND | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/cerebras/ba24de32-d882-4e27-b398-90e6356297c5) |
-| Tech Lead Manager, Developer Productivi… | Cerebras Systems | Bengaluru, IND | Hardware, EDA, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/e4bc1ea1-5401-4a3a-af22-21be3378aa4a) |
 | Staff Kernel Optimzation Engineer | Cerebras Systems | Remote | FPGA, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/270407eb-1452-4a36-8f8c-7d64263eaa0a) |
 | CHIPS Alliance GSoC Mentor Organization | CHIPS Alliance (Linux Foundation) | Remote | FPGA, RTL, ASIC | [Apply](https://www.chipsalliance.org/) |
 | FOSSi Foundation GSoC Umbrella | FOSSi Foundation | Remote | Computer Architecture, RTL, ASIC | [Apply](https://fossi-foundation.org/gsoc) |
