@@ -330,11 +330,12 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (26)
+#### 🎓 Internships (27)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
 | Member of Technical Staff - Microarchit… | Architect | Bangalore, India | FPGA, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/architect/a4fff40f-3b58-4642-8e51-7bdc6edb69f9) |
+| Administration & Procurement Manager | Kandou | Hyderabad | Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/1f7f33b3-a462-4e12-8fe6-334f1e5b7b39) |
 | Physical Design Engineers - 2 openings | Kandou | Hyderabad | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3451d8b6-a5d6-477a-a27e-0a02ecf95fc2) |
 | Software Engineer (Firmware) | Kandou | Hyderabad | Embedded, ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/0b95e17d-d529-4b23-80c9-55c00649a7a5) |
 | Aerodynamics Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/cf5b4798-4067-4cd9-8f87-2aa3be19cc6d) |
