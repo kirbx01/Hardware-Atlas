@@ -284,6 +284,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Mobile Developer | SPAN | Bengaluru | Embedded, Hardware | [Apply](https://jobs.ashbyhq.com/span/782524bb-f9f1-4296-b7fb-1737f12d069f) |
 | Salesforce Developer | SPAN | Bengaluru | Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/345a4fb1-58a4-4d3a-abc8-9cdedf45de54) |
 | Principal Engineer - SONiC Manageabilit… | Upscale AI | India - Bangalore | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/749a5df9-9f1c-4590-b162-7531b5b8ed10) |
+| Principal Engineer – Design Verification | Upscale AI | India - Bangalore | RTL, ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/0f643396-fc5d-4c10-b21f-406b36bc80e8) |
 | Principal Engineer – Design Verification | Upscale AI | India - Bangalore | RTL, ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/33b1a9d4-483b-4f9b-b2cb-9e7bcd2994f6) |
 | Principal Engineer – Physical Design | Upscale AI | India - Bangalore | ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/8160d67a-c69c-4326-9dff-cb16518e2f3a) |
 | Principal Engineer_RTL Design | Upscale AI | India - Bangalore | ASIC, Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/a26a36dd-47fa-47a5-992d-fef262c93756) |
@@ -296,7 +297,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Network Security Engineer (Remote) | Cerebras Systems | Remote (US) | Electronics, Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2) |
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
 | Performance Marketing Manager | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/9765dee0-54db-4fb4-9bf5-ceea6cc4412b) |
-| Director of Information Security | Efficient Computer | San Fransisco, Bay Area OR Pittsburgh,… | Semiconductor, Hardware, EDA | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4433877009) |
 | Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
 | Creative Production Lead (R5947) | Shield AI | Remote | Edge AI | [Apply](https://jobs.lever.co/shieldai/571caa29-8b8f-4a3c-aa4d-77b00fe45766) |
 | Engineering Technician 4, Quality Assur… | Shield AI | Remote | Hardware | [Apply](https://jobs.lever.co/shieldai/01a2d105-fe26-495e-bd62-c0aeb11cdbdd) |
@@ -304,7 +304,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Staff Deep Learning Engineer, State Est… | Shield AI | Remote | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/1ade04ff-f436-487d-9376-7e230be3234f) |
 | Staff Hardware Recruiter | Shield AI | Remote | Hardware, Computer Architecture | [Apply](https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39) |
 | Strategic Account Director | SPAN | Remote | Hardware, EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/ea9789b5-416a-46c6-8303-08dc4cc5ed1c) |
-| Territory Sales Manager - Southern CA | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
+| Territory Sales Manager - Southwest | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
 | Director, Field & Channel Marketing Ope… | Upscale AI | US - Remote | Semiconductor, Computer Architecture | [Apply](https://jobs.lever.co/upscale-ai/79aec6d6-01af-4cec-a6c3-7dbb70133d72) |
 | Senior Test Engineer | Upscale AI | Taiwan - Remote | Semiconductor | [Apply](https://jobs.lever.co/upscale-ai/3f12ccd0-a6ca-4bb2-983a-63ff8606fd99) |
 | Advanced Packaging Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4329700009) |
@@ -330,7 +330,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Wafer Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342271009) |
 | XPU Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4337288009) |
 
-#### 🎓 Internships (27)
+#### 🎓 Internships (25)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -354,9 +354,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Platform Infrastructure Engineer | SPAN | Bengaluru | ASIC, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/618d8db2-903e-4f96-b7d6-567bce3877ed) |
 | Senior Staff Software Engineer | SPAN | Bengaluru | EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/d4354ae1-3ab2-4027-9911-2969bf77e197) |
 | Senior Staff Systems Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/1b29b693-c5b0-48b8-bac5-b0fbdf356b87) |
-| Field Integration Engineer | Applied Intuition | Illinois Remote | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/applied/3137ff11-69ad-4a24-8086-36ef9249c611) |
 | Sr Deployment Program Manager, Robotics | Collaborative Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/cobot/8eca602b-829f-4dc3-9c87-72e0dde600ff) |
-| Director of Finance | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | ASIC, Semiconductor, Hardware | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4407244009) |
 | Outreachy Internship | Outreachy | Remote | Embedded, FPGA, EDA | [Apply](https://www.outreachy.org/) |
 | Simulation Specialist, AMER (R6171) | Shield AI | Remote | Computer Architecture | [Apply](https://jobs.lever.co/shieldai/374c187c-0a0e-419b-aedb-e1333c112248) |
 | Memory Developer (remote) | Sunday Robotics | Remote | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/sunday/f92adbe3-da24-4edd-8599-4f60dec7bd5f) |
@@ -390,7 +388,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 |---|---|---|---|---|
 | ISCOS RISC-V International Fellowship | RISC-V International | Remote | Computer Architecture, RTL, ASIC | [Apply](https://riscv.org/) |
 
-#### 🌐 Open source programs (9)
+#### 🌐 Open source programs (10)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -398,6 +396,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Manager kernel software | Cerebras Systems | Bengaluru, IND | FPGA, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/cerebras/1c63f451-b4d1-44e4-a31a-8c0cd3045222) |
 | Release Qualification Team Lead | Cerebras Systems | Bengaluru, IND | Hardware, EDA, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/084b4552-7d3a-491b-87ff-92e195aa2ef2) |
 | Senior Software Development Engineer in… | Cerebras Systems | Bengaluru, IND | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/cerebras/ba24de32-d882-4e27-b398-90e6356297c5) |
+| BMS / EPMS Controls Lead | Cerebras Systems | Remote (US) | Electronics, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/a7b631a6-292f-4fae-8b7d-a4e4f82956bb) |
 | Staff Kernel Optimzation Engineer | Cerebras Systems | Remote | FPGA, Hardware, Computer Architecture | [Apply](https://jobs.ashbyhq.com/cerebras/270407eb-1452-4a36-8f8c-7d64263eaa0a) |
 | CHIPS Alliance GSoC Mentor Organization | CHIPS Alliance (Linux Foundation) | Remote | FPGA, RTL, ASIC | [Apply](https://www.chipsalliance.org/) |
 | FOSSi Foundation GSoC Umbrella | FOSSi Foundation | Remote | Computer Architecture, RTL, ASIC | [Apply](https://fossi-foundation.org/gsoc) |
