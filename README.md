@@ -212,7 +212,7 @@ The 31 lessons above are reference points, not the ceiling. The [`projects/`](pr
 Live positions and programs that put the roadmap's skills to work: jobs, internships, hackathons, scholarships, research programs, fellowships, and open source programs tagged with the areas this repo teaches. Open the Apply link to apply on the organization's own page.
 
 <!-- BEGIN_OPPORTUNITIES -->
-#### 💼 Jobs (103)
+#### 💼 Jobs (92)
 
 | Role | Organization | Location | Areas | Apply |
 |---|---|---|---|---|
@@ -255,16 +255,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Software Architect | Kandou | Hyderabad | ASIC, Semiconductor, Hardware | [Apply](https://jobs.ashbyhq.com/kandou-ai/e4dc93cf-ed44-45c8-a55c-fe836a0a3ca8) |
 | Staff Engineer – Embedded SoC Firmware… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/d0bd9ea3-8823-47ba-b65e-ec940b7a4261) |
 | System Firmware Lead (AI Memory Fabrics… | Kandou | Pune | Embedded, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/35668839-756d-46f6-b091-425ca14a3e61) |
-| Embedded System Engineer | LAT Aerospace | Bangalore | Embedded, RTL, Electronics | [Apply](https://jobs.ashbyhq.com/lat/1705fceb-7a02-43b6-9762-2481b842ceb1) |
-| Manufacturing Engineer | LAT Aerospace | Bangalore | Semiconductor, Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/lat/61338ae8-f402-4cc1-a01c-6c4669d78659) |
-| Materials & Process Engineer | LAT Aerospace | Bangalore | Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/lat/f94bad0d-dcd2-4f75-a329-b1ff1d6c6a25) |
-| Mechanical Design Engineer | LAT Aerospace | Bangalore | Hardware, Robotics | [Apply](https://jobs.ashbyhq.com/lat/921320dd-b9a5-4ce9-b9a8-f8d4ef05ca93) |
-| PCB Design Engineer | LAT Aerospace | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lat/59241fea-95fb-4d96-b897-2366ff6c67ad) |
-| Power Electronics Engineer | LAT Aerospace | Bangalore | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lat/81c74382-50fb-4762-bd0a-0b890ea232ae) |
-| RF Digital Signal Processing Engineer | LAT Aerospace | Bangalore | Embedded, FPGA, Electronics | [Apply](https://jobs.ashbyhq.com/lat/a5d251a2-0846-4322-9750-890cc4270d8c) |
-| RF System Design Engineer | LAT Aerospace | Bangalore | RTL, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lat/eddb79af-2f4c-4250-a0ef-a5f496118c1e) |
-| Rotordynamics Engineer | LAT Aerospace | Bangalore | Hardware | [Apply](https://jobs.ashbyhq.com/lat/a4e556df-b416-481f-9c15-faa1ae14046c) |
-| Structural Design & Analysis Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/33e18cfa-cad8-4b8e-8f50-03bcad93108e) |
 | Analog and Mixed Signal Layout Engineer | Lumilens | Bengaluru, India | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/lumilens/ff1c4bac-e6e8-44df-8c11-c54152ccdbfd) |
 | Hardware Test Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/8c2bb962-56ae-4a3b-bc91-2ef11187eef7) |
 | IT Specialist | Lumilens | Bengaluru, India | ASIC, Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/d98bfbe3-237d-4254-9968-f54ad6ff0b1b) |
@@ -293,8 +283,8 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Business Development Manager (Defense)… | Aeva | Remote | Semiconductor, Electronics, Robotics | [Apply](https://jobs.lever.co/aeva/f6a659ec-b0d4-4f70-8259-582765ef5773) |
 | Engineering Technician | Applied Intuition | Australia Remote | ASIC, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/applied/bded8844-1f21-42ee-ab17-7a056440716a) |
 | Network Security Engineer (Remote) | Cerebras Systems | Remote (US) | Electronics, Hardware, Edge AI | [Apply](https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2) |
+| PCB Layout Engineering Lead | Cerebras Systems | Remote (US) | ASIC, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/cerebras/e616412a-6412-4f0d-93b9-47644d3e99fa) |
 | Brand and Design Lead | Coram AI | US Remote | Computer Architecture | [Apply](https://jobs.ashbyhq.com/coram-ai/a00ae52e-a91b-4495-a237-97dda5d91ace) |
-| Physical Design Engineer - Timing Lead | Efficient Computer | San Francisco, Bay Area OR Pittsburgh,… | RTL, ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/efficientcomputer/jobs/4140431009) |
 | Strategic Account Director | SPAN | Remote | Hardware, EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/ea9789b5-416a-46c6-8303-08dc4cc5ed1c) |
 | Territory Sales Manager - Southwest | SPAN | Remote | Electronics, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/e57c2d9b-73be-4723-8cf4-40ab724acdbc) |
 | Director, Field & Channel Marketing Ope… | Upscale AI | US - Remote | Semiconductor, Computer Architecture | [Apply](https://jobs.lever.co/upscale-ai/79aec6d6-01af-4cec-a6c3-7dbb70133d72) |
@@ -302,7 +292,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Advanced Packaging Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4329700009) |
 | Analog/Mixed Signal Designer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Electronics | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4336994009) |
 | Architect- Subsystem | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | RTL, Computer Architecture | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342723009) |
-| ASIC Design Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4354899009) |
 | DFT Lead | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | ASIC, Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4357713009) |
 | IO Module Engineer | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Semiconductor | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342710009) |
 | Lead Architect | Volantis Semiconductor | Hybrid Remote/SF Bay Area/Austin/Boston | Edge AI | [Apply](https://job-boards.greenhouse.io/volantissemiconductorinc/jobs/4342653009) |
@@ -328,7 +317,6 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Administration & Procurement Manager | Kandou | Hyderabad | Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/1f7f33b3-a462-4e12-8fe6-334f1e5b7b39) |
 | Physical Design Engineers - 2 openings | Kandou | Hyderabad | RTL, ASIC, Semiconductor | [Apply](https://jobs.ashbyhq.com/kandou-ai/3451d8b6-a5d6-477a-a27e-0a02ecf95fc2) |
 | Software Engineer (Firmware) | Kandou | Hyderabad | Embedded, ASIC, Electronics | [Apply](https://jobs.ashbyhq.com/kandou-ai/0b95e17d-d529-4b23-80c9-55c00649a7a5) |
-| Aerodynamics Engineer | LAT Aerospace | Bangalore | Hardware, Robotics, DSP | [Apply](https://jobs.ashbyhq.com/lat/cf5b4798-4067-4cd9-8f87-2aa3be19cc6d) |
 | Epoxy Engineer | Lumilens | Bengaluru, India | Semiconductor, Electronics, EDA | [Apply](https://jobs.ashbyhq.com/lumilens/c94b628f-dce0-4ff5-a418-798395817ff9) |
 | Senior Compliance Engineer | Lumilens | Bengaluru, India | Hardware | [Apply](https://jobs.ashbyhq.com/lumilens/0c302651-f5b0-495c-bac3-5332cd730ddf) |
 | Senior Director, Hardware Engineering | Lumilens | Bengaluru, India | Embedded, Semiconductor, Electronics | [Apply](https://jobs.ashbyhq.com/lumilens/b732a547-6303-464b-9fec-b721e1cd6f4e) |
@@ -337,6 +325,7 @@ Live positions and programs that put the roadmap's skills to work: jobs, interns
 | Device - Software Engineer (Functional… | SPAN | Bengaluru | Embedded, RTL, ASIC | [Apply](https://jobs.ashbyhq.com/span/98107b13-239e-4c8e-9597-350ab676239e) |
 | HR Intern | SPAN | Bengaluru | Automotive | [Apply](https://jobs.ashbyhq.com/span/1a44454a-c4eb-4a73-8f5b-7d3b921c0c1f) |
 | Platform Infrastructure Engineer | SPAN | Bengaluru | ASIC, Computer Architecture, Automotive | [Apply](https://jobs.ashbyhq.com/span/618d8db2-903e-4f96-b7d6-567bce3877ed) |
+| Senior Device Software Engineer | SPAN | Bengaluru | Embedded, Electronics, Hardware | [Apply](https://jobs.ashbyhq.com/span/352a4531-57de-487b-be08-d1382769958a) |
 | Senior Staff Software Engineer | SPAN | Bengaluru | EDA, Automotive | [Apply](https://jobs.ashbyhq.com/span/d4354ae1-3ab2-4027-9911-2969bf77e197) |
 | Senior Staff Systems Engineer | SPAN | Bengaluru | Embedded, Hardware, EDA | [Apply](https://jobs.ashbyhq.com/span/1b29b693-c5b0-48b8-bac5-b0fbdf356b87) |
 | Site Operation Manager | Collaborative Robotics | Remote | Hardware, Robotics, EDA | [Apply](https://jobs.ashbyhq.com/cobot/6c9480d6-139c-4017-91c9-2d437f4613eb) |
